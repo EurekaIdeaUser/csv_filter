@@ -1,0 +1,1 @@
+[{"rows_dropped":88011,"output_rows":148,"filters":"{'col': 'PRODUCT DETAILS', 'contents': ['sars', 'covid']} {'col': 'PRODUCT DETAILS', 'contents': ['test']}"}]
