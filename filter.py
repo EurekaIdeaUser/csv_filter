@@ -6,17 +6,14 @@ import re
 INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
 
-SET_MANUALLY = True
-
+# _______________MANUAL SETTINGS SECTION_______________
+SET_MANUALLY = False  # set to True if you prefer setting param values here
 if SET_MANUALLY:
+    # if SET_MANUALLY = True the script will use the values set here.
+    # Do not make adjustments beyond _END MANUAL SETTINGS_
     country = "india"
     name = "xx"
     sheet_name = 'Trade Atlas Records'
-
-    COUNTRY_PATH = INPUT_DIR + '/' + country
-    OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{country}-{name}'
-    OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
-    OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
 
     filters = [  # if multiple contents, column value can match any
         {
@@ -27,14 +24,23 @@ if SET_MANUALLY:
             'contents': ['test']
         }
     ]
+    # __________________END MANUAL SETTINGS__________________
+
+    COUNTRY_PATH = INPUT_DIR + '/' + country
+    OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{country}-{name}'
+    OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
+    OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
+    print('using values from the _MANUAL SETTINGS SECTION_ of filters.py')
+    print('data will be output to: ' + OUTPUT_PATH)
+    print('with a stats file at: ' + OUTPUT_STATS_PATH)
 else:
     country = input('country name (must match inputs folder name): ')
-    sheet_name = input('provide the sheet name of the data tab for any xslx input files (eg "Trade Atlas Records": ')
-
+    sheet_name = input(
+        'sheet name of the data tab for any xslx input files (eg "Trade Atlas Records": '
+    )
     name = input(
         'identifier for the output file name (for your own use, can be left blank): '
     )
-
     COUNTRY_PATH = INPUT_DIR + '/' + country
     OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{country}-{name}'
     OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
@@ -96,7 +102,8 @@ for path in os.listdir(COUNTRY_PATH):
             # be sure filter['contents'] is a list? or don't use the regex approach
             wilded = ['.*' + c for c in filter['contents']]
             r = re.compile("|".join(wilded), re.IGNORECASE)
-            df = df[df[filter['col']].str.contains(pat=r, regex=True, na=False)]
+            df = df[df[filter['col']].str.contains(pat=r, regex=True,
+                                                   na=False)]
 
         else:  # erase df if it doesn't contain filtered column
             df = pd.DataFrame()
@@ -116,11 +123,13 @@ print(f'wrote {OUTPUT_PATH}')
 
 f_strings = ' '.join(str(f) for f in filters)
 stats = {
-    'rows_dropped': rows_dropped,
     'output_rows': len(result),
+    'rows_dropped': rows_dropped,
+    'input_files': (",").join(os.listdir(COUNTRY_PATH)),
+    'sheet_name': sheet_name,
     'filters': f_strings
 }
-stats_df = pd.DataFrame(data=stats, index=[0], sheet_name=sheet_name)
+stats_df = pd.DataFrame(data=stats, index=[0])
 stats_df.to_json(OUTPUT_STATS_PATH, 'records')
 print(f'wrote {OUTPUT_STATS_PATH}')
 print('DONE')
