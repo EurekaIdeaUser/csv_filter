@@ -7,9 +7,9 @@ INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
 
 # _______________MANUAL SETTINGS SECTION_______________
-SET_MANUALLY = False  # set to True if you prefer setting param values here
-if SET_MANUALLY:
-    # if SET_MANUALLY = True the script will use the values set here.
+SET_STATIC_PARAMS = False  # set to True if you prefer setting param values here
+if SET_STATIC_PARAMS:
+    # if SET_STATIC_PARAMS = True the script will use the values set here.
     # Do not make adjustments beyond _END MANUAL SETTINGS_
     country = "india"
     name = "xx"
@@ -34,12 +34,12 @@ if SET_MANUALLY:
     print('data will be output to: ' + OUTPUT_PATH)
     print('with a stats file at: ' + OUTPUT_STATS_PATH)
 else:
-    country = input('country name (must match inputs folder name): ')
+    country = input('country name (must match inputs folder name): \n')
     sheet_name = input(
-        'sheet name of the data tab for any xslx input files (eg "Trade Atlas Records": '
+        'sheet name of the data tab for any xslx input files (eg "Trade Atlas Records": \n'
     )
     name = input(
-        'identifier for the output file name (for your own use, can be left blank): '
+        'identifier for the output file name (for your own use, can be left blank): \n'
     )
     COUNTRY_PATH = INPUT_DIR + '/' + country
     OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{country}-{name}'
@@ -57,13 +57,13 @@ else:
         'for example, to filter down to only rows that contain in their DETAILS column value the word "test" and *either* "covid" or "sars", enter the following filters:\n'
         + 'col name: details\n' + 'values, separated by commas: test\n' +
         'col name: details\n' + 'values, separated by commas: covid,sars\n')
-
+    filters = []
     filterCol = 'x'
     filterContents = ''
     while filterCol:
-        filterCol = input('col name: ')
+        filterCol = input('col name: \n')
         if filterCol:
-            filterContents = input('values, separated by commas: ')
+            filterContents = input('values, separated by commas: \n')
             filters.append({
                 'col': filterCol,
                 'contents': filterContents.split(',')
