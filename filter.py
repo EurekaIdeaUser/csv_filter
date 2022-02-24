@@ -7,23 +7,38 @@ INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
 
 # _______________MANUAL SETTINGS SECTION_______________
-SET_STATIC_PARAMS = False  # set to True if you prefer setting param values here
+SET_STATIC_PARAMS = True  # set to True if you prefer setting param values here
 if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
     # Do not make adjustments beyond _END MANUAL SETTINGS_
-    country = "india"
-    name = "xx"
+    country = "pakistan"
+    name = "version1"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
         {
             'col': 'PRODUCT DETAILS',
-            'contents': ['sars', 'covid']
-        }, {
-            'col': 'PRODUCT DETAILS',
-            'contents': ['test']
+            'contents': ['SAR', 'COV']
+        # }, {
+        #     'col': 'PRODUCT DETAILS',
+        #     'contents': ['test']
         }
     ]
+
+	# classifiers = [
+	# 	{
+	# 		'matchingCol': 'PRODUCT DETAILS',
+	# 		'matchingText': 'text indicating Ag RDT',
+	# 		'labelCol': 'Test Type',
+	# 		'labelText': 'Ag RDT',
+	# 	},
+	# 	{
+	# 		'matchingCol': 'PRODUCT DETAILS',
+	# 		'matchingText': 'text indicating Manual PCR',
+	# 		'labelCol': 'Test Type',
+	# 		'labelText': 'Manual PCR',
+	# 	}
+	# ]
     # __________________END MANUAL SETTINGS__________________
 
     COUNTRY_PATH = INPUT_DIR + '/' + country
@@ -100,6 +115,7 @@ for path in os.listdir(COUNTRY_PATH):
         # pred = False
         if filter['col'] in df.columns:
             # be sure filter['contents'] is a list? or don't use the regex approach
+            df[filter['col']] = df[filter['col']].astype(str)
             wilded = ['.*' + c for c in filter['contents']]
             r = re.compile("|".join(wilded), re.IGNORECASE)
             df = df[df[filter['col']].str.contains(pat=r, regex=True,
