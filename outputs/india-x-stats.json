@@ -1,1 +1,0 @@
-[{"output_rows":148,"rows_dropped":88011,"input_files":"INDIA ALL 2021 HS 382200 JANUARY.xlsx,INDIA ALL 2021 HS 382200 FEBRUARY.xlsx,INDIA ALL 2021 HS 382200 MARCH.xlsx","sheet_name":"Trade Atlas Records","filters":"{'col': 'PRODUCT DETAILS', 'contents': ['test']} {'col': 'PRODUCT DETAILS', 'contents': ['covid', 'sars']}"}]

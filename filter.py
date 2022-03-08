@@ -1,3 +1,4 @@
+
 import pandas as pd
 import numpy as np
 import os
@@ -134,6 +135,9 @@ else:
     print('classifiers: ', classifiers)
     input("Hit enter to begin.")
 
+
+
+# BEGIN SCRIPT
 results = []
 rows_dropped = 0
 for path in os.listdir(COUNTRY_PATH):
