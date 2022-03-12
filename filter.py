@@ -7,13 +7,14 @@ import re
 INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
 
+# PARAMETERS
 # _______________MANUAL SETTINGS SECTION_______________
-SET_STATIC_PARAMS = False  # set to True if you prefer setting param values here
+SET_STATIC_PARAMS = True  # set to True if you prefer setting param values here
 if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
     convert_case = True
-    country = "pakistan"
-    name = "version3"
+    country = "pakistan 2021"
+    name = "version4"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
@@ -135,8 +136,44 @@ else:
     print('classifiers: ', classifiers)
     input("Hit enter to begin.")
 
+# HELPERS
+def read_spreadsheet(path): 
+	if path.endswith('xlsx'):
+		df = pd.read_excel(path, sheet_name, engine='openpyxl')
+# reinstall xlrd if we want to try to
+# elif path.endswith('xls'):
+# df = pd.read_excel(path, engine='xlrd')
+	elif path.endswith('csv'):
+		df = pd.read_csv(path)
+	return df
 
+def process_filter(filter, df):
+	# print(filter)
+	# print(filter['col'])
+	# df = df[filter['col']].str.contains(filter['contents'])
+	# pred = False
+	if filter['col'] in df.columns:
+		# filtering: https://www.geeksforgeeks.org/get-all-rows-in-a-pandas-dataframe-containing-given-substring/
+		# be sure filter['contents'] is a list? or don't use the regex approach
+		df[filter['col']] = df[filter['col']].astype(str)
+		wilded = ['.*' + c for c in filter['contents']]
+		r = re.compile("|".join(wilded), re.IGNORECASE)
+		df = df[df[filter['col']].str.contains(pat=r, regex=True, na=False)]
 
+	else:  # erase df if it doesn't contain filtered column
+		df = pd.DataFrame()
+
+def process_classifier(classifier, df):
+	if classifier['matchingCol'] in df.columns:
+            if classifier['labelCol'] not in df.columns:
+                df[classifier['labelCol']] = ""
+
+            df[classifier['labelCol']] = np.where(
+                df[classifier['matchingCol']].str.lower().str.contains( 
+                    classifier['matchingValue'].lower()),
+				# give it new label, otherwise preserve value (in case already labeled)
+                classifier['labelValue'], df[classifier['labelCol']])
+		
 # BEGIN SCRIPT
 results = []
 rows_dropped = 0
@@ -144,13 +181,9 @@ for path in os.listdir(COUNTRY_PATH):
     # source = pd.read_excel('inputs/' + path) eg inputs/pakistan/p.csv
     abs_path = COUNTRY_PATH + '/' + path
     print(abs_path)
-    if path.endswith('xlsx'):
-        df = pd.read_excel(abs_path, sheet_name, engine='openpyxl')
-# reinstall xlrd if we want to try to
-# elif path.endswith('xls'):
-# df = pd.read_excel(abs_path, engine='xlrd')
-    elif path.endswith('csv'):
-        df = pd.read_csv(abs_path)
+    df = read_spreadsheet(abs_path)
+    print(abs_path)
+    print(df.head)
     size_init = len(df)
 
     df['source_data_row'] = np.arange(len(df)) + 1
@@ -160,33 +193,11 @@ for path in os.listdir(COUNTRY_PATH):
         df.columns = df.columns.str.lower()
 
     for filter in filters:
-        # print(filter)
-        # print(filter['col'])
-        # df = df[filter['col']].str.contains(filter['contents'])
-        # pred = False
-        if filter['col'] in df.columns:
-            # filtering: https://www.geeksforgeeks.org/get-all-rows-in-a-pandas-dataframe-containing-given-substring/
-            # be sure filter['contents'] is a list? or don't use the regex approach
-            df[filter['col']] = df[filter['col']].astype(str)
-            wilded = ['.*' + c for c in filter['contents']]
-            r = re.compile("|".join(wilded), re.IGNORECASE)
-            df = df[df[filter['col']].str.contains(pat=r, regex=True,
-                                                   na=False)]
-
-        else:  # erase df if it doesn't contain filtered column
-            df = pd.DataFrame()
+       process_filter(filter, df)
 
 # https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/
     for classifier in classifiers:
-        if classifier['matchingCol'] in df.columns:
-            if classifier['labelCol'] not in df.columns:
-                df[classifier['labelCol']] = ""
-
-            df[classifier['labelCol']] = np.where(
-                df[classifier['matchingCol']].str.lower().str.contains( 
-                    classifier['matchingValue'].lower()),
-				# give it new label, otherwise preserve value (in case already labeled)
-                classifier['labelValue'], df[classifier['labelCol']])
+        process_classifier(classifier, df)
 
     size_end = len(df)
     size_lost = size_init - size_end

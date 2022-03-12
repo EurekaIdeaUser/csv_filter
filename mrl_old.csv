@@ -1,0 +1,941 @@
+"GF+PATH Unique Antigens (+ GF PCR,AgB tests)",,,,,,,,,,,,,,,,,,
+Source: GF,Source: Path,Type of Test,Manufacturer Product Catalogue number,"Product Name
+ (IVD product)",product_keywords,Reference detail,Manufacturer,manufacturer_keywords,Total Criteria Eligibility ,Comments ,US FDA EUA (US Food and Drug Administration Emergency Use Authorization) ,Health Canada/Interim Order,WHO EUL (Emergency Use Listing),PMDA (Pharmaceuticals and medical devices agency),TGA (Therapeutic Goods Administration),IFU Link,"Reference price per pack EXW, USD","Reference price per test EXW, USD"
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,444213,1COPY COVID-19 QPCR KIT,1copy  qpcr ,100T/kit,1DROP INC. (imported by Luminarie Canada Inc.),1drop luminarie canada ,"US FDA EUA
+",,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,3B304,TRUPCR SARS-CoV-2 Kit,trupcr ,100T/kit,3B Blackbio Biotech India Ltd (a Kilpest India Ltd company),3b blackbio biotech india  kilpest india  company,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,3103010011,3DMed 2019-nCoV RT-qPCR,3dmed 2019 qpcr,100T/kit,"3D Biomedicine Science & Technology Co., Ltd.",3d biomedicine science  technology ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,190-000,ID NOW COVID-19 Test Kit,id now ,96T/kit,Abbott Diagnostics Scarborough Inc,abbott diagnostics scarborough ,"US FDA EUA
+ Health Canada/Interim Order PMDA
+ TGA",,TRUE,TRUE,FALSE,TRUE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,09N78-090,Alinity m SARS-CoV-2 AMP Kit,alinity   amp ,192T/kit,Abbott Molecular,abbott molecular,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,"$1,209.60",$12.60
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,09N78-095,Alinity m SARS-CoV-2 AMP Kit,alinity   amp ,96T/kit,Abbott Molecular,abbott molecular,US FDA EUA PMDA TGA,,TRUE,FALSE,FALSE,TRUE,TRUE,,"$1,209.60",$12.60
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,09N77-090,Abbott RealTime SARS-CoV-2 RT-PCR Kit,abbott realtime ,96T/kit,Abbott Molecular,abbott molecular,"Health Canada/Interim Order TGA
+ WHO EUL",,FALSE,TRUE,TRUE,FALSE,TRUE,,$960.00,$10.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,09N77-095,Abbott RealTime SARS-CoV-2 RT-PCR Kit,abbott realtime ,96T/kit,Abbott Molecular,abbott molecular,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,$960.00,$10.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Resolute 2.0 SARS CoV-2 Detection Kit,resolute 20 detection ,see IFU,Accelerate Technologies Pte Ltd (DxD Hub),accelerate technologies   dxd hub,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,13279F,"MassARRAY® SARS-CoV-2
+ Panel",massarray panel,960T/kit,"Agena Bioscience, Inc.",agena bioscience ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,13278D,"MassARRAY® SARS-CoV-2
+ Panel",massarray panel,3840T/kit,"Agena Bioscience, Inc.",agena bioscience ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,13281D,"MassARRAY® SARS-CoV-2
+ Panel",massarray panel,768T/kit,"Agena Bioscience, Inc.",agena bioscience ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,821025,RealStar® SARS-CoV-2 RT- PCR Kit U.S.,realstar us,384T/kit,Altona Diagnostics GmbH,altona diagnostics gmbh,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,RESOLUTE 2.0,resolute 20,,AMT Pte Ltd (Singapore),amt   singapore,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,64-C0304,BioCode® SARS-CoV-2 Assay,biocode assay,384T/kit,Applied BioCode Inc,applied biocode ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DX-1001-001-000,Linea™ COVID-19 Real-Time PCR Assay Kit assay kit,linea  real time assay  assay ,100T/kit,Applied DNA Sciences,applied dna sciences,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DX-1001-002-000,Linea™ COVID-19 Real-Time PCR Assay Kit assay kit,linea  real time assay  assay ,500T/kit,Applied DNA Sciences,applied dna sciences,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DX-1001-003-000,Linea™ COVID-19 Real-Time PCR Assay Kit assay kit,linea  real time assay  assay ,1000T/kit,Applied DNA Sciences,applied dna sciences,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Identity Pack SARS-CoV-2,identity pack  ,,"Arkray Factory Co., Ltd.",arkray factory ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,iAMP-COVID19-100,iAMP® COVID-19 Detection Kit,iamp  detection ,100T/kit,"Atila BioSystems, Inc.",atila biosystems ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,445003-01,BD SARS-CoV-2 Reagents,bd reagents,24T/kit,"Becton, Dickinson and Company",becton dickinsoncompany,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,$408.00,$17.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MFG030011,Real-Time Fluorescent RT- PCR Kit for Detecting SARS- 2019-nCoV,real time fluorescent detecting 2019 ncov,50T/kit,BGI Europe A/S,bgi europe as,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Real-Time Fluorescent RT- PCR Kit for Detecting SARS- Cov-2 (2 gene),real time fluorescent detecting  2 gene,,BGI Europe A/S (distributed by BGI Health (AU) Company Pty Ltd),bgi europe as distributed bgi health au company pty ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Real-Time Fluorescent RT- PCR Kit for Detecting SARS- 2019-nCoV,real time fluorescent detecting 2019 ncov,50T/kit,BGI Genomics Co. Ltd,bgi genomics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,CT8233-48T,Multiple Real-Time PCR Kit for Detection of 2019-nCoV,multiple real time  detection 2019 ncov,48T/kit,"Beijing Applied Biological Technologies Co. Ltd., (XABT)",beijing applied biological technologies  xabt,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,WS-1248,"Wantai SARS-CoV-2 RT-PCR
+ Kit",wantai ,48T/kit,"Beijing Wantai Biological Pharmacy Enterprise Co., Ltd",beijing wantai biological pharmacy enterprise ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,qSanger-COVID-19 Assay,qsanger  assay,3072T/kit,"BillionToOne, Inc",billiontoone ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BC-01-0099 ,BioCore 2019-nCoV Real Time PCR Kit,biocore 2019 real time ,100T/kit ,BioCore Co. Ltd.,biocore ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BC-01-0099 x4,BioCore 2019-nCoV Real Time PCR Kit,biocore 2019 real time ,400T/kit,BioCore Co. Ltd.,biocore ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BS-SY-SC2-100 ,Bio-Speedy® Direct RT-qPCR SARS-CoV-2,bio speedy direct qpcr  ,100T/kit ,Bioeksen R&D Technologies Ltd,bioeksen rd technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+,,,BS-SY-SC2-1000,Bio-Speedy® Direct RT-qPCR SARS-CoV-3,bio speedy direct qpcr 3,1000T/kit,Bioeksen R&D Technologies Ltd,bioeksen rd technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BS-SY-SC2-100 ,"Bio-Speedy® Direct RT-qPCR SARS-CoV-2
+ rebranded to BioeXsen SARS-CoV-2 RT PCR",bio speedy direct qpcr rebranded bioexsen pcr,100T/kit ,Bioeksen R&D Technologies Ltd (distributed by BioeXsen GmbH),bioeksen rd technologies  distributed bioexsen gmbh,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+,,,BS-SY-SC2-1000,"Bio-Speedy® Direct RT-qPCR SARS-CoV-2
+ rebranded to BioeXsen SARS-CoV-2 RT PCR",bio speedy direct qpcr rebranded bioexsen pcr,1000T/kit,Bioeksen R&D Technologies Ltd (distributed by BioeXsen GmbH),bioeksen rd technologies  distributed bioexsen gmbh,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BS-SY-WCOR-304- 100,Bio-Speedy® Direct RT-qPCR SARS-CoV-2,bio speedy direct qpcr  ,100T/kit,Bioeksen R&D Technologies Ltd,bioeksen rd technologies ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,423745,BioFire® COVID-19 Test,biofire  ,6T/kit,"BioFire Defense, LLC",biofire defense ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,423744,BioFire® COVID-19 Test,biofire  ,30T/kit,"BioFire Defense, LLC",biofire defense ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,423738,Biofire Respiratory Panel 2.1 (RP2.1),biofire respiratory panel 21 rp21,,BioFire Diagnostics LLC,biofire diagnostics ,"(US FDA EUA replaced by DeNovo approval)
+ Health Canada/Interim Order TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,"$3,210.00",$107.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,500-003-XMP,BioGX Xfree COVID-19 Direct RT-PCR,biogx xfree  direct pcr,104T/kit,"BioGX, Inc.",biogx ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Biomeme SARS-CoV-2 Real- Time RT-PCR,biomeme real  time pcr,96T/kit,Biomeme Inc.,biomeme ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,3000555,Biomeme SARS-CoV-2 Go- Strips,biomeme go  strips,,Biomeme Inc.,biomeme ,"US FDA
+ Health Canada/Interim Order",,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,423735,ARGENE® SARS-COV-2 R- GENE®,argene r  gene,30 and 120T/kit (depending on PCR),BioMérieux SA,biomrieux sa,revoked US FDA EUA Health Canada/Interim Order,,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,SARS-COV-2 R-GENE®,  gene,,BioMérieux SA,biomrieux sa,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,12013743,Bio-Rad SARS-CoV-2 ddPCR Kit,bio rad ddpcr ,200T/kit,Bio-Rad Laboratories Inc,biorad laboratories ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BS7nCoV,Real-Q 2019-nCoV Detection Kit,real 2019 detection ,100T/kit,BioSewoom,biosewoom,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,TD1100,COVID-19 RT-PCR PNA kit, pna ,24T/kit,BioTNS,biotns,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,$550.00,$5.50
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,XPRSARS-COV2-10,Xpert® Xpress SARS-CoV-2,xpert xpress  ,10T/kit,Cepheid,cepheid,"US FDA EUA
+ Health Canada/Interim Order TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,$149.00,$14.90
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"VIASURE SARS-CoV-2 Real
+ Time PCR Detection Kit",viasure real time detection ,,CerTest Biotec SL / Abacus dx,certest biotec sl  abacus dx,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"VIASURE SARS-CoV-2 S gene
+ Real Time PCR Detection Kit",viasure s gene real time detection ,,CerTest Biotec SL / Becton Dickensen,certest biotec sl  becton dickensen,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,HBRT-COVID-19,COVID-19 Real-Time PCR Kit, real time ,24T/kit,Chaozhou Hybribio Biochemistry Ltd.,chaozhou hybribio biochemistry ,TGA WHO EUL,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Clear Dx™ SARS-CoV-2 Test,clear dx ,192T/kit,"Clear Labs, Inc",clear labs ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,TR-US-01,Clinomics TrioDx RT-PCR COVID-19 Test,clinomics triodx  ,100T/kit,Clinomics USA Inc.,clinomics usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,COVID-K-001,"LOGIX SMART™ Coronavirus
+ Disease 2019 (COVID-19) Kit",logix smart coronavirus disease 2019  ,100T/kit,"Co-Diagnostics, Inc",codiagnostics ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"DirectDetect™ SARS-CoV-2
+ Detection Kit",directdetect detection ,,Coyote Bioscience Co Ltd (China),coyote bioscience  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Aridia COVID-19 Real-Time PCR Test,aridia  real time ,,CTK Biotech Inc (United States Of America),ctk biotech  united states of america,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,C1020,Cue COVID-19 Test,cue  ,,Cue Health Inc,cue health ,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,99-57003,HDPCR™ SARS-CoV-2 Assay,hdpcr assay,480T/kit,"ChromaCode, Inc.",chromacode ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DA0930  ,"Detection Kit for 2019 Novel Coronavirus (2019-nCoV) RNA, (PCR- Fluorescence Probing)",detection  2019 novel coronavirus 2019 rna  fluorescence probing,24T/kit ,"Da An Gene Co., Ltd. of Sun Yat-sen University",da an gene  of sun yatsen university,WHO EUL TGA,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DA0931,"Detection Kit for 2019 Novel Coronavirus (2019-nCoV) RNA, (PCR- Fluorescence Probing)",detection  2019 novel coronavirus 2019 rna  fluorescence probing,96T/kit,"Da An Gene Co., Ltd. of Sun Yat-sen University",da an gene  of sun yatsen university,WHO EUL TGA,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DA0932,"Detection Kit for 2019 Novel Coronavirus (2019-nCoV) RNA, (PCR- Fluorescence Probing)",detection  2019 novel coronavirus 2019 rna  fluorescence probing,,"Da An Gene Co., Ltd. of Sun Yat-sen University",da an gene  of sun yatsen university,WHO EUL TGA,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,QuickNavi-Flu+COVID19 Ag,quicknavi flu19 ag,,"Denka Co., Ltd.",denka ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MOL4150,MobileDetect-BIO BCC19 Test Kit,mobiledetect bio bcc19  ,24T/kit,DetectaChem LLC,detectachem ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0007,QuantiVirus SARS-CoV-2 Test kit,quantivirus  ,24T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0008,QuantiVirus SARS-CoV-2 Test kit,quantivirus  ,48T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0009,QuantiVirus SARS-CoV-2 Test kit,quantivirus  ,480T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0017,QuantiVirus SARS-CoV-2 Mulitplex Test kit,quantivirus mulitplex  ,24T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0018,QuantiVirus SARS-CoV-2 Mulitplex Test kit,quantivirus mulitplex  ,48T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DC-11-0019,QuantiVirus SARS-CoV-2 Mulitplex Test kit,quantivirus mulitplex  ,480T/kit,"DiaCarta, Inc",diacarta ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MOL4150,Simplexa™ COVID-19 Direct,simplexa  direct,24T/kit,DiaSorin Molecular,diasorin molecular,"US FDA EUA
+ Health Canada/Interim Order TGA
+ WHO EUL",,TRUE,TRUE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,LMP401,Loopamp New Coronavirus 2019 (SARS-CoV-2) Detection Reagent Kit,loopamp new coronavirus 2019 detection reagent ,48T/kit,"Eiken Chemical Co., Ltd.",eiken chemical ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,ENZ-GEN215-0096,"AMPIPROBE® SARS-CoV-2
+ Assay kit",ampiprobe assay ,,"Enzo Life Sciences, Inc.",enzo life sciences ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-0125,EURORealTime SARS-CoV-2,eurorealtime  ,25T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-0225,EURORealTime SARS-CoV-3,eurorealtime 3,50T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-0425,EURORealTime SARS-CoV-4,eurorealtime 4,100T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-0100,EURORealTime SARS-CoV-5,eurorealtime 5,100T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-0200,EURORealTime SARS-CoV-6,eurorealtime 6,200T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,MP 2606-1000,EURORealTime SARS-CoV-7,eurorealtime 7,1000T/kit,"EUROIMMUN
+ Medizinische Labordiagnostika AG (Germany)",euroimmun medizinische labordiagnostika ag germany,"Health Canada/Interim Order US FDA EUA
+ TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"11416302 (FTD-114-
+ 96)",FTD SARS-CoV-2,ftd  ,96T/kit,Fast Track Diagnostics Luxembourg S.á.r.l. (a Siemens Healthineers Company),fast track diagnostics luxembourg srl siemens healthineers company,US FDA EUA PMDA,,TRUE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"11416300 (FTD-114-
+ 32)",FTD SARS-CoV-2,ftd  ,32T/kit,Fast Track Diagnostics Luxembourg S.á.r.l. (a Siemens Healthineers Company),fast track diagnostics luxembourg srl siemens healthineers company,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"11416284 (FTD-114-
+ 96)",FTD SARS-CoV-3,ftd 3,96T/kit,Fast Track Diagnostics Luxembourg S.á.r.l. (a Siemens Healthineers Company),fast track diagnostics luxembourg srl siemens healthineers company,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,102-0355,Advanta Dx SARS-CoV-2 RT- PCR Assay,advanta dx  assay,,Fluidigm Corporation,fluidigm corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,μTASWako SARS-CoV-2,taswako  ,,FUJIFILM Wako Pure Chemical Corporation,fujifilm wako pure chemical corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,CV002,GenePro SARS-CoV-2 Test,genepro ,,"Gencurix, Inc.",gencurix ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,NeoPlex COVID-19 Detection Kit,neoplex  detection ,96T/kit,"GeneMatrix, Inc.",genematrix ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,4PCO052E,GB SARS-CoV-2 Real Time RT- PCR,gb real time  pcr,100T/kit,General Biologicals Corp,general biologicals corp,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"EasyScreen™ SARS-CoV-2
+ Detection Kit",easyscreen detection ,,Genetic Signatures Ltd (Australia),genetic signatures  australia,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RPQ021 ,Genetron SARS-CoV-2 RNA Test,genetron rna ,50T/kit ,"Genetron Health (Beijing) Co., Ltd.",genetron health beijing ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RPQ022,Genetron SARS-CoV-2 RNA Test,genetron rna ,100T/kit,"Genetron Health (Beijing) Co., Ltd.",genetron health beijing ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,EA008212,ePlex® SARS-CoV-2 Test,eplex ,12T/kit,"GenMark Diagnostics, Inc",genmark diagnostics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,GS COVID-19 RT-PCR KIT,gs  ,96T/kit,GenoSensor LLC,genosensor ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,GS COVID-19 RT-PCR KIT,gs  ,384T/kit,GenoSensor LLC,genosensor ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,CV0202,"COVID-19 RT-Digital PCR
+ Detection Kit", digital detection ,48T/kit,Gnomegen LLC,gnomegen ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Procleix SARS-CoV-2 Assay,procleix assay,250T/kit,Grifols Diagnostic Solutions Inc,grifols diagnostic solutions ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,NAT-01,RT-PCR IVD MEDICAL DEVICE FOR 2019 NOVEL CORONAVIRUS (SARS-COV- 2) NUCLEIC ACID DETECTION,rt ivd medical device 2019 novel coronavirus  2 nucleic acid detection,see IFU,HA TECH PTY LTD,ha tech pty ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PRD-06419,Aptima SARS-CoV-2 assay,aptima assay,250T/kit,Hologic Inc,hologic ,US FDA EUA TGA PMDA,,TRUE,FALSE,FALSE,TRUE,TRUE,,"$3,000.00",$12.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Panther Fusion SARS-CoV-2 Kit,panther fusion ,96T/kit,Hologic Inc,hologic ,"US FDA EUA
+ Health Canada Interim Order TGA",,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,351251,Hymon™ SARS-CoV-2 Test Kit,hymon  ,96T/kit,HymonBio Co. LTD,hymonbio ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,BKit Virus Finder Covid-19,bkit virus finder ,,Hyris Ltd.,hyris ,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,see IFU,Illumina® COVIDSeq™ Test,illumina seq ,3072T/kit,Illumina,illumina,"Health Canada/Interim Order US FDA EUA
+ PMDA",,TRUE,TRUE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,COV2-E,"Smart Detect™ SARS-CoV-2
+ rRT-PCR Kit",smart detect rrt ,48T/kit,"InBios International, Inc",inbios international ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,COV2-C,"Smart Detect™ SARS-CoV-2
+ rRT-PCR Kit",smart detect rrt ,,"InBios International, Inc",inbios international ,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,COV-19 IDx assay, 19 idx assay,96T/kit,"Ipsum Diagnostics, LLC",ipsum diagnostics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Nucleic Acid Amplification Technologies,JC10223-1NW-50T ,COVID-19 Coronavirus Real Time PCR Kit, coronavirus real time ,50T/kit ,Jiangsu Bioperfectus Technologies Co Ltd (China),jiangsu bioperfectus technologies  china,"US FDA EUA TGA
+ WHO EUL",,TRUE,FALSE,TRUE,FALSE,TRUE,,$250.00,$5.00
+x,x,SARS-CoV-2 Nucleic Acid Amplification Technologies,JC10223-1NW-25T,COVID-19 Coronavirus Real Time PCR Kit, coronavirus real time ,25T/kit,Jiangsu Bioperfectus Technologies Co Ltd (China),jiangsu bioperfectus technologies  china,"US FDA EUA TGA
+ WHO EUL",,TRUE,FALSE,TRUE,FALSE,TRUE,,$250.00,$5.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Novel Coronavirus (SARS-CoV- 2) Fast Nucleic Acid Detection Kit,novel coronavirus  2 fast nucleic acid detection ,24T/kit 48T/kit 96T/kit,"Jiangsu CoWin Biotech Co., Ltd. (China)",jiangsu cowin biotech  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,KANEKA Direct RT-PCR kit SARS-CoV-2,kaneka direct ,,KANEKA CORPORATION,kaneka corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RV008,RADI COVID-19 Detection Kit,radi  detection ,100T/kit,KH Medical Co. Ltd,kh medical ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,SmartAmp SARS-CoV-2,smartamp  ,,K.K. DNAFORM,kk dnaform,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,KF2019CoV01,KimForest SARS-CoV-2 Detection Kit v1,kimforest detection  v1,96T/kit,"KimForest Enterprise Co., Ltd.",kimforest enterprise ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,R6900TD,PowerChek™ 2019-nCoV Real- time PCR Kit,powerchek 2019 real  time ,,Kogene Biotech Co Ltd (Korea - Republic of),kogene biotech  korea  republic of,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"LabGun™ COVID-19 RT-PCR
+ Kit",labgun  ,96T/kit,LabGenomics,labgenomics,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"Biosearch Technologies SARS- CoV-2
+ Real-Time and End-Point RT- PCRTest",biosearch technologies  real time and end point  pcrtest,96T/kit,LGC Biosearch Technologies,lgc biosearch technologies,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,TaqPath COVID-19 Combo Kit,taqpath  combo ,,Life Technologies Corporation (USA) (see also ThermoFisher),life technologies corporation usa see also thermofisher,TGA PMDA,,FALSE,FALSE,FALSE,TRUE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,810055970056,Lucira COVID-19 All-In-One Test Kit,lucira  all in one  ,24T/kit,"Lucira Health, Inc.",lucira health ,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,50-10047,"ARIES® SARS-CoV-2 Assay
+ Kit",aries assay ,24T/kit,Luminex Corporation,luminex corporation,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,I054C0463,NxTAG® CoV Extended Panel Assay,nxtag  extended panel assay,96T/kit,"Luminex Molecular Diagnostics, Inc.",luminex molecular diagnostics ,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,GCRNA-COVID-96R,Genecount Covid-19 Rt-Qpcr Assay Kit,genecount  qpcr assay ,,Luminultra Technologies Ltd. (Canada),luminultra technologies  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,L018180030096,LumiraDx SARS-CoV-2 RNA STAR,lumiradx rna star,,LumiraDx UK Ltd,lumiradx uk ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,L018180130096,LumiraDx SARS-CoV-2 RNA STAR Complete,lumiradx rna star complete,,LumiraDx UK Ltd,lumiradx uk ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BUSGN7101109,SARS-CoV-2 Fluorescent PCR Kit,  fluorescent ,32T/kit,Maccura Biotechnology (USA) LLC,maccura biotechnology usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BUSGN7102109,SARS-CoV-2 Fluorescent PCR Kit,  fluorescent ,64T/kit,Maccura Biotechnology (USA) LLC,maccura biotechnology usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,BUSGN7103109,SARS-CoV-2 Fluorescent PCR Kit,  fluorescent ,96T/kit,Maccura Biotechnology (USA) LLC,maccura biotechnology usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"SARS-CoV-2 DETECTR
+ Reagent Kit",  detectr reagent ,,"Mammoth Biosciences, Inc.",mammoth biosciences ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,ST-CV19-2SF,MatMaCorp COVID-19 2SF Test,matmacorp  2sf ,,"Materials and Machines Corporation of America (DBA MatmaCorp, Inc.)",materialsmachines corporation of america dba matmacorp ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,MEBRIGHT SARS-CoV-2 Kit,mebright ,,"Medical & Biological Laboratories Co., Ltd.",medical  biological laboratories ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,410700,Revogene SARS-CoV-2 assay,revogene assay,,Meridian,meridian,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,COV4100,Accula SARS-Cov-2 Test,accula ,,Mesa Biotech Inc.,mesa biotech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"7K105
+ ","Veri-Q PCR 316 COVID-19
+ Detection Kit",veri 316  detection ,"50 test/kit
+",MiCoBioMed Co Ltd,micobiomed ,TGA WHO EUL,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,7K111,"Veri-Q PCR 316 COVID-19
+ Detection Kit",veri 316  detection ,100 test/kit,MiCoBioMed Co Ltd,micobiomed ,TGA WHO EUL,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Smart Gene SARS-CoV-2,smart gene  ,,"Mizuhomedy Co., Ltd.",mizuhomedy ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,MobileDetect Bio BCC19 (MD- Bio BCC19) Test Kit,mobiledetect bio bcc19 md  bio bcc19  ,12T/kit,MobileDetect Bio Inc.,mobiledetect bio ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,300800,"NeuMoDx™ SARS-CoV-2 Test
+ Strip",neumodx  strip,96T/kit,"NeuMoDx Molecular, Inc.",neumodx molecular ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,XC25073,Sars-Cov-2 Virus Detection Diagnostic Kit,  virus detection diagnostic ,50T/kit,"Ningbo Health Gene Technologies Co., Ltd (China)",ningbo health gene technologies  china,Health Canada/Interim Order WHO EUL,,FALSE,TRUE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DXTM67120 (500RXNS),2019-NCoV Taqman Rt-PCR Kit Dx,2019 taqman  dx,,Norgen Biotek Corp. (Canada),norgen biotek corp canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DXTM67100 (50RXNS),2019-NCoV Taqman Rt-PCR Kit Dx,2019 taqman  dx,,Norgen Biotek Corp. (Canada),norgen biotek corp canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,DXTM67200,COVID-19 Taqman Rt-PCR Kit (e/rdrp Genes) Dx, taqman  erdrp genes dx,,Norgen Biotek Corp. (Canada),norgen biotek corp canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RDM101-X,Kaira 2019-nCoV Detection Kit,kaira 2019 detection ,100T/kit,"OPTOLANE
+ Technologies, Inc.",optolane technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,IFMR-45,"GeneFinder™ COVID-19 Plus
+ RealAmp Kit",genefinder  plus realamp ,100T/kit,"OSANG Healthcare Co., Ltd",osang healthcare ,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"99-57003
+","OPTI SARS-CoV-2 RT PCR
+ Test",opti ,,"OPTI Medical Systems, Inc.",opti medical systems ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,99-57004,"OPTI SARS-CoV-2 RT PCR
+ Test",opti ,,"OPTI Medical Systems, Inc.",opti medical systems ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,P23 Labs TaqPath SARS-CoV-2 Assay,p23 labs taqpath assay,see IFU,"P23 Labs, LLC",p23 labs ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,DetectX-Rv,detectx rv,see IFU,"PathogenDx, Inc.",pathogendx ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,2019-nCoV-PCR-AUS,PerkinElmer® New Coronavirus Nucleic Acid Detection Kit,perkinelmer new coronavirus nucleic acid detection ,48T/kit,"PerkinElmer, Inc. / Suzhou Sym-Bio Lifescience Co Ltd",perkinelmer suzhou symbio lifescience ,"US FDA EUA
+ Health Canada/Interim Order WHO EUL",,TRUE,TRUE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,82303-U,IntelliPlex SARS-CoV-2 Detection Kit,intelliplex detection ,96T/kit,"PlexBio Co., Ltd.",plexbio ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,02.01.1019,FastPlex Triplex SARS-CoV-2 detection kit,fastplex triplex detection ,24T/kit,PreciGenome LLC,precigenome ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Triplelock SARS-Cov-2 Test Strips,triplelock  strips,,Precision Biomonitoring Inc,precision biomonitoring ,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"ELITe MGB SARS-CoV-2 PCR
+ Detection Kit",elite mgb detection ,,"Precision System Science Co., Ltd.",precision system science ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,Z-PATH-COVID-19- CE,COVID-19 genesig® Real- Time PCR assay, genesig real  time assay,96T/kit,Primerdesign Ltd,primerdesign ,WHO EUL TGA,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,Z-COVID-19 (US ONLY),COVID-19 genesig® Real- Time PCR assay, genesig real  time assay,96T/kit,Primerdesign Ltd,primerdesign ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PCCSKU15261,PhoenixDx® 2019-nCoV,phoenixdx 2019 ncov,50T/kit,Procomcure Biotech GmbH (Trax Management Services Inc.),procomcure biotech gmbh trax management services ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PCCSKU15262,PhoenixDx® SARS-CoV-2 Multiplex,phoenixdx multiplex,50T/kit,Procomcure Biotech GmbH (Trax Management Services Inc.),procomcure biotech gmbh trax management services ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,691223,QIAstat-Dx Respiratory SARS- CoV-2 Panel,qiastat dx respiratory  panel,6 Tests,QIAGEN GmbH,qiagen gmbh,"US FDA EUA
+ Health Canada/Interim Order TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"#1110 with #1105
+ #1154 with #1155",Clarifi COVID-19 Test Kit,clarifi ,480T/kit,Quadrant Biosciences Inc.,quadrant biosciences ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,39433,"Quest SARS-CoV-2 rRT-PCR
+ Kit",quest rrt ,96T/kit,Quest Diagnostics Infectious Disease Inc,quest diagnostics infectious disease ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Quest Diagnostics RC SARS- CoV-2 rRT-PCR Kit,quest diagnostics rc  rrt ,96T/kit,Quest Diagnostics Infectious Disease Inc,quest diagnostics infectious disease ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Quest Diagnostics HA SARS- CoV-2 rRT-PCR Kit,quest diagnostics ha  rrt ,96T/kit,Quest Diagnostics Infectious Disease Inc,quest diagnostics infectious disease ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Quest Diagnostics PF SARS- CoV-2 rRT-PCR Kit,quest diagnostics pf  rrt ,96T/kit,Quest Diagnostics Infectious Disease Inc,quest diagnostics infectious disease ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SKU # CE-M120,Lyra SARS-CoV-2 rRT-PCR Kit,lyra rrt ,96T/kit,Quidel Corp.,quidel corp,"US FDA EUA
+ Health Canada Interim Order",,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,M313,Solana SARS-CoV-2 Assay,solana assay,96T/kit,Quidel Corp.,quidel corp,"US FDA EUA
+ Health Canada Interim Order",,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,KCCOV19-24,Rheonix COVID-19 MDx Assay,rheonix  mdx assay,96T/kit,Rheonix,rheonix,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,9175431190,"Cobas SARS-CoV-2 RT-PCR
+ Kit",cobas ,192T/kit ,Roche Diagnostics,roche diagnostics,"US FDA EUA
+ Health Canada/Interim Order PMDA
+ WHO EUL",,TRUE,TRUE,TRUE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,9343733190,"Cobas SARS-CoV-2 RT-PCR
+ Kit",cobas ,480T/kit,Roche Diagnostics,roche diagnostics,"US FDA EUA
+ Health Canada/Interim Order PMDA
+ WHO EUL",,TRUE,TRUE,TRUE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,9408592190,cobas SARS-CoV-2,cobas  ,20T/kit,Roche Diagnostics,roche diagnostics,"US FDA EUA
+ Health Canada/Interim Order PMDA",,TRUE,TRUE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,S3104E,Novel Coronavirus (2019- nCoV) Nucleic Acid Diagnostic Kit (PCR-Fluorescence Probing),novel coronavirus 2019  nucleic acid diagnostic  fluorescence probing,24T/kit,Sansure Bio Tech Inc.,sansure bio tech ,"US FDA EUA
+ Health Canada/Interim Order TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,S3104E,Novel Coronavirus (2019- nCoV) Nucleic Acid Diagnostic Kit (PCR-Fluorescence Probing),novel coronavirus 2019  nucleic acid diagnostic  fluorescence probing,48T/kit,Sansure Bio Tech Inc.,sansure bio tech ,"US FDA EUA
+ Health Canada/Interim Order TGA",,TRUE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RX7038 (RX7048),ScienCell™ SARS-CoV-2 Coronavirus Real-time RT- PCR (RT-qPCR) Detection Kit (Multiplex option),sciencell coronavirus real time  qpcr detection  multiplex option,96T/kit,ScienCell,sciencell,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,M-NCOV-01,"STANDARD M nCoV Real-
+ Time Detection kit",standard n real  time detection ,96T/kit,SD Biosensor,sd biosensor,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SS-9930,U-TOP™ COVID-19 Detection Kit,u top  detection ,96T/kit,Seasun Biomaterials,seasun biomaterials,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SS-9920,"AQ-TOP COVID-19 Rapid
+ Detection Kit",aq top  rapid detection ,96T/kit,Seasun Biomaterials,seasun biomaterials,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SS-9940,"AQ-TOP COVID-19 Rapid
+ Detection Kit PLUS",aq top  rapid detection  plus,96T/kit,Seasun Biomaterials,seasun biomaterials,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RP10243X ,Allplex™ 2019-nCoV Assay kit,allplex 2019 assay ,100T/kit ,Seegene Inc,seegene ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,$645.00,$5.20
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RP10252W,Allplex™ 2019-nCoV Assay kit,allplex 2019 assay ,124T/kit,Seegene Inc,seegene ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,$645.00,$5.20
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PCSYHF02-a,"Fosun COVID-19 RT-PCR
+ Detection Kit",fosun  detection ,48T/kit,Shanghai Fosun Long March Medical Science Co Ltd (China),shanghai fosun long march medical science  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PCSYHF03-a,"Fosun COVID-19 RT-PCR
+ Detection Kit",fosun  detection ,96T/kit,Shanghai Fosun Long March Medical Science Co Ltd (China),shanghai fosun long march medical science  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PCSYHF,Novel Coronavirus (2019- nCoV) RT-PCR Detection Kit (commercial name: Fosun 2019-nCoV qPCR),novel coronavirus 2019  detection  commercial name fosun 2019 qpcr,,Shanghai Fosun Long March Medical Science Co Ltd (China),shanghai fosun long march medical science  china,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,GZ-D2RM25,Novel Coronavirus 2019-nCoV Nucleic Acid Detection Kit (Real-time PCR),novel coronavirus 2019 nucleic acid detection  real time pcr,50T/kit,"Shanghai GeneoDx Biotechnology Co., Ltd (China)",shanghai geneodx biotechnology  china,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,KH-G-M-574-48,Diagnostic kit for SARS-CoV-2 Nucleic acid (Real-time PCR),diagnostic  nucleic acid real time pcr,48T/kit,"Shanghai Kehua bio- engineering Co., Ltd",shanghai kehua bio engineering ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,$144.00,$3.00
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RR-0485-02,Novel Coronavirus (2019- nCoV) Real Time Multiplex RT- PCR Kit,novel coronavirus 2019  real time multiplex  ,25T/kit,Shanghai ZJ Bio-Tech Co Ltd (China),shanghai zj biotech  china,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,RR-0479-02,Novel Coronavirus (2019- nCoV) Real Time Multiplex RT- PCR Kit (Detection for 3 genes),novel coronavirus 2019  real time multiplex detection 3 genes,25T/kit,Shanghai ZJ Bio-Tech Co Ltd (China),shanghai zj biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Sherlock CRISPR SARS-CoV-2 Kit,sherlock crispr ,96T/kit,"Sherlock BioSciences, Inc.",sherlock biosciences ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Ampdirect 2019-nCoV detection kit,ampdirect 2019 detection ,,Shimadzu Corporation,shimadzu corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,GNT2011-1,Ezplex SARS-CoV-2 G Kit,ezplex g ,100T/kit,"SML GENETREE Co.,
+ Ltd.",sml genetree ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,DiaPlexQ Novel Coronavirus (2019-nCoV) Detection Kit,diaplexq novel coronavirus 2019 detection ,,"SolGent Co., Ltd (represented by JK Toxpert)",solgent  represented jk toxpert,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,ASM-00144,Spartan COVID-19 System Test Cartridge,spartan  system  cartridge,see IFU,Spartan Bioscience Inc. (Canada),spartan bioscience  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,PlexPCR® SARS-CoV-2,plexpcr  ,,SpeeDx Pty Ltd (Australia),speedx pty  australia,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,SGNP nCoV/Flu PCR Detection Kit,sgnp ncovflu detection ,,SUDx-Biotec Corporation,sudxbiotec corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,PerkinElmer® SARS-CoV-2 Real-time RT-PCR Assay,perkinelmer real time assay,,Suzhou Sym-Bio Lifescience Co Ltd (China) (represented by PerkinElmer),suzhou symbio lifescience  china represented perkinelmer,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,2019-nCoV Fluorescence Detection Real-time RT-PCR Kit,2019 fluorescence detection real time ,,Sysmex Corporation,sysmex corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,80-10284,T2SARS-CoV-2 Panel,t2  panel,12T/kit,"T2 Biosystems, Inc.",t2 biosystems ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Takara SARS-CoV-2 Direct PCR detection kit,takara direct detection ,,Takara Bio Inc.,takara bio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,O11200-25,Talis One COVID-19 Cartridge Pack,talis one  cartridge pack,25T/kit,Talis Biomedical Corporation,talis biomedical corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,68020,ExProbeTM SARS-CoV-2 Testing Kit,exprobetm ing ,,TBG Biotechnology Corp,tbg biotechnology corp,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,"PGA4102P1 (liquid) / PGA4102P2
+ (lyophilized form)","SARS-CoV-2 Nucleic acid detection kit based on Real-
+ Time PCR platform",  nucleic acid detection  based on real  time platform,,Tellgen Corporation,tellgen corporation,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A47813,TaqPath COVID-19 Combo Kit Advanced,taqpath  combo  advanced,200T/kit,Thermo Fisher Scientific Inc,thermo fisher scientific ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A47814,TaqPath COVID-19 Combo Kit,taqpath  combo ,1000T/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A49868,"TaqPath COVID-19, FluA, FluB Combo Kit",taqpath  flua flub combo ,1000T/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A47817,Taqpath COVID-19 Rt-PCR Kit,taqpath  ,,Thermo Fisher Scientific Inc,thermo fisher scientific ,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"TaqPath New Coronavirus (SARS-CoV-2) Real-Time PCR
+ Detection Kit",taqpath new coronavirus real time detection ,,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A48067,"TaqPath COVID-19 CE-IVD RT-
+ PCR Kit",taqpath  ce ivd  ,1000T/kit,Thermo Fisher Scientific Inc,thermo fisher scientific ,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A49918,"TaqPath™ COVID-19 Pooling
+ Kit",taqpath  pooling ,384T/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A51333,TaqPath COVID-19 RNase P Combo Kit 2.0,taqpath  rnase combo  20,1T/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A51606,"TaqPath COVID-19 FAST PCR
+ Combo Kit 2.0",taqpath  fast combo  20,1T/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,A49869,Amplitude™ Solution with TaqPath COVID-19 High Throughput Combo Kit,amplitude solution with taqpath  high throughput combo ,20000/kit,Thermo Fisher Scientific Inc (see also Life Technologies Corporation),thermo fisher scientific  see also life technologies corporation,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,TD1100,COVID-19 RT-PCR PNA Kit, pna ,100T/kit,"TNS Co., Ltd (Bio TNS)",tns  bio tns,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,$550.00,$5.50
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,TRCReady SARS-CoV-2,trcready  ,,Tosoh Corporation,tosoh corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Gene Cube SARS-CoV-2,gene cube  ,48T/kit,"Toyobo Co., Ltd.",toyobo ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Gene Cube HQ SARS-CoV-2,gene cube hq  ,,"Toyobo Co., Ltd.",toyobo ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,102997,SARS-CoV-2 NGS Assay,  ngs assay,96T/kit,Twist Bioscience Corporation,twist bioscience corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,Diagnostic Kit for Novel- Coronavirus (2019-nCoV) RNA (Isothermal Amplification-Real Time Fluorescence Assay,diagnostic  novel  coronavirus 2019 rna isothermal amplification real time fluorescence assay,,Ustar Biotechnologies (Hangzhou) Co Ltd (China),ustar biotechnologies hangzhou  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,EasyNat Diagnostic Kit for Novel-Coronavirus (2019- nCoV) RNA (Isothermal Amplification-Real Time Fluorescence Assay,easynat diagnostic  novel coronavirus 2019  rna isothermal amplification real time fluorescence assay,,Ustar Biotechnologies (Hangzhou) Co Ltd (China),ustar biotechnologies hangzhou  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,300681,"ViroKey™ SARS-CoV-2 RT-
+ PCR Test",virokey  ,4x50T/kit,Vela Operations Singapore Pte Ltd,vela operations singapore  ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,301068,"ViroKey™ SARS-CoV-2 RT-
+ PCR Test v2.0",virokey v20,8x48T/kit,Vela Operations Singapore Pte Ltd,vela operations singapore  ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,PS-001541,Visby Medical COVID-19 Point of Care Test,visby medical  point care ,1T/kit,Visby Medical,visby medical,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"SARS-CoV-2 RT-qPCR
+ Reagent Kit",  qpcr reagent ,,Wallac Oy (Finland),wallac oy finland,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,,"COVID-19 (SARS-CoV-2)
+ Nucleic Acid Test kit", nucleic acid  ,,Wuhan EasyDiagnosis Biomedicine Co Ltd (China),wuhan easydiagnosis biomedicine  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,801301,SARS-CoV-2 Test Kit (Real- time PCR),  real  time pcr,48T/kit,"Xiamen Zeesan Biotech Co., Ltd. (China)",xiamen zeesan biotech  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SC-COVID19-20 ,COVID-19 Nucleic Acid RT- PCR Test Kit, nucleic acid ,20T/kit ,"ZhuHai Sinochips Bioscience Co., Ltd",zhuhai sinochips bioscience ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,SC-COVID19-100,COVID-19 Nucleic Acid RT- PCR Test Kit, nucleic acid ,100T/kit,"ZhuHai Sinochips Bioscience Co., Ltd",zhuhai sinochips bioscience ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Nucleic Acid Amplification Technologies,R3011 R3011-1K R3011-10K,"Quick SARS-CoV-2 rRT-PCR
+ Kit",quick rrt ,,Zymo Research Corp,zymo research corp,"US FDA EUA
+ Health Canada/Interim Order",,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,195-000,BinaxNOW COVID-19 Ag Card,binaxnow  ag card,40T/kit,"Abbott Diagnostics Scarborough, Inc.",abbott diagnostics scarborough ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,195-005,"BinaxNOW COVID-19 Ag 2
+ Card",binaxnow  ag 2 card,40T/kit,"Abbott Diagnostics Scarborough, Inc.",abbott diagnostics scarborough ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,"41FK10
+ 41FK20",Panbio COVID-19 Ag Rapid Test Device (NASOPHARYNGEAL),panbio  ag rapid  device nasopharyngeal,25T/kit,Abbott Rapid Diagnostics Jena GmbH,abbott rapid diagnostics jena gmbh,"Health Canada/Interim Order TGA
+ WHO EUL",,FALSE,TRUE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,"41FK11
+ 41FK21",Panbio COVID-19 Ag Rapid Test Device (NASAL),panbio  ag rapid  device nasal,25T/kit,Abbott Rapid Diagnostics Jena GmbH,abbott rapid diagnostics jena gmbh,"Health Canada/Interim Order TGA
+ WHO EUL",,FALSE,TRUE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Arsonic COVID-19 Ag,arsonic  ag,,Alfresa Pharma Corporation,alfresa pharma corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,PN-0003KT40,NIDS COVID-19 Antigen Rapid Test Kit,nids  antigen rapid  ,40T/kit,"ANP Technologies, Inc.",anp technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"ARISTA™ COVID-19 Antigen
+ Rapid Test",arista  antigen rapid ,,Arista Biotech Pte Ltd (Singapore),arista biotech   singapore,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,A03-50-422,Artron COVID-19 Antigen Test,artron  antigen ,,Artron Laboratories Inc. (Canada),artron laboratories  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Device, antigen rapid  device,25T/kit,Assure Tech (Hangzhou) Co Ltd (China),assure tech hangzhou  china,Health Canada/Interim Order TGA,,FALSE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Ecotest COVID-19 Antigen Saliva Test Kit,ecotest  antigen saliva  ,,Assure Tech (Hangzhou) Co Ltd (China),assure tech hangzhou  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Ecotest COVID-19 Antigen Nasal Test Kit,ecotest  antigen nasal  ,,Assure Tech (Hangzhou) Co Ltd (China),assure tech hangzhou  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sampinute COVID-19 Antigen MIA,sampinute  antigen mia,,"BBB Inc. (distributed by Celltrion USA, Inc.)",bbb  distributed celltrion usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,"256091
+ 256113
+ 256114",Bd Kit For Rapid Detection Of SARS-CoV-2,bd  rapid detection  ,,"Becton, Dickinson and Company",becton dickinsoncompany,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,256082,BD Veritor System for Rapid Detection of SARS-CoV-2,bd veritor system rapid detection  ,30T/kit,"Becton, Dickinson and Company",becton dickinsoncompany,"US FDA EUA
+ Health Canada/Interim Order PMDA
+ TGA",,TRUE,TRUE,FALSE,TRUE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Wantai SARS-CoV-2 Ag Rapid Test (Colloidal Gold),wantai ag rapid  colloidal gold,,Beijing Wantai Biologicalpharmacy Enterprise Co Ltd (China),beijing wantai biologicalpharmacy enterprise  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test (Colloidal Gold Method),  antigen rapid  colloidal gold method,,BIOHIT HealthCare (Hefei) Co Ltd (China),biohit healthcare hefei  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,RG1901DG,NowCheck COVID-19 Antigen Test,nowcheck  antigen ,,BioNote Inc,bionote ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,SW40006,BIOSYNEX COVID-19 Ag BSS,biosynex  ag bss,see IFU,Biosynex Swiss SA,biosynex swiss sa,ANSM,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,SW40010 SW40010F,BIOSYNEX COVID-19 Ag+,biosynex  ag,see IFU,Biosynex Swiss SA,biosynex swiss sa,ANSM,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,2070088301,"Rapid Response™ COVID-19
+ Antigen Rapid Test Device",rapid response  antigen rapid  device,,BTNX Inc,btnx ,Health Canada,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,2070089201,"Rapid Response™ COVID-19
+ Antigen Rapid Test Device",rapid response  antigen rapid  device,,BTNX Inc,btnx ,Health Canada,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,SWB-19,"Rapid Response™ COVID-19
+ Antigen Rapid Test Device",rapid response  antigen rapid  device,,BTNX Inc,btnx ,Health Canada,,FALSE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,Rapid Response COV- 19C25,"Rapid Response™ COVID-19
+ Antigen Rapid Test Device",rapid response  antigen rapid  device,,BTNX Inc,btnx ,"TGA
+ Health Canada",,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Surescreen Diagnostics COVID- 19 Antigen Rapid Test Cassette,surescreen diagnostics 19 antigen rapid  cassette,,BTNX Inc,btnx ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS Coronavirus Antigen Kit Rapiim SARS-CoV-2-N PRT- C2N01A, coronavirus antigen  rapiim n prt  c2n01a,,Canon Medical Systems Corporation,canon medical systems corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Quampas COVID-19 Antigen Test Kit,quampas  antigen  ,,"Cellspect Co.,Ltd.",cellspect co,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,OnSite® COVID-19 Ag Point of care test / Aria® COVID-19 Ag Rapid Test,onsite  ag point care aria  ag rapid ,,CTK Biotech Inc,ctk biotech ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QuickNavi-COVID19 Ag,quicknavi 19 ag,,"Denka Co., Ltd.",denka ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,311500,LIAISON® SARS-CoV-2 Ag,liaison ag,see IFU,DiaSorin,diasorin,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Ellume COVID-19 Home Test,ellume  home ,,Ellume Ltd,ellume ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,"ATG 900-207
+ ATG 900-208
+ ATG 900-210",CovClear COVID-19 Antigen Test,covclear  antigen ,,Empowered Diagnostics LLC (United States Of America),empowered diagnostics  united states of america,Health Canada/Interim Order TGA,,FALSE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Fuji Dry Chem IMMUNO AG Handy COVID-19 Ag,fuji dry chem immuno ag handy  ag,,Fujifilm Corporation,fujifilm corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Accuraseed SARS-CoV-2Ag,accuraseed  ag,,FUJIFILM Wako Pure Chemical Corporation,fujifilm wako pure chemical corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Lumipulse SARS-CoV-2 Ag,lumipulse ag,,Fujirebio Inc,fujirebio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Lumipulse Presto SARS-CoV-2 Ag,lumipulse presto ag,,Fujirebio Inc,fujirebio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,231906,ESPLINE SARS-CoV-2,espline  ,100T/kit,Fujirebio Inc,fujirebio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,COVAG025-U COVAG025-NU,GenBody COVID-19 Ag,genbody  ag,25T/kit,GenBody Inc (Korea - Republic of),genbody  korea  republic of,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Ag Saliva Rapid Test Card,2019 ag saliva rapid  card,,Guangzhou Decheng Biotechnology Co Ltd (China),guangzhou decheng biotechnology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Antigen Test (Lateral Flow Method),2019 antigen  lateral flow method,,Guangzhou Wondfo Biotech Co Ltd (China),guangzhou wondfo biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GSD NovaGen SARS CoV-2 Rapid Test,gsd novagen rapid ,,Hangzhou Alltest Biotech Co Ltd,hangzhou alltest biotech ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,ICOV-802,COVID-19 Antigen Rapid Test (Oral Fluid) ICOV-802, antigen rapid  oral fluid 802,,Hangzhou Alltest Biotech Co Ltd,hangzhou alltest biotech ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,ICOV-502,COVID-19 Antigen Rapid Test (swab) ICOV-502, antigen rapid  swab 502,,Hangzhou Alltest Biotech Co Ltd,hangzhou alltest biotech ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Cassette, antigen rapid  cassette,,"HANGZHOU BIOTEST BIOTECH NO LTD
+ (China)",hangzhou biotest biotech no  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Clungene Covid-19 Antigen Rapid Test,clungene  antigen rapid ,,Hangzhou Clongene Biotech Co Ltd,hangzhou clongene biotech ,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LYHER Novel Coronavirus (Covid-19) Antigen Test Kit (Colloidal Gold),lyher novel coronavirus  antigen colloidal gold,,Hangzhou Laihe Biotech Co Ltd (China),hangzhou laihe biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus (SARS-COV 2) Antigen Rapid test cassette (swab),novel coronavirus antigen rapid  cassette swab,,Hangzhou Realy Tech Co Ltd (China),hangzhou realy tech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Cellife Covid-19 Antigen Test Cassette,cellife  antigen  cassette,,Hangzhou Testsea Biotechnology Co Ltd (China),hangzhou testsea biotechnology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Testsea SARS-CoV-2 Antigen Test Kit,testsea antigen  ,,Hangzhou Testsea Biotechnology Co Ltd (China),hangzhou testsea biotechnology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,CT-P60 D-2 02,"Celltrion DiaTrust™ COVID-19
+ Ag Rapid Test",celltrion diatrust  ag rapid ,25T/kit,"Humasis, Co Ltd. (distributed by Celltrion USA, Inc)",humasis  distributed celltrion usa ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,COVAG-RC,SCoV-2 Ag Detect Rapid Test,s ag detect rapid ,50T/kit,"InBios International, Inc.",inbios international ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InnoScreen COVID-19 Antigen Rapid Test Device,innoscreen  antigen rapid  device,,Innovation Scientific Pty Ltd (Australia),innovation scientific pty  australia,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PixoTest® COVID-19 AG Test Kit,pixotest  ag  ,,iXensor Co Ltd (Taiwan),ixensor  taiwan,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 antigen Test Kit (LFIA),  antigen lfia,,Jiangsu Medomics medical technology Co Ltd (China),jiangsu medomics medical technology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,KBM line check nCoV (stick type),kbm line check stick type,,"Kojin Bio Co., Ltd.",kojin bio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,KBM LineCheck nCoV/Flu,kbm linecheck ncovflu,,"Kojin Bio Co., Ltd.",kojin bio ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Clip COVID Rapid Antigen Test,clip  rapid antigen ,25T/kit,"Luminostics, Inc",luminostics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LumiraDx SARS-CoV-2 Ag Test,lumiradx ag ,25T/kit,LumiraDx UK Ltd.,lumiradx uk ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,CP0023,"COVIDx-SARS-CoV-2 Rapid
+ Antigen Test Kit",x rapid antigen  ,25T/kit,Lumos Diagnostics Ata Rapid Pathogen Screening Inc Ata Lumos Diagnostics Inc (United States),lumos diagnostics ata rapid pathogen screening  ata lumos diagnostics  united states,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD Q COVID-19 Ag Test,standard  ag ,,MALCOM COMPANY LIMITED,malcom company limited,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Fuji Dry Chem IMMNO AG Cartridge COVID-19 Ag,fuji dry chem immno ag cartridge  ag,,"Mizuhomedy Co., Ltd.",mizuhomedy ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Quick Chaser Auto SARS-CoV- 2,quick chaser auto  2,,"Mizuhomedy Co., Ltd.",mizuhomedy ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapid SARS-CoV-2 Antigen Test Card,rapid antigen  card,,MP Biomedicals Asia Pacific Pte Ltd (Singapore),mp biomedicals asia pacific   singapore,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,ND-MD8147,Nano-Check COVID-19 Antigen Test,nano check  antigen ,20T/kit,Nano-Ditech Corp,nanoditech corp,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Immunofine SARS-COV-2,immunofine  ,,Nichirei Biosciences Inc,nichirei biosciences ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,1001-0614,InteliSwab COVID-19 Rapid Test Pro,inteliswab  rapid  pro,25T/kit ,"OraSure Technologies, Inc.",orasure technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,1001-0615,InteliSwab COVID-19 Rapid Test Pro,inteliswab  rapid  pro,100T/kit,"OraSure Technologies, Inc.",orasure technologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,1001-0614.001,InteliSwab COVID-19 Rapid Test Pro,inteliswab  rapid  pro,,"OraSure Technologies, Inc.",orasure technologies ,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,619 9949,VITROS Immunodiagnostic Products SARS-CoV-2 Antigen Reagent Pack,vitros immunodiagnostic products antigen reagent pack,100T/kit,"Ortho Clinical Diagnostics, Inc",ortho clinical diagnostics ,"US FDA EUA
+ Health Canada/Interim Order PMDA",,TRUE,TRUE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,COV05,Pcl COVID19 AG Rapid Fia,pcl 19 ag rapid fia,,Pcl Inc.,pcl ,Health Canada/Interim Order TGA,,FALSE,TRUE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"INDICAID COVID-19 Rapid
+ Antigen Test",indicaid  rapid antigen ,25T/kit,PHASE Scientific International Limited,phase scientific international limited,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,SS03P25,Sure Status COVID-19 Antigen Card Test,sure status  antigen card ,25T/kit,Premier Medical Corporation Private Limited,premier medical corporation private limited,WHO EUL,,FALSE,FALSE,TRUE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Simoa® SARS-COV-2 N
+ Protein Antigen Test",simoa n protein antigen ,25T/kit,Quanterix Corporation,quanterix corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,20387,QuickVue SARS Antigen Test,quickvue  antigen ,25T/kit,Quidel Corporation,quidel corporation,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,20396,QuickVue SARS Antigen Test,quickvue  antigen ,25T/kit,Quidel Corporation,quidel corporation,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,20374,Sofia SARS Antigen FIA,sofia  antigen fia,25T/kit,Quidel Corporation,quidel corporation,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,QPR8302,Omnia SARS-CoV-2 Antigen Test,omnia antigen ,20T/kit,"Qorvo Biotechnologies, LLC",qorvo biotechnologies ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Eclusis Reagent SARS-CoV-2 Ag,eclusis reagent ag,,"Roche Diagnostics Co., Ltd",roche diagnostics ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-Cov-2 Rapid Antigen Test,  rapid antigen ,,"Roche Diagnostics Co., Ltd",roche diagnostics ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,CLA-COV19AG-VIS/ 102241,Sienna-Clarity COVID-19 Antigen Rapid Test Cassette,sienna clarity  antigen rapid  cassette,,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Clarity COVID-19 Antigen Rapid Test Cassette,clarity  antigen rapid  cassette,,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"OVIOS COVID-19
+ Antigen Rapid Test Cassette",ovios  antigen rapid  cassette,,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Spring Health COVID-19 Antigen Rapid Test Cassette,spring health  antigen rapid  cassette,,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Salocor COVID-19 Antigen Rapid Test Cassette,salocor  antigen rapid  cassette,,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,09COV30D,"STANDARD Q COVID-19 Ag
+ Test",standard  ag ,,SD Biosensor Inc.,sd biosensor ,TGA WHO EUL,,FALSE,FALSE,TRUE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,9901-NCOV-01G,SARS-Cov-2 Rapid Antigen Test,  rapid antigen ,,SD Biosensor Inc. (distributed by Roche Diagnostics Australia),sd biosensor  distributed roche diagnostics australia,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,9901-NCOV-04G,SARS-Cov-2 Rapid Antigen Test,  rapid antigen ,,SD Biosensor Inc. (distributed by Roche Diagnostics Australia),sd biosensor  distributed roche diagnostics australia,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,9901-NCOV-06G,SARS-Cov-2 Rapid Antigen Test,  rapid antigen ,,SD Biosensor Inc. (distributed by Roche Diagnostics Australia),sd biosensor  distributed roche diagnostics australia,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,RapidTesta SARS-CoV-2,rapidtesta  ,,"SEKISUI MEDICAL CO., LTD.",sekisui medical ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"HISCL SARS-CoV-2 Ag Assay
+ Kit",hiscl ag assay ,,Sysmex Corporation,sysmex corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"AFIAS COVID-19 Ag Test
+ Cartridge",afias  ag  cartridge,,TOKYO BOEKI MEDISYS INC,tokyo boeki medisys ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CL AIA-PACK SARS-CoV-2-Ag,cl aia pack ag,,TOSOH CORPORATION,tosoh corporation,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Immuno Ace SARS-CoV-2 / Capilia SARS-CoV-2,immuno ace  capilia  ,,"TAUNS LABORATORIES, INC.",tauns laboratories ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ImmunoArrow SARS-CoV-2,immunoarrow  ,,"TOYOBO CO., LTD.",toyobo ,PMDA,,FALSE,FALSE,FALSE,TRUE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,61254,Rapid SARS-CoV-2 Antigen Test Card,rapid antigen  card,,"Xiamen Boson Biotech Co., Ltd. (China)",xiamen boson biotech  china,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,9167,Rapid SARS-CoV-2 Antigen Test Card,rapid antigen  card,,"Xiamen Boson Biotech Co., Ltd. (China)",xiamen boson biotech  china,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,1N40C5,Rapid SARS-CoV-2 Antigen Test Card,rapid antigen  card,,"Xiamen Boson Biotech Co., Ltd. (China)",xiamen boson biotech  china,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,1N40T0,Rapid SARS-CoV-2 Antigen Test Card,rapid antigen  card,,"Xiamen Boson Biotech Co., Ltd. (China)",xiamen boson biotech  china,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antigen Rapid Diagnostic Tests,XH-100-110,SPERA COVID-19 Ag Test,spera  ag ,10T/kit,Xtrava Health,xtrava health,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BinaxNOW COVID-19 Ag 2 Card,binaxnow  ag 2 card,,"Abbott Diagnostics Scarborough, Inc",abbott diagnostics scarborough ,,,,,,,,https://www.fda.gov/media/147264/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BinaxNOW COVID-19 Ag Card 2 Home test,binaxnow  ag card 2 home ,,"Abbott Diagnostics Scarborough, Inc",abbott diagnostics scarborough ,,,,,,,,https://www.fda.gov/media/147260/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BinaxNOW COVID-19 Ag Card Home Test,binaxnow  ag card home ,,"Abbott Diagnostics Scarborough, Inc",abbott diagnostics scarborough ,,,,,,,,https://www.fda.gov/media/144574/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BinaxNOW COVID-19 Antigen Self Test,binaxnow  antigen self ,,"Abbott Diagnostics Scarborough, Inc",abbott diagnostics scarborough ,,,,,,,,https://www.fda.gov/media/147255/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NAVICA Mobile App and BINAXNOW COVID-19 Ag Card,navica mobile app and binaxnow  ag card,,"Abbott Diagnostics Scarborough, Inc.",abbott diagnostics scarborough ,,,,,,,,https://www.fda.gov/media/141570/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Panbio COVID-19 Ag Rapid Test Device_-Nasopharyngeal,panbio  ag rapid  device nasopharyngeal,,Abbott Laboratories,abbott laboratories,,,,,,,,https://extranet.who.int/pqweb/sites/default/files/documents/EUL_0564-032-00_PanbioCOVID-19_AgRapidTestDevice_PR_v_2.0.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Panbio COVID-19 Ag Rapid Test Device- Nasal,panbio  ag rapid  device  nasal,,Abbott Laboratories,abbott laboratories,,,,,,,,https://extranet.who.int/pqweb/sites/default/files/documents/EUL_0564-032-00_PanbioCOVID-19_AgRapidTestDevice_PR_v_2.0.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Panbio COVID-19 Antigen Self-test,panbio  antigen self ,,Abbott Laboratories,abbott laboratories,,,,,,,,https://dam.abbott.com/en-gb/panbio/120007883-v1-Panbio-COVID-19-Ag-Nasal-AsymptomaticSe.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,RabWiz Ultra Sensitive COIV-19 Viral Antigen Test Kit (ELISA),rabwiz ultra sensitive coiv 19 viral antigen elisa,,Abwiz Bio,abwiz bio,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Atomo COVID-19 Antigen Test,atomo  antigen ,,"Access Bio, Inc.",access bio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CareStart COVID-19 Antigen,carestart  antigen,,"Access Bio, Inc.",access bio ,,,,,,,,https://www.fda.gov/media/142919/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CareStart COVID-19 Antigen Home Test,carestart  antigen home ,,"Access Bio, Inc.",access bio ,,,,,,,,https://www.fda.gov/media/151248/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Flowflex SARS-CoV-2 Antigen Rapid Test,flowflex antigen rapid ,,"Acon Biotech (Hangzhou) Co., Ltd",acon biotech hangzhou ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen FIA,  antigen fia,,"Acon Biotech (Hangzhou) Co., Ltd",acon biotech hangzhou ,,,,,,,,https://www.alfresa-pharma.co.jp/product/attach/PRODUCT_ID/681/FILE_ID/TENPU_BUNSHO/681_TENPU_BUNSHO,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Rapid Antigen Test Family - ACRO, rapid antigen  family acro,,ACRO Biotech Inc.,acro biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351090949202096/anexo/A2420244/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test (Oral Fluid), antigen rapid  oral fluid,,ACRO BIOTECH Inc.,acro biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351143706202149/anexo/T13862779/nomeArquivo/Acrobiotech%20%20Portuguese%20PI%20(INCP-%20ACO%20802)%20-.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Prorast SARS-Cov-2 Ag ADTest SARS-Cov-2,prorast ag adtest  ,,ADTEC Corporation/LSI Medicine Corporation,adtec corporationlsi medicine corporation,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Ag LF,  ag lf,,ADVAGEN BIOTECH LTDA - BRAZIL,advagen biotech  brazil,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351476601202092/anexo/A2446149/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,EzDx COVID-19 Rapid Ag Test,ezdx  rapid ag ,,Advy Chemical Pvt. Ltd.,advy chemical pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AG-Q COVID-19 N Antigen Rapid Diagnostic Kit,ag  antigen rapid diagnostic ,,Agappe Diagnostics,agappe diagnostics,,,,,,,,https://www.agappe.com/media/catalog/product/file/13814009_AgQ-19.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Detection Rapid Lateral Flow Test (colloidal gold-based),  antigen detection rapid lateral flow  colloidal gold based,,AIVD Biotech Inc.,aivd biotech ,,,,,,,,https://www.aivdbiotech.cn/Uploads/202012/5fd32cabc6525.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Detection Rapid Lateral Flow Test (latex bead-based lateral flow),  antigen detection rapid lateral flow  latex bead based lateral flow,,AIVD Biotech Inc.,aivd biotech ,,,,,,,,https://www.aivdbiotech.cn/Uploads/202012/5fe5b317e884b.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ANTIGEN SARS-CoV-2 QUICK TEST,antigen quick ,,Alamar Tecno Cientifica Ltda,alamar tecno cientifica a,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FaStep COVID-19 Antigen Rapid Test Device (Nasopharyngeal/ Oropharyngeal Swab),fastep  antigen rapid  device nasopharyngeal oropharyngeal swab,,Alcotech Pte Ltd,alcotech  ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Instant-view Plus Covid-19 Antigen Test,instant view plus  antigen ,,"Alfa Scientific Designs, Inc.",alfa scientific designs ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351735677202065/anexo/T12989107/nomeArquivo/Bula%20Instant%20View%20Plus%20Covid-19%20Ag%20View%20Alfa%20Test%20atual.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Alpine COVID-19 Antigen Rapid Test kit,alpine  antigen rapid  ,,"Alpine Biomedicals Pvt. Ltd., Ambala (Haryana), India",alpine biomedicals pvt  ambala haryana india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AMP Rapid Test SARS-CoV-2 Ag,amp rapid  ag,,AMEDA Labordiagnostik GmbH,ameda labordiagnostik gmbh,,,,,,,,https://2e5ed920-9a4a-4c1f-b46e-954bdc354cc4.filesusr.com/ugd/3cc657_81168bf847ae457395b5a093603457b1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Amela Covid-19 Antigen test,amela  antigen ,,Amedica SA,amedica sa,,,,,,,,https://drive.google.com/file/d/1tHt9b43EqOQQrEHqiDEdzISL2RGya45v/view?usp=sharing,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19/Influenza A virus/Influenza B virus test kit (Rare Earth Nano Fluorescence Immunochromatography),influenza virusinfluenza virus rare earth nano fluorescence immunochromatography,,"AmonMed Biotechnology Co., Ltd",amonmed biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Antigen Test Kit,antigen  ,,Angstrom Biotech Pvt. Ltd,angstrom biotech pvt ,,,,,,,,https://angstrombiotech.in/adminpanel/images/product/pdf/pdf_new/antigen.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 (SARS-CoV-2) Antigen Test Kit (Colloidal Gold) - NP, antigen colloidal gold np,,"Anhui Deepblue Medical Technology Co., Ltd",anhui deepblue medical technology ,,,,,,,,https://waimao-us-west.oss-us-west-1.aliyuncs.com/customerFiles/dbluemedical/2021/04/15/5cdec64f353d5b4b908e6381b95832a340dceb94.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 (SARS-CoV-2) Antigen Test Kit (Colloidal Gold) Nasal Swab (Self test), antigen colloidal gold nasal swab self ,,"Anhui Deepblue Medical Technology Co., Ltd",anhui deepblue medical technology ,,,,,,,,https://waimao-us-west.oss-us-west-1.aliyuncs.com/customerFiles/dbluemedical/2021/05/03/4bce32a2dd2587251de7a9afa4660a7d2721385f.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 (SARS-CoV-2) Antigen Test Kit (Colloidal Gold)--Saliva, antigen colloidal gold  saliva,,"Anhui Deepblue Medical Technology Co., Ltd",anhui deepblue medical technology ,,,,,,,,https://waimao-us-west.oss-us-west-1.aliyuncs.com/customerFiles/dbluemedical/2021/02/03/9558c6c44b8e34a05b65e0fccc97b58cbe478c6b.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 (SARS-CoV-2) Antigen Test Kit (Colloidal Gold)--Saliva self test, antigen colloidal gold  saliva self ,,"Anhui Deepblue Medical Technology Co., Ltd",anhui deepblue medical technology ,,,,,,,,https://waimao-us-west.oss-us-west-1.aliyuncs.com/customerFiles/dbluemedical/2021/04/15/5cdec64f353d5b4b908e6381b95832a340dceb94.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Antigen Detection Kit (Colloidal Gold-Based),severe acute respiratory syndrome coronavirus 2 antigen detection  colloidal gold based,,Anomalous Materials Pte Ltd,anomalous materials  ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,New type coronavirus / influenza A virus / influenza B virus detection kit,new type coronavirus  influenza virus  influenza virus detection ,,Apollo Biomedical LLC,apollo biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus antigen detection kit- Nasal Swab,novel coronavirus antigen detection nasal swab,,Apollo Biomedical LLC,apollo biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus antigen detection kit- sputum sample,novel coronavirus antigen detection sputum sample,,Apollo Biomedical LLC,apollo biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel coronavirus antigen detection kit-nasal swab/sputum sample,novel coronavirus antigen detection  nasal swabsputum sample,,Apollo Biomedical LLC,apollo biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,mariPOC SARS-CoV-2,maripoc  ,,ArcDia International Ltd,arcdia international ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Arista COVID-19 Antigen Rapid Test,arista  antigen rapid ,,Arista Biotech,arista biotech,,,,,,,,https://aristabio.com/wp-content/uploads/2021/03/210326-ARISTA-Antigen-IFU-CE-NHS-V4.0-EN.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Artron COVID-19 Antigen Test Kit,artron  antigen  ,,Artron BioResearch Inc. / Artron Laboratories Inc.,artron bioresearch artron laboratories ,,,,,,,,http://www.artronlab.com/products/COVID%20Ag%20brochure-min.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Asan Easy Test COVID-19 Ag,asan easy ag,,Asan Pharmaceutical Co. Ltd,asan pharmaceutical ,,,,,,,,http://www.asanpharm.com/data/file/product_01/1935617638_eGAwy6Eh_45a86ae38c48473049a9186740542af94d91c925.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,TRUSTline COVID-19 Ag Rapid Test,trustline  ag rapid ,,Athenese Dx,athenese dx,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NOVA Test SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold Immunochromatography),nova  antigen rapid colloidal gold immunochromatography,,Atlas-Link (Beijing) Technology Co. Ltd,atlaslink beijing technology ,,,,,,,,https://www.dropbox.com/s/g8h0ui8wd3opj6z/Instruction%20for%20Use%20of%20NOVA%20Test%20SARS-CoV-2%20Antigen%20Rapid%20Test%20kit.pdf?dl=0,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Simtomax CoronaCheck Antigen,simtomax coronacheck antigen,,Augurix SA,augurix sa,,,,,,,,download via product webpage,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AffiDX SARS-CoV-2 Lateral Flow Antigen Test,affidx lateral flow antigen ,,Avacta Life Sciences Ltd,avacta life sciences ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MARK-B COVID-19 Antigen S test,mark  antigen ,,BBB Inc.,bbb ,,,,,,,,https://www.bbbtech.com/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BD Veritor At-Home COVID-19 Test,bd veritor at home  ,,"Becton, Dickinson, & Company (BD)",becton dickinson  company bd,,,,,,,,https://www.fda.gov/media/151761/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BD Veritor System for Rapid Detection of SARS-CoV-2 & Flu A+B,bd veritor system rapid detection  flu ab,,"Becton, Dickinson, & Company (BD)",becton dickinson  company bd,,,,,,,,https://www.fda.gov/media/147016/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Viral Antigen Test Kit (Colloidal Gold Immunochromatography), viral antigen colloidal gold immunochromatography,,"Beijing Abace Biology Co., Ltd",beijing abace biology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Viral Antigen Test Kit (ELISA), viral antigen elisa,,"Beijing Abace Biology Co., Ltd",beijing abace biology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Test, ag ,,"Beijing Core Technology Co., Ltd.",beijing core technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Saliva Ag Test, saliva ag ,,"Beijing Core Technology Co., Ltd.",beijing core technology ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351046052202114/anexo/T13967887/nomeArquivo/02.%20Instru%C3%A7%C3%A3o%20de%20Uso_%20Ag%20TESTE%20SALIVA%20(1).pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Antigen Rapid Test Kit (colloidal gold assay),2019 antigen rapid colloidal gold assay,,"Beijing Diagreat Biotechnologies Co., Ltd",beijing diagreat biotechnologies ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus (SARS-CoV-2) Antigen Rapid Test Kit,novel coronavirus antigen rapid  ,,Beijing Jinwofu Bioengineering Technology Co,beijing jinwofu bioengineering technology co,,,,,,,,download via webpage,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Kewei COVID-19 Antigen Rapid Test Kit (Colloidal Gold),kewei  antigen rapid colloidal gold,,Beijing Kewei Clinical Diagnostic Reagent Inc.,beijing kewei clinical diagnostic reagent ,,,,,,,,http://en.keweidiagnostic.com/uploadfile/2020/1014/20201014101716770.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Kewei COVID-19 Antigen Rapid Test Kit (Fluorescence),kewei  antigen rapid fluorescence,,Beijing Kewei Clinical Diagnostic Reagent Inc.,beijing kewei clinical diagnostic reagent ,,,,,,,,http://en.keweidiagnostic.com/uploadfile/2020/0721/20200721032246798.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Antigen Rapid Test Kit (Colloidal Gold Immunochromatography),2019 antigen rapid colloidal gold immunochromatography,,"Beijing Lepu Medical Technology Co., Ltd",beijing lepu medical technology ,,,,,,,,https://en.lepumedical.com/products/sars-cov-2-antigen-rapid-test-kit-colloidal-gold-immunochromatography/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,New Coronavirus (SARS-CoV-2) N Protein Detection Kit (Fluorescence Immunochromatography),new coronavirus n protein detection  fluorescence immunochromatography,,"Beijing Savant Biotechnology Co., Ltd",beijing savant biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Tigsun COVID-19 Antigen Rapid Test (FIA),tigsun  antigen rapid  fia,,"Beijing Tigsun Diagnostics Co., Ltd",beijing tigsun diagnostics ,,,,,,,,http://www.tigsun.com/Content/2020/08-14/1435055504.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Tigsun COVID-19 Antigen Saliva Rapid Test,tigsun  antigen saliva rapid ,,"Beijing Tigsun Diagnostics Co., Ltd",beijing tigsun diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Tigsun Flu A/B, COVID-19 Ag Combo test",tigsun flu ab  ag combo ,,"Beijing Tigsun Diagnostics Co., Ltd",beijing tigsun diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Tigsun Flu A/B, RSV, COVID-19 Ag Combo test",tigsun flu ab rsv  ag combo ,,"Beijing Tigsun Diagnostics Co., Ltd",beijing tigsun diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Wantai SARS-CoV-2 Ag ELISA,wantai ag elisa,,"Beijing Wantai Biological Pharmacy Enterprise Co., Ltd",beijing wantai biological pharmacy enterprise ,,,,,,,,http://www.ystwt.cn/wp-content/uploads/2021/02/Brochure-Wantai-SARS-CoV-2-Antigen-ELISA.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Wantai SARS-CoV-2 Antigen Rapid Test (Colloidal gold),wantai antigen rapid  colloidal gold,,"Beijing Wantai Biological Pharmacy Enterprise Co., Ltd",beijing wantai biological pharmacy enterprise ,,,,,,,,http://www.ystwt.cn/wp-content/uploads/2020/11/Wantai-COVID-19-Antigen-Test-colloidal-gold-Procedure-Diagram.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Wantai SARS-COV-2 Antigen Rapid Test (FIA),wantai antigen rapid  fia,,"Beijing Wantai Biological Pharmacy Enterprise Co., Ltd",beijing wantai biological pharmacy enterprise ,,,,,,,,http://www.ystwt.cn/wp-content/uploads/2020/11/Wantai-COVID-19-Antigen-Test-FIA-Procedure-Diagram-1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,New coronavirus (2019-nCoV) antigentesting kit (fluorescent immunoanalysis),new coronavirus 2019 antigentesting  fluorescent immunoanalysis,,"BGI Health (HK) Co. Ltd. (Shenzhen Huada Gene Technology Co., Ltd.)",bgi health hk  shenzhen huada gene technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapid Covid 19 Ag kit,rapid  ag ,,Bio Lab Diagnostics Pvt Ltd,bio lab diagnostics pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Tell Me Fast COVID19 Antigen Test,tell me fast 19 antigen ,,biocan diagnostics Inc.,biocan diagnostics ,,,,,,,,https://d09784c4-b123-4c59-8d0d-36935c78d094.filesusr.com/ugd/94bf74_8248405d211046f287c5fbe428dd64d6.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MyTest COVID-19 Ag test,mytest  ag ,,Biofootprints Healthcare Pvt. Ltd.,biofootprints healthcare pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Hough COVID-19 Home Test,hough  home ,,"BIOHIT HealthCare (Hefei) Co., Ltd",biohit healthcare hefei ,,,,,,,,https://www.tga.gov.au/sites/default/files/covid-19-rapid-antigen-self-tests-are-approved-australia-ifu-345031.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen assay kit (Colloidal Gold Method),  antigen assay  colloidal gold method,,"BIOHIT HealthCare (Hefei) Co., Ltd",biohit healthcare hefei ,,,,,,,,https://www.biohit.cn/uploadfiles/2020/12/20201218173014868.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Kit (Fluorescence Immunochromatography),  antigen rapid fluorescence immunochromatography,,"BIOHIT HealthCare (Hefei) Co., Ltd",biohit healthcare hefei ,,,,,,,,https://www.biohit.cn/uploadfiles/2020/12/20201218173014868.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ClearEpi SARS-CoV-2 Antigen Rapid Test,clearepi antigen rapid ,,Biolidics Ltd,biolidics ,,,,,,,,https://www.biolidics.com/misc/CO-LB-23-V2-ClearEpi-SARS-CoV-2-Antigen-Rapid-Test-IFU-1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NowCheck COVID-19 Ag Test,nowcheck  ag ,,Bionote Inc.,bionote ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Bioscience (Tianjin) Novel Coronavirus (2019-nCoV) Antigen Rapid Test,bioscience tianjin novel coronavirus 2019 antigen rapid ,,"Bioscience (Tianjin) Diagnostic Technology Co., Ltd.",bioscience tianjin diagnostic technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID19Speed-Antigen,19speed antigen,,BioSpeedia SAS,biospeedia sas,,,,,,,,https://biospeedia.com/wp-content/uploads/2020/11/BioSpeedia-Antigen-BSD_503-25-IFU-3-languages.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,biotical SARS-CoV-2 Ag card test,biotical ag card ,,Biotical Health,biotical health,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BIOZEK COVID-19 Antigen Rapid Test,biozek  antigen rapid ,,BIOZEK MEDICAL,biozek medical,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BZ COVID-19 AG Test,bz  ag ,,"Biozentech, Co., Ltd",biozentech ,,,,,,,,http://www.biozentech.co.kr/download/IFU_BZ%20COVID-19%20Ag%20Test_Eng_v3.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Test, antigen ,,"Blue Cross Bio-Medical (Beijing) Co., Ltd",blue cross biomedical beijing ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"AFIAS COVID-19, Viral Antigen (automated)",afias  viral antigen automated,,"Boditech Med, Inc.",boditech med ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351603810202015/anexo/A2358356/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Ichroma COVID-19, viral antigen (manual)",ichroma  viral antigen manual,,"Boditech Med, Inc.",boditech med ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351603848202098/anexo/A2358357/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapid Response COVID-19 Antigen Rapid Test Device,rapid response  antigen rapid  device,,BTNX Inc.,btnx ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351949902202049/anexo/T13002620/nomeArquivo/IU_80102512592.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Cadila COVID-19 Antigen Rapid Test,cadila  antigen rapid ,,Cadila Healthcare,cadila healthcare,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AllCheck COVID19 Ag,allcheck 19 ag,,CALTH Inc.,calth ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Viral Antigen Test Kit, viral antigen  ,,Camtech Diagnostics Pte Ltd,camtech diagnostics  ,,,,,,,,https://covid19-test.com/assets/Camtech_Covid19AntigenTestKit.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS Coronavirus Antigen Kit Rapiim SARS-CoV-2-N PRT-C2N01A, coronavirus antigen  rapiim n prt c2n01a,,Canon Medical Sciences Corporation,canon medical sciences corporation,,,,,,,,https://jp.medical.canon/products/pt/rapiim_flu_ab_spec#SARS,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CELER COVID-19 AG TEST,celer  ag ,,Celer Biotecnologia,celer biotecnologia,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351855581202012/anexo/A2419215/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Cellex qSARS-CoV-2 Antigen Rapid Test,cellex  antigen rapid ,,Cellex Inc.,cellex ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351423382202049/anexo/A2426414/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Celltrion DiaTrust COVID-19 Ag Rapid Test,celltrion diatrust  ag rapid ,,Celltrion,celltrion,,,,,,,,https://cellhomeblob.blob.core.windows.net/pdf/DiaTrust%20COVID-19%20Ag%20Rapid%20Test%20IFU.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CerTest SARS-CoV-2,certest  ,,CerTest Biotec S.L.,certest biotec sl,,,,,,,,https://www.certest.es/wp-content/uploads/2020/09/IU-SC8-v.01.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,OL COVID-19 Ag,ol  ag,,"Chembio Diagnostic System, Inc.",chembio diagnostic system ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351735673202087/anexo/A2379883/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,DPP SARS CoV-2 Antigen System,dpp antigen system,,"Chembio Diagnostic System, Inc. / Oswaldo Cruz Foundation",chembio diagnostic system oswaldo cruz foundation,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351372257202063/anexo/T13224332/nomeArquivo/Manual_DPP%20SARS%20COV-2%20ANT%C3%8DGENO%20SYSTEM_ver2011v01.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Verasure COVID-19 Antigen Rapid Swab Test,verasure  antigen rapid swab ,,Confirm BioSciences,confirm biosciences,,,,,,,,https://www.confirmbiosciences.com/covid19-sars-antigen-rapid-swab-test/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Respi-Strip, ag respi strip,,Coris BioConcept,coris bioconcept,,,,,,,,https://www.corisbio.com/pdf/Products/COVID-19-Respi-Strip_20201113.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 (2019-nCoV) Nucleoprotein Protein ELISA Kit,  2019 nucleoprotein protein elisa ,,Creative Biolabs,creative biolabs,,,,,,,,https://sars-cov-2.creative-biolabs.com/pdf/VCok-Wyb002.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,OnSite COVID-19 Ag Rapid Test,onsite  ag rapid ,,"CTK Biotech, Inc.",ctk biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351540508202049/anexo/A2437421/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PocRoc SARS-CoV-2 Antigen Rapid Test Kit,pocroc antigen rapid  ,,Delphi Bioscience (Asia) Pte. Ltd.,delphi bioscience asia  ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QuickNavi- Flu+COVID19 Ag,quicknavi  flu19 ag,,Denka Seiken Co. Ltd,denka seiken ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Detect COVID-19 Test,detect  ,,"Detect, Inc.",detect ,,,,,,,,https://www.fda.gov/media/153661/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,DSI SARS-CoV-2 Ag Rapid Test,dsi ag rapid ,,Dia Sure Immunodiagnostic LLP,dia sure immunodiagnostic llp,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Xamin COVID-19 Ag Rapid Test (Human Nasal Swab),xamin  ag rapid  human nasal swab,,Diagnocure India,diagnocure india,,,,,,,,https://diagnocureindia.com/wp-content/uploads/2021/05/Covid_-_19_antigen_INSERT-compressed.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen test Card, antigen  card,,"Diagnostic Enterprises Parwanoo (Himachal Pradesh), India",diagnostic enterprises parwanoo himachal pradesh india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,DIAQUICK COVID-19 Ag Test,diaquick  ag ,,DIALAB GmbH,dialab gmbh,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LIAISON SARS-CoV-2 AG,liaison ag,,DiaSorin SpA,diasorin spa,,,,,,,,https://www.diasorin.com/sites/default/files/allegati_prodotti/sars_cov-2_antigen_m0870004372_lr.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Detection Kit, antigen detection ,,DNA Diagnostic,dna diagnostic,,,,,,,,https://dna-diagnostic.com/files/Downloads/CV19IC/SDS_CV19IC_2020.11.05.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Epithod COVID-19 Ag Test Kit,epithod  ag  ,,DxGen Corp.,dxgen corp,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Epithod SARS-CoV-2 qAg Test Kit,epithod qag  ,,DxGen Corp.,dxgen corp,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Dynamiker SARS-CoV-2 Ag Rapid Test,dynamiker ag rapid ,,"Dynamiker Biotechnology (Tianjin) Co., Ltd.",dynamiker biotechnology tianjin ,,,,,,,,http://en.dynamiker.com/index/index/pro_info/aid/624.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 DART, dart,,E25Bio,e25bio,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID/FLU A/B Ag Combo ECO Teste,flu ab ag combo eco e,,Eco Diagnostica,eco diagnostica,,,,,,,,https://ecodiagnostica.com.br/diagnostico-rapido/covid-flu-a-b-ag-combo-eco-teste/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Edinburgh Genetics ActivXpress+ COVID-19 Antigen Complete Testing Kit,edinburgh genetics activxpress  antigen complete ing ,,Edinburgh Genetics Limited,edinburgh genetics limited,,,,,,,,https://t1n.c87.myftpupload.com/wp-content/uploads/2020/09/Edinburgh-Genetics-ActivXpress-COVID-19-Antigen-Complete-Testing-Kit-v1.4.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ENCODE COVID-19 Rapid Test,encode  rapid ,,Emmo Pharma,emmo pharma,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ErbaQik COVID-19 Ag Rapid Test,erbaqik  ag rapid ,,Erba Mannheim Group / Transasia Bio-Medical,erba mannheim group  transasia biomedical,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen ELISA,  antigen elisa,,EUROIMMUN AG,euroimmun ag,,,,,,,,https://www.coronavirus-diagnostik.de/documents/Indications/Infections/Coronavirus/EQ_2606_D_DE_A.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Excalibur RAPID SARS-COV-2 ANTIGEN TEST CARD,excalibur rapid antigen  card,,Excalibur Health Services,excalibur health services,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid test, antigen rapid ,,ForaCare Suisse AG,foracare suisse ag,,,,,,,,https://www.foracare.ch/wp-content/uploads/2020/12/FORAFCS_TD-4531A_-Covid-19-Antigen-Rapid-Test_User-Manual_EN_312-4531100-005.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Coronavirus Antigen Rapid Test,coronavirus antigen rapid ,,Fortress Diagnostics Ltd,fortress diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Acura Seed SARS-CoV-2 Antigen,acura seed antigen,,FujiFilm Corporation,fujifilm corporation,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FujiFilm COVID-19 Ag Test,fujifilm  ag ,,FujiFilm Corporation,fujifilm corporation,,,,,,,,https://uploads.strikinglycdn.com/files/9551306c-8bf4-4076-9bcc-ebde4408812a/COVID-19%20Ag_IfU_EN-DE-FR-ES-PT-IT_Ref_final.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ESPLINE SARS-CoV-2 & Flu A/B,espline  flu ab,,FUJIREBIO Inc.,fujirebio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Lumipulse G SARS-CoV-2 Ag,lumipulse   ag,,FUJIREBIO Inc.,fujirebio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVIDia - Antigen,ia antigen,,GaDia Diagnostics SA,gadia diagnostics sa,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Lateral Flow Assay, antigen lateral flow assay,,"Genbio Pharmaceutical Co., Ltd.",genbio pharmaceutical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GenBody FIA COVID-19 Ag,genbody fia  ag,,"GenBody, Inc.",genbody ,,,,,,,,http://genbody.co.kr/bbs/download.php?bo_table=human02&wr_id=2&no=1,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GenBody Influenza/COVID-19 Ag Multi,genbody influenza ag multi,,"GenBody, Inc.",genbody ,,,,,,,,http://genbody.co.kr/bbs/board.php?bo_table=human01&wr_id=23,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,RapiCov rapid Ag Test kit,rapi rapid ag  ,,"Genes2me Pvt Ltd, Gurugram, Haryana",genes2me pvt  gurugram haryana,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold),  antigen rapid colloidal gold,,Genesprint Group Ltd,genesprint group ,,,,,,,,http://gsprint.co/index.php?route=product/product&path=25&product_id=66,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 and FluA+FluB Antigen Test Kit,  and fluaflub antigen  ,,Genrui Biotech Inc.,genrui biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351662786202056/anexo/A2450022/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Test Kit (Colloidal Gold),  antigen colloidal gold,,Genrui Biotech Inc.,genrui biotech ,,,,,,,,http://www.genrui-bio.com/u_file/images/21_05_25/6f2b636719.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Nasal/Saliva Antigen Test Kit (Colloidal Gold),  nasalsaliva antigen colloidal gold,,Genrui Biotech Inc.,genrui biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Covid-19 Ag xPOC, ag xpoc,,GENSPEED Biotech,genspeed biotech,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19/FluA/B Antigen Combo Rapid Test P2007,fluab antigen combo rapid  p2007,,GenSure Biotech Inc.,gensure biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GenSure COVID-19 Antigen Rapid Kit (REF: P2004),gensure  antigen rapid  ref p2004,,GenSure Biotech Inc.,gensure biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Oral Rapid Test, ag oral rapid ,,Gold Analyses Diagnostica,gold analyses diagnostica,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351400668202137/anexo/T14387724/nomeArquivo/COVID%20Ag%20Oral%20-%20REF.%20133%20-%20Linha%20Analisa%20(04_21)%20(5).pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Rapid Test, ag rapid ,,Gold Analyses Diagnostica,gold analyses diagnostica,,,,,,,,http://www.goldanalisa.com.br/arquivos/%7B52794833-3C0D-48B6-A969-C5D51ECE557F%7D_COVID%20Ag%20-%20REF.%20132%20(04_21)%20-%20Linha%20Analisa%20(2).pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Kit (Colloidal Gold),  antigen  colloidal gold,,Goldsite Diagnostics Inc.,goldsite diagnostics ,,,,,,,,http://en.goldsite.com.cn/prod_view.aspx?TypeId=144&Id=279&Fid=t3:144:3,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GENEDIA Quantum COVID-19 Ag,genedia quantum  ag,,Green Cross Medical Science Corp.,green cross medical science corp,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GENEDIA W COVID-19 Ag,genedia  ag,,Green Cross Medical Science Corp.,green cross medical science corp,,,,,,,,download via product webpage,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019 nCoV Ag Rapid Detection Kit,2019 ag rapid detection ,,Guangdong Longsee,guangdong longsee,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351389259202172/anexo/T14359982/nomeArquivo/Anexo%20VII%20Instru%C3%A7%C3%B5es%20de%20uso%20LS-C-T-008%20ver.00.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,The V-CHEK 2019-nCoV Ag Rapid Test Kit,the chek 2019 ag rapid  ,,Guangzhou Decheng Biotechnology Co Ltd,guangzhou decheng biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Celer Finecare SARS-CoV-2 Ag Test,celer finecare ag ,,"Guangzhou Wondfo Biotech Co., Ltd",guangzhou wondfo biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351972361202133/anexo/T13903374/nomeArquivo/ACS00164_01_IU_Celer_Finecare_SARS-CoV-2%20_Ag_Test.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Celer Wondfo SARS-CoV-2 Ag Rapid Test,celer wondfo ag rapid ,,"Guangzhou Wondfo Biotech Co., Ltd",guangzhou wondfo biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351515846202042/anexo/A2433531/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Saliva Rapid Test, ag saliva rapid ,,"Guangzhou Wondfo Biotech Co., Ltd",guangzhou wondfo biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351104560202116/anexo/T14008900/nomeArquivo/COVID-19%20Ag%20Saliva%20Rapid%20Test.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Finecare SARS-CoV-2 Ag Test,finecare ag ,,"Guangzhou Wondfo Biotech Co., Ltd",guangzhou wondfo biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351972361202133/anexo/T13903374/nomeArquivo/ACS00164_01_IU_Celer_Finecare_SARS-CoV-2%20_Ag_Test.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 & Flu A+B Antigen Combo Rapid Test Cassette (Nasopharyngeal Swab),  flu ab antigen combo rapid  cassette nasopharyngeal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/146541300ISIC-525AlltestCEGermanPI.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test (Oral Fluid) Self Test (ICOV-802H)), antigen rapid  oral fluid self  802h,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Cassette (Nasal Swab), antigen rapid  cassette nasal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/IFU-146393905INCP-502AllTestCEGermanPI.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Cassette (Nasopharyngeal Swab), antigen rapid  cassette nasopharyngeal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351090959202021/anexo/A2419297/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Cassette (Oral fluid), antigen rapid  cassette oral fluid,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upload/20210810/984abe1d-97e6-449d-b66c-a040d8bad790.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Test Cassette (FIA) (Nasopharyngeal Swab), antigen  cassette fia nasopharyngeal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upload/20210820/a6b42f56-6de0-4a9b-89c1-991573f73640.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19/FluA+B/RSV/Adno/MP Antigen Combo Rapid Test,fluabrsvadnomp antigen combo rapid ,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/IFU146346801ICIC-525AlltestCEGermanPI.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 & Flu A+B Antigen Combo Rapid Test Cassette (Swab), flu ab antigen combo rapid  cassette swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/146541300ISIC-525AlltestCEGermanPI.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Cassette for Self-Testing (CE1434 OTC) (Nasal Swab),  antigen rapid  cassette self ing ce1434 otc nasal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/IFUINCP-502HAlltestSARS-CoV-2AntigenRapidTestNasalSwabINCP-502HforSelf-TestingCE1434.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test with LF Reader (Nasopharyngeal swab/Nasal Swab),  antigen rapid  with lf reader nasopharyngeal swabnasal swab,,"Hangzhou AllTest Biotech Co., Ltd",hangzhou alltest biotech ,,,,,,,,http://www.alltests.com.cn/upfile/pdf/IFU-146438203INCP-502NAllTestCEGermanPI(700329331).pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LumiraTek COVID-19 Ag,lumiratek  ag,,"Hangzhou Biotest Biotech Co., Ltd",hangzhou biotest biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351268442202054/anexo/A2426337/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MedTest Coronavirus (COVID-19) Ag (Rapid Test),medtest coronavirus  ag rapid ,,"Hangzhou Biotest Biotech Co., Ltd",hangzhou biotest biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351467570202089/anexo/A2430264/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Cassette (Saliva), antigen rapid  cassette saliva,,"Hangzhou Clongene Biotech Co., Ltd",hangzhou clongene biotech ,,,,,,,,http://en.clongene.com/uploads/20210208/47aa8475f4a3e543037072b65ca548a9.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Influenza A+B Antigen Combo Rapid Test Cassette, influenza ab antigen combo rapid  cassette,,"Hangzhou Clongene Biotech Co., Ltd",hangzhou clongene biotech ,,,,,,,,http://en.clongene.com/uploads/20201223/8b7e1b2afd13c841950be917a6698ef4.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus S Glycoprotein Detection Kit,novel coronavirus glycoprotein detection ,,"Hangzhou Deangel Biological Engineering Co., Ltd",hangzhou deangel biological engineering ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,reOpenTest COVID-19 Antigen Rapid Test,reopentest  antigen rapid ,,Hangzhou Fenhe Technology Co. Ltd,hangzhou fenhe technology ,,,,,,,,https://www.reopentest.com/pdf/ifu/ce_ag.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LYHER Novel Coronavirus (Covid-19) Antigen Test Kit (Colloidal Gold) (Nasal),lyher novel coronavirus  antigen colloidal gold nasal,,"Hangzhou Laihe Biotech Co., Ltd",hangzhou laihe biotech ,,,,,,,,http://www.lyherbio.com/upload/ueditor/file/20210304/16148218976954969.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LYHER Novel Coronavirus (Covid-19) Antigen Test Kit (Colloidal Gold) (NO),lyher novel coronavirus  antigen colloidal gold no,,"Hangzhou Laihe Biotech Co., Ltd",hangzhou laihe biotech ,,,,,,,,http://www.lyherbio.com/upload/ueditor/file/20210304/16148220967081312.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LYHER Novel Coronavirus (Covid-19) Antigen Test Kit (Colloidal Gold) (Saliva),lyher novel coronavirus  antigen colloidal gold saliva,,"Hangzhou Laihe Biotech Co., Ltd",hangzhou laihe biotech ,,,,,,,,http://www.lyherbio.com/upload/ueditor/file/20210304/16148214168228559.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LYHER Novel Coronavirus (Covid-19) Antigen Test Kit (Colloidal Gold) Self-test,lyher novel coronavirus  antigen colloidal gold self ,,"Hangzhou Laihe Biotech Co., Ltd",hangzhou laihe biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus (SARS-CoV-2) Antigen rapid test,novel coronavirus antigen rapid ,,Hangzhou Realy Tech Co Ltd,hangzhou realy tech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Rapid Antigen Test, rapid antigen ,,Hangzhou Singclean Medical Products Co. Ltd.,hangzhou singclean medical products ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351525265202019/anexo/T13611466/nomeArquivo/INSTRUCOES%20Teste%20Rapido%20Ant%C3%ADgeno%20Swab%20Covid-19%20Nutriex.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapid COVID-19 Antigen Test,rapid  antigen ,,Healgen Scientific LLC,healgen scientific ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,V-CODE ENCODE SARS-COV-2 Antigen Rapid Test Device,v code encode antigen rapid  device,,HealthGroup Medical Pte Ltd,healthgroup medical  ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Hecin COVID-19 Antigen Test Kit,hecin  antigen  ,,"Hecin Scientific, Inc.",hecin scientific ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351661446202016/anexo/T14422686/nomeArquivo/bula_covid-flu-combo_ag_V2_19.04.2021.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Helix i-SARS-CoV-2 Ag Rapid Test Kit,helix   ag rapid  ,,Helix OpCo LLC (dba Helix),helix opco  dba helix,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Corona Virus (COVID-19) Antigen Rapid Test (Colloidal Gold),corona virus  antigen rapid  colloidal gold,,"Hoyotek Biomedical Co., Ltd",hoyotek biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Influenza A/B/Corona Virus (COVID-19) Antigen Rapid Test (Colloidal Gold),influenza abcorona virus  antigen rapid  colloidal gold,,"Hoyotek Biomedical Co., Ltd",hoyotek biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Humasis COVID-19 Ag Home Test,humasis  ag home ,,Humasis,humasis,,,,,,,,http://www.humasis.com/en/sub/product/product.asp?q=prod&mode=view&s_keyword=&s_cate=2110&idx=113,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Humasis COVID-19 Ag Test,humasis  ag ,,Humasis,humasis,,,,,,,,http://www.humasis.com/en/sub/product/product.asp?q=prod&mode=view&s_keyword=&s_cate=2110&idx=113,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Humasis COVID-19/Flu Ag Combo Test,humasis flu ag combo ,,Humasis,humasis,,,,,,,,http://www.humasis.com/en/sub/product/product.asp?q=prod&mode=view&s_keyword=&s_cate=2110&idx=115,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Antigen Rapid Test Cassette,2019 antigen rapid  cassette,,"Hunan Lituo Biotechnology Co., Ltd",hunan lituo biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ImmunoQuick COVID19 Antigen Rapid Card test kit,immunoquick 19 antigen rapid card  ,,"ImmunoScience India Pvt. Ltd., Pune (Maharshtra), India",immunoscience india pvt  pune maharshtra india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Ag InviTest,  ag invitest,,IN VITRO DIAGNOSTICA LTDA - BRAZIL,in vitro diagnostica  brazil,,,,,,,,https://www.invitro.com.br/reagentes/Instrucoes_de_uso/SARS-CoV-2%20Ag%20InviTest.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Innova SARS-CoV-2 Antigen test,innova antigen ,,Innova Medical Group,innova medical group,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InnoScreen COVID-19 Antigen Rapid Test Device (Self-test),innoscreen  antigen rapid  device self ,,Innovation Scientific Pty Ltd (Australia),innovation scientific pty  australia,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCOV Ag Test,2019 ag ,,"Innovita (Tangshan) Biological Technology Co., Ltd",innovita tangshan biological technology ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351365106202130/anexo/T14221246/nomeArquivo/INSTRU%C3%87%C3%83O%20DE%20USO%20COVID%20AG.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,IVDLAB COVID-19 Ag Test,ivdlab  ag ,,"IVDLab Co., Ltd",ivdlab ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PixoTest COVID-19 Antigen Test,pixotest  antigen ,,iXensor,ixensor,,,,,,,,https://inner.ixensor.com/demo/PixoTest_POCT_COVID-19AntigenTest_E-Brochure_RUO_20201203.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID 19 Ag MICROLISA, ag microlisa,,"J. Mitra Co. Ltd., Bengaluru (Karnataka), India",j mitra  bengaluru karnataka india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Corona Virus (SARS-CoV-2) Ag Rapid Test Kit,novel corona virus ag rapid  ,,Jiangsu Bioperfectus Technologies Co. Ltd,jiangsu bioperfectus technologies ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Test Cassette,  antigen  cassette,,"Jiangsu Mole Bioscience Co., Ltd",jiangsu mole bioscience ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Orawell COVID-19 Ag Rapid saliva test device (Self-test),orawell  ag rapid saliva  device self ,,"Jiangsu Well Biotech Co., Ltd.",jiangsu well biotech ,,,,,,,,https://www.tga.gov.au/sites/default/files/covid-19-rapid-antigen-self-tests-are-approved-australia-ifu-377136.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test (Colloidal Gold) (immunology sample), antigen rapid  colloidal gold immunology sample,,"Joinstar Biomedical Technology Co., Ltd",joinstar biomedical technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test (Latex), antigen rapid  latex,,"Joinstar Biomedical Technology Co., Ltd",joinstar biomedical technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 / Influenza A&B Antigen Rapid Test, influenza ab antigen rapid ,,"Joinstar Biomedical Technology Co., Ltd",joinstar biomedical technology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 (SARS-CoV-2) Antigen Rapid Test Kit (Colloidal Gold), antigen rapid colloidal gold,,"JOYSBIO (Tianjin) Biotechnology Co., Ltd",joysbio tianjin biotechnology ,,,,,,,,download via product webpage,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,KDx Rapid SARS-CoV-2 Antigen Test,kdx rapid antigen ,,Kephera Diagnostics,kephera diagnostics,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,RADI COVID-19 Ag Rapid Test,radi  ag rapid ,,KH Medical Co. Ltd,kh medical ,,,,,,,,http://www.khmedical.co.kr/covid05.php,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Lateral Flow Assay,  antigen lateral flow assay,,"Koch Biotechnology (Beijing) Co., Ltd",koch biotechnology beijing ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,KBM LineCheck nCoV (Stick Type),kbm linecheck stick type,,"KOHJIN BIO CO., LTD.",kohjin bio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,KBM LineCheck nCoV / flu,kbm linecheck  flu,,"KOHJIN BIO CO., LTD.",kohjin bio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Lateral Flow Test Device, antigen lateral flow  device,,"LabCare Diagnostics Ltd., Valsad (Gujarat), India",labcare diagnostics  valsad gujarat india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen & Influenza A/B Rapid Test Kit,  antigen  influenza ab rapid  ,,Labnovation Technologies Inc.,labnovation technologies ,,,,,,,,http://www.labnovation.com/products/1410.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Kit,  antigen rapid  ,,Labnovation Technologies Inc.,labnovation technologies ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Look Spot COVID-19 Antigen Rapid Test,look spot  antigen rapid ,,Laipac Technology Inc.,laipac technology ,,,,,,,,https://secureservercdn.net/198.71.233.68/3ph.5f4.myftpupload.com/wp-content/uploads/2021/03/Instruction-of-Use-LooK-SPOT-v4.3.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Test Kit (Dry Fluorescence Immunoassay), antigen dry fluorescence immunoassay,,"Lansion Biotechnology Co., Ltd",lansion biotechnology ,,,,,,,,http://en.lansionbio.com/article/type/383_1.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Leadgene SARS/SARS-CoV-2 Antigen Rapid Test Kit,leadgene antigen rapid  ,,"Leadgene Biomedical, Inc.",leadgene biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold Immunochromatography),  antigen rapid colloidal gold immunochromatography,,"Lepu Medical Technology (Beijing) Co., Ltd.",lepu medical technology beijing ,,,,,,,,https://en.lepumedical.com/products/sars-cov-2-antigen-rapid-test-kit-colloidal-gold-immunochromatography/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Basall Family Test 2019-nCov Antigen,basall family  2019 antigen,,LMG - Laser Medical Group,lmg  laser medical group,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351672565202096/anexo/A2452544/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 N-Protein Antigen Rapid Test,  protein antigen rapid ,,LOMINA AG,lomina ag,,,,,,,,https://www.lomina.ch/src/Frontend/Files/FileExtend/source/8_1610469567.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,LordMed COVID-19 Ag Test Kit,lordmed  ag  ,,Lord’s Mark Industries Private Ltd,lords mark industries private ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CLIP-COVID19 (smartphone-read out high sensivity antigen detection test),clip 19 smartphone read out high sensivity antigen detection ,,"Luminostics, Inc.",luminostics ,,,,,,,,https://www.fda.gov/media/144256/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QuickProfile COVID-19 ANTIGEN Test,quickprofile  antigen ,,LumiQuick Diagnostics Inc.,lumiquick diagnostics ,,,,,,,,https://filgen.jp/Product/Bioscience4/LumiQuick/71110B-IFU%20E1R1_COVID-19_Antigen_Test%20Strip-IFU_25917.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CoviDx SARS-CoV-2 Rapid Antigen Test,x rapid antigen ,,Lumos Diagnostics,lumos diagnostics,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MEDsan SARS-CoV-2 Antigen Rapid Test,medsan antigen rapid ,,MaiMed,maimed,,,,,,,,https://www.medsan.eu/wp-content/uploads/MEDsan%C2%AE-SARS-CoV-2-Antigen-Rapid-Test_Packungsbeilage_v4_18s.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novel Coronavirus 2019-nCoV Antigen Test(Colloidal Gold),novel coronavirus 2019 antigen colloidal gold,,MaiMed,maimed,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MDx COVID-19 Ag Rapid Test,mdx  ag rapid ,,MEDIAN DIAGNOSTICS INC.,median diagnostics ,,,,,,,,http://www.mediandiagnostics.com/manual/MDx%20COVID-19%20Ag%20Rapid%20Test_Instruction%20Manual_Rev.04E%20(Nov.11.2020).pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Acute Infection Test, antigen rapid acute infection ,,Medical Diagnostech (Pty) Ltd,medical diagnostech pty ,,,,,,,,http://medi-tech.co.za/wp-content/uploads/2021/12/FINAL-COVID-AG-210820-Insert-MD-SARS-nCOV-2-COVID-19-antigen-test.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ProDetect COVID-19 Antigen Rapid Self-Test,prodetect  antigen rapid self ,,Medical Innovation Ventures Sdn Bhd. (Mediven),medical innovation ventures sdn bhd mediven,,,,,,,,https://mediven.com.my/wp-content/uploads/2021/07/Flyer-PO-PR-CVDCAgN-ProDetect%E2%84%A2-COVID-19-Antigen-Rapid-Self-Test.jpg,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ProDetect COVID-19 Antigen Rapid Self-Test (Saliva),prodetect  antigen rapid self  saliva,,Medical Innovation Ventures Sdn Bhd. (Mediven),medical innovation ventures sdn bhd mediven,,,,,,,,https://mediven.com.my/wp-content/uploads/2021/09/Flyer-ProDetect%E2%84%A2-COVID-19-Antigen-Rapid-Self-Test-Oral-Fluid.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ProDetect COVID-19 Antigen Rapid Test,prodetect  antigen rapid ,,Medical Innovation Ventures Sdn Bhd. (Mediven),medical innovation ventures sdn bhd mediven,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ProDetect COVID-19 Antigen Rapid Test (Oral Fluid),prodetect  antigen rapid  oral fluid,,Medical Innovation Ventures Sdn Bhd. (Mediven),medical innovation ventures sdn bhd mediven,,,,,,,,https://mediven.com.my/wp-content/uploads/2021/07/Flyer-PR-CVDCAgO-ProDetect%E2%84%A2-COVID-19-Antigen-Rapid-Test-Oral-Fluid.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Trueline COVID-19 Ag Rapid Test,trueline  ag rapid ,,"Medicon Co., Ltd.",medicon ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Actim SARS CoV-2,actim  ,,Medix Biochemica,medix biochemica,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FutureCare COVID-19 Ag detection Test kit,futurecare  ag detection  ,,"Medzome Lifesciences
+ 
+ 
+ Pvt. Ltd., Solan
+ 
+ 
+ (Himachal Pradesh),
+ 
+ 
+ India",medzome lifesciences pvt  solan himachal pradesh india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,MeriScreen COVID-19 Antigen Detection Test,meriscreen  antigen detection ,,Meril Diagnostics Pvt Ltd,meril diagnostics pvt ,,,,,,,,https://www.merillife.com/assets/pdfs/medical-devices/meriscreen-covid-19-antigen-detection-test-1605852155pdf.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Cassette,  antigen rapid  cassette,,"Merlin Biomedical (Xiamen) Co., Ltd",merlin biomedical xiamen ,,,,,,,,http://www.merlinbio.com.cn/en/uploadfile/file/20201117/20201117105922_97245.docx,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ImmTek COVID-19 Antigen Rapid Test,immtek  antigen rapid ,,Metas Biomedical Inc.,metas biomedical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Mexacare COVID-19 & Influenza A+B Ag Combo-Schnelltest,mexacare influenza ab ag combo schnelltest,,Mexacare Diagnostics GmbH,mexacare diagnostics gmbh,,,,,,,,https://mexacare.com/wp-content/uploads/2020/09/02_COVID-19_Diagnostik_AntiGen,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Mexacare COVID-19 Antigen Schnellltest,mexacare  antigen schnellltest,,Mexacare Diagnostics GmbH,mexacare diagnostics gmbh,,,,,,,,https://mexacare.com/wp-content/uploads/2020/09/02_COVID-19_Diagnostik_AntiGen,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,VERI-Q COVID-19 Ag Rapid Test,veri  ag rapid ,,MiCo Biomed Co. Ltd,mico biomed ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Quick Chaser Auto SARS-CoV-2,quick chaser auto  ,,"Mizuho Medy Co., Ltd",mizuho medy ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Quick Chaser SARS-CoV-2 / Flu,quick chaser  flu,,"Mizuho Medy Co., Ltd",mizuho medy ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Quick Chaser SARS-CoV-2 / Flu A, B",quick chaser  flu b,,"Mizuho Medy Co., Ltd",mizuho medy ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Test + prefilled buffer, antigen prefilled buffer,,MoLab GmbH,molab gmbh,,,,,,,,https://cdn.shopify.com/s/files/1/0011/4314/4484/files/03-RapidTesting_Antigen_A5_Manual_66bea2fa-bafd-44c1-bf70-e03b881d0d7f.pdf?v=1617711013,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Mologic COVID-19 Rapid Test,mologic  rapid ,,Mologic Ltd,mologic ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CoviSelf (PathoCatch) COVID-19 OTC Ag Detection Kit (Home based self test),coviself pathocatch  otc ag detection  home based self ,,Mylab Discovery Solutions Pvt Ltd,mylab discovery solutions pvt ,,,,,,,,https://coviself.com/ifu-manual/eng/CoviSelf-IFU-english.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PathoCatch COVID-19 Ag Detection Kit,pathocatch  ag detection ,,Mylab Discovery Solutions Pvt Ltd,mylab discovery solutions pvt ,,,,,,,,https://mylabdiscoverysolutions.com/pathocatch/#1600495342246-7a83f4a4-081d8f1e-cbd1,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NADAL COVID-19 Ag,nadal  ag,,nal von minden GmbH,nal von minden gmbh,,,,,,,,https://www.nadal-test.com/en/antigen,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,StrongStep SARS-CoV-2 Antigen Test,strongstep antigen ,,"Nanjing Liming Bio-Products Co., Ltd",nanjing liming bioproducts ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351774953202019/anexo/T13814163/nomeArquivo/Instru%C3%A7%C3%B5es%20de%20Uso%20-%20Antigen%20Rapid%20Test.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test Kit (Latex immunochromatography),  antigen rapid latex immunochromatography,,"Nanjing Weiyun Biotechnology Co., Ltd",nanjing weiyun biotechnology ,,,,,,,,http://www.weiyunbio.com/public/portal/wedo/latexkitdetail/id/57.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Fluoro-Check COVID-19 Antigen Test,fluoro check  antigen ,,Nano-Ditech Corporation,nanoditech corporation,,,,,,,,https://www.nanoditech.com/products-Fluoro-Check-TM--COVID-19-Antigen-Test/30,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FREND COVID-19 Ag,frend  ag,,NanoEntek Inc.,nanoentek ,,,,,,,,http://nanoentek.com/bbs/file_download.php?it_id=1602049801&wr_id=173&bf_no=1,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FREND COVID-19 Ag + Flu A&B,frend  ag  flu ab,,NanoEntek Inc.,nanoentek ,,,,,,,,http://nanoentek.com/bbs/file_download.php?it_id=1605507753&wr_id=180&bf_no=1,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Antigen Test Kit,  rapid antigen  ,,"Nantong Egens Biotechnology Co., Ltd",nantong egens biotechnology ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351366078202097/anexo/A2419493/nomeArquivo/INSTRUCAO-DE-USO-%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ND COVID-19 Ag Test,nd  ag ,,"NDFOS Co., Ltd",ndfos ,,,,,,,,http://www.ndfos.com/kr/sub/business/bio/diagnosis/[EN]%20ND%20Covid-19%20AG.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NeoCheck - Covid-19 Rapid Antigen Kit for Self Testing,neocheck  rapid antigen  self ing,,NeoDx Biotech Labs,neodx biotech labs,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Kiamgenics Covid 19 Rapid Antigen test kit,kiamgenics  rapid antigen  ,,"New Gene (Hangzhou) Bioengineering Co., Ltd",new gene hangzhou bioengineering ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 / Influenza A / Influenza B Detection Kit,  influenza  influenza detection ,,"New Gene (Hangzhou) Bioengineering Co., Ltd",new gene hangzhou bioengineering ,,,,,,,,https://www.new-gene.net/archives/661,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Detection Kit for Nasopharyngeal Swab/ Sputum Samples, antigen detection  nasopharyngeal swab sputum samples,,"New Gene (Hangzhou) Bioengineering Co., Ltd",new gene hangzhou bioengineering ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVSCAN SARS-CoV-2 Antigen Detection Kit,covscan antigen detection ,,NextGen Invitro Diagnostics Pvt Ltd,nextgen invitro diagnostics pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NG-test SARS-CoV-2 Ag,ng  ag,,NG Biotech,ng biotech,,,,,,,,https://ngtest-covid-19.com/IFU/IFU-NG-Test-SARS-CoV-2-Ag-ENO228COV-multilingue-201211.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Ninonasal Self test,ninonasal self ,,NG Biotech,ng biotech,,,,,,,,https://ngtest-covid-19.com/IFU/IFU_Ninonasal_FR_ENG_DE_ENO502COV_version_210316.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Ninonasal Test,ninonasal ,,NG Biotech,ng biotech,,,,,,,,https://ngtest-covid-19.com/IFU/IFU_Ninonasal_FR_ENG_DE_ENO502COV_version_210316.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Novegent COVID-19 Antigen Rapid Test Kit,novegent  antigen rapid  ,,Novegent,novegent,,,,,,,,http://www.novegent.eu/wp-content/uploads/2021/04/COVID-19-Antigen-Rapid-Test-Kit-Instruction-%E2%80%93-Nasal-or-Oral-Wab%EF%BC%88English.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,NuLife COVID-19 Ag Rapid Test Device,nulife  ag rapid  device,,"NuLifeCare, Noida",nulifecare noida,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Simple/Stick Ag SARS-CoV-2 (COVID-19),simplestick ag ,,Operon SA,operon sa,,,,,,,,https://operon.es/wp-content/uploads/pdf/IFU-0905185-AG-COV2-ESEN_web.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InteliSwab COVID-19 Rapid Test,inteliswab  rapid ,,"OraSure Technologies, Inc.",orasure technologies ,,,,,,,,https://inteliswab.com/wp-content/uploads/2021/06/05a-EUA210378_OraSure.OTC_.IFU_.-06-04-2021.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InteliSwab COVID-19 Rapid Test Rx,inteliswab  rapid  rx,,"OraSure Technologies, Inc.",orasure technologies ,,,,,,,,https://inteliswab.com/wp-content/uploads/2021/06/04a-EUA210276_OraSure.Home-Rx.IFU_06-04-2021.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,VITROS Immunodiagnostic Products SARS-CoV-2 Antigen,vitros immunodiagnostic products antigen,,Ortho Clinical Diagnostics,ortho clinical diagnostics,,,,,,,,https://www.fda.gov/media/145073/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GeneFinder COVID-19 Ag Rapid Test,genefinder  ag rapid ,,OsangHealthcare,osanghealthcare,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351674255202014/anexo/T13612162/nomeArquivo/COVID-19%20Ag%20Rapid%20Test_UnaMedic_Manual_01%20(1)%20(1).pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Card test, antigen card ,,"Oscar Medicare Pvt. Ltd., Delhi, India",oscar medicare pvt  delhi india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Oscar CORONA Rapid Ag Test kit,oscar corona rapid ag  ,,"Oscar Medicare Pvt. Ltd., Delhi, India",oscar medicare pvt  delhi india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,TR COVID-19 Ag Bio-Manguinhos,tr  ag bio manguinhos,,Oswaldo Cruz Foundation,oswaldo cruz foundation,,,,,,,,https://www.bio.fiocruz.br/images/bm-bul-145-00-r---tr-covid-19-ag-h--.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,VSTRIP COVID-19 Antigen Rapid Test,vstrip  antigen rapid ,,Panion & BF Biotech Inc.,panion  bf biotech ,,,,,,,,http://www.vstriptech.com/product/detail/22,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Pantest Coronavirus Ag,pantest coronavirus ag,,Pantest SA,pantest sa,,,,,,,,https://irp-cdn.multiscreensite.com/849c79f0/files/uploaded/cov_ag_folheto.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,One step COVID-19 Antigen detection test (Cov-Ant),one step  antigen detection ant,,Patanjali Pharma,patanjali pharma,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Pathkits SIMPLE COVID-19 Ag Rapid Test,pathkits simple  ag rapid ,,"Pathkits Healthcare Pvt. Ltd., Gurugram (Haryana), India",pathkits healthcare pvt  gurugram haryana india,,,,,,,,https://mautic.metadesignsolutions.com/asset/108:pk-rapid-kit-insert-covid-ag,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PCL COVID19 Ag Gold,pcl 19 ag gold,,PCL Inc.,pcl ,,,,,,,,http://www.pclchip.com/m/eng/sub3/3_5_1.php?mode=view&number=827&page=1&b_name=eng_notice,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PerkinElmer COVID-19 Antigen Test,perkinelmer  antigen ,,PerkinElmer Inc.,perkinelmer ,,,,,,,,https://perkinelmer-appliedgenomics.com/home/sars-cov-2-testing-solutions/perkinelmer-covid-19-antigen-test/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,INDICAID COVID-19 Rapid Antigen Test,indicaid  rapid antigen ,,"PHASE Scientific International, Ltd.",phase scientific international ,,,,,,,,https://www.fda.gov/media/151215/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Gmate Covid-19,gmate ,,"Philosys Co., Ltd",philosys ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Pinpoint Covid-19 Screening Assay,pinpoint  screening assay,,Pinpoint Science Inc.,pinpoint science ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Rapid Test,  antigen rapid ,,Pishtaz Teb Diagnostics,pishtaz teb diagnostics,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PolyMed COVID-19 Rapid Ag Test kit,polymed  rapid ag  ,,Poly Medicure Ltd.,poly medicure ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Exdia COVID-19 Ag,exdia  ag,,"Precision Biosensor, Inc.",precision biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,PBCheck COVID-19 Ag,pbcheck  ag,,"Precision Biosensor, Inc.",precision biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sure status COVID-19 Ag Test,sure status  ag ,,Premier Medical Corporation Pvt. Ltd,premier medical corporation pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,P4DETECT COVID-19 Ag,p4detect  ag,,"PRIME4DIA Co., Ltd",prime4dia ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,P4DETECT COVID-19 SAg,p4detect  sag,,"PRIME4DIA Co., Ltd",prime4dia ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,P4DETECT COVID-19/flu,p4detect flu,,"PRIME4DIA Co., Ltd",prime4dia ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapid Test Ag 2019-nCoV,rapid  ag 2019 ncov,,ProGnosis Biotech,prognosis biotech,,,,,,,,https://www.prognosis-biotech.com/wp-content/uploads/2020/12/Prognosis-Biotech_Technical-Note_COVID19-Nasal-Swab_IVD_v4.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,DROP-TECH,drop tech,,PROMOITALIA GROUP SPA,promoitalia group spa,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InstaCOVID Ag kit,insta ag ,,Qawach Bio,qawach bio,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QIAreach SARS-CoV-2 Antigen Test,qiareach antigen ,,QIAGEN GmbH,qiagen gmbh,,,,,,,,https://www.fda.gov/media/151383/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag, ag,,"Qingdao Hightop Biotech Co., Ltd",qingdao hightop biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351735678202018/anexo/A2379895/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag -- Celer Biotecnologia, ag  celer biotecnologia,,"Qingdao Hightop Biotech Co., Ltd",qingdao hightop biotech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351735678202018/anexo/A2379895/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Simoa SARS-CoV-2 N Protein Antigen test,simoa n protein antigen ,,Quanterix Corporation,quanterix corporation,,,,,,,,https://www.fda.gov/media/144929/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BIOCLIN FAST COVID-19 Ag,bioclin fast  ag,,QUIBASA QUÍMICA BÁSICA LTDA,quibasa qumica bsica a,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351292382202091/anexo/T13810494/nomeArquivo/Instru%C3%A7%C3%B5es%20de%20Uso%20-%20BIOCLIN%20FAST%20COVID-19%20Ag%20-%20Vers%C3%A3o%20Janeiro%202021.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QuickVue At-Home COVID-19 Test,quickvue at home  ,,Quidel Corporation,quidel corporation,,,,,,,,https://www.fda.gov/media/146312/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,QuickVue At-Home OTC COVID-19 Test,quickvue at home otc  ,,Quidel Corporation,quidel corporation,,,,,,,,https://www.fda.gov/media/147250/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sofia 2 Flu + SARS Antigen FIA,sofia 2 flu antigen fia,,Quidel Corporation,quidel corporation,,,,,,,,https://www.fda.gov/media/142704/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sofia 2 SARS Antigen FIA,sofia 2  antigen fia,,Quidel Corporation,quidel corporation,,,,,,,,https://www.fda.gov/media/137885/download,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,RIDA QUICK SARS-CoV-2 antigen test,rida quick antigen ,,R-Biopharm AG,rbiopharm ag,,,,,,,,https://clinical.r-biopharm.com/wp-content/uploads/sites/3/2020/10/n6803_ridaquick-sars-cov-2_antigen_2020-12-14_en.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BIOCREDIT COVID-19 Ag,biocredit  ag,,RapiGEN Inc.,rapigen ,,,,,,,,http://rapigen-inc.com/wp/wp-content/uploads/2021/05/IFU-BIOCREDIT-COVID-19-Ag.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BIOCREDIT COVID-19 Ag Home Test Nasal,biocredit  ag home  nasal,,RapiGEN Inc.,rapigen ,,,,,,,,http://rapigen-inc.com/wp/wp-content/uploads/2021/07/BIOCREDIT-COVID-19-Ag-Home-Test-Nasal-1T-I-SN-H073A-E00-2021.07.19-IFU-210721-outline-.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,BIOCREDIT COVID-19 Ag Test Nasal,biocredit  ag  nasal,,RapiGEN Inc.,rapigen ,,,,,,,,http://rapigen-inc.com/wp/wp-content/uploads/2021/05/IFU-BIOCREDIT-COVID-1-Ag-test-Nasal-1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Resilient & Rápido Direct Read SARS-CoV-2 Antigen Influenza A/B Test,resilient  rpido direct read antigen influenza ab ,,Resilient Supplier,resilient supplier,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Resilient & Rápido Direct Read SARS-CoV-2 Antigen Test Cassette KIT,resilient  rpido direct read antigen  cassette ,,Resilient Supplier,resilient supplier,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Resilient Rápido Direct Read SARS-CoV-2 Antigen Paper-Strip Test Kit,resilient rpido direct read antigen paper strip  ,,Resilient Supplier,resilient supplier,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Reszon COVID-19 Rapid Antigen Test,reszon  rapid antigen ,,Reszon Diagnostics International Sdn Bhd,reszon diagnostics international sdn bhd,,,,,,,,https://www.reszonics.com/wp-content/uploads/2020/11/Reszon-COVID-19-Rapid-Antigen-Test.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Antigen Test / Standard Q Antigen Test,  rapid antigen standard antigen ,,Roche Diagnostics,roche diagnostics,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Elecsys SARS-CoV-2 Antigen test,elecsys antigen ,,"Roche Diagnostics, Inc.",roche diagnostics ,,,,,,,,https://diagnostics.roche.com/content/dam/diagnostics/Blueprint/en/pdf/cps/Elecsys-SARS-CoV-2-Antigen-Jan-2021.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Check MR-COV19,check mr cov19,,"ROHTO Pharmaceutical Co., Ltd.",rohto pharmaceutical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Romed Coronavirus Ag Rapid Test Cassette (Swab),romed coronavirus ag rapid  cassette swab,,Romed-Holland – Van Oostveen Medical B.V.,romedholland  van oostveen medical bv,,,,,,,,https://romed.nl/downloads/Coronavirus-Ag%20Rapid-Test-Cassette%20(Swab)-Specs.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Test Kit (swab), antigen swab,,"Safecare Biotech (Hangzhou) Co., Ltd.",safecare biotech hangzhou ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ScheBo SARS-CoV-2 Quick Antigen,schebo quick antigen,,ScheBo Biotech AG,schebo biotech ag,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Antigen Self Test Nasal,  rapid antigen self  nasal,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Antigen Test Nasal,  rapid antigen  nasal,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD F COVID-19 Ag FIA,standard  ag fia,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD F COVID-19 Ag FIA -- Eco Diagnostica Ltda,standard  ag fia  eco diagnostica ltda,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD F COVID/Flu Ag Combo Test,standard flu ag combo ,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD Q COVID-19 Ag Home Test,standard  ag home ,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD Q COVID-19 Ag Test -- Eco Diagnostica Ltda,standard  ag   eco diagnostica ltda,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,https://extranet.who.int/pqweb/sites/default/files/documents/EUL_0563-117-00_STANDARD_Q_COVID-19_AgTest_PR_v_4.0.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,STANDARD Q COVID/Flu Ag Combo Test,standard flu ag combo ,,"SD BIOSENSOR, Inc.",sd biosensor ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Insta COVID-19 Ag One Step SARS-CoV-2 Antigen Rapid Test,insta  ag one step antigen rapid ,,Seloi Healthcare,seloi healthcare,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,S1 COVID-19 Rapid Antigen Test,s1  rapid antigen ,,"SensingSelf, Pte, Ltd",sensingself  ,,,,,,,,https://sensingself.me/antigen_s1.php,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,S4 - Multiplex Rapid Antigen Test - COVID-19/MERS/Influenza A/Influenza B,s4 multiplex rapid antigen  mersinfluenza ainfluenza b,,"SensingSelf, Pte, Ltd",sensingself  ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sensitest Joysbio Antigen Rapid Test for Covid-19,sensitest joysbio antigen rapid  ,,Sensitest The Netherlands BV,sensitest the netherlands bv,,,,,,,,https://www.sensitest.nl/gebruiksaanwijzing/sensitest-quickguide-antigen-rapidtest-corona.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Kit, antigen rapid  ,,SG Diagnostics,sg diagnostics,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Ag Test Kit (Colloidal Gold),  rapid ag colloidal gold,,SGA Medikal,sga medikal,,,,,,,,http://www.sgadx.com/testlosungen-fur-sars-cov-2/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Rapid Ag Test Kit (IFA),  rapid ag ifa,,SGA Medikal,sga medikal,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 and Influenza A+B Antigen Combo Rapid Test (Colloidal Gold), and influenza ab antigen combo rapid  colloidal gold,,Shanghai Chemtron Biotech Co. Ltd,shanghai chemtron biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Covid-19 Antigen Rapid Test (Colloidal gold), antigen rapid  colloidal gold,,Shanghai Chemtron Biotech Co. Ltd,shanghai chemtron biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19/Influenza A+B/RSV/Adenovirus Antigen Combo Rapid Test (Colloidal Gold),influenza abrsvadenovirus antigen combo rapid  colloidal gold,,Shanghai Chemtron Biotech Co. Ltd,shanghai chemtron biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19/Influenza A+B/RSV/Antigen Combo Rapid Test (Colloidal Gold),influenza abrsvantigen combo rapid  colloidal gold,,Shanghai Chemtron Biotech Co. Ltd,shanghai chemtron biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Bioeasy 2019-nCoV Ag Fluorescence Rapid Test Kit (Time-Resolved Fluorescence),bioeasy 2019 ag fluorescence rapid time resolved fluorescence,,"Shenzhen Bioeasy Biotechnology Co., Ltd",shenzhen bioeasy biotechnology ,,,,,,,,http://en.bioeasy.com.tr/2019-novel-coronavirus-2019-ncov-ag-test-kit-fluorescence-immunochromatographic-assay/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Green Spring Flu A & Flu B & COVID-19 Ag Rapid Test,green spring flu  flu   ag rapid ,,"Shenzhen Lvshiyuan Biotechnology Co., Ltd",shenzhen lvshiyuan biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Green Spring SARS-CoV-2 Antigen Rapid Test Kit,green spring antigen rapid  ,,"Shenzhen Lvshiyuan Biotechnology Co., Ltd",shenzhen lvshiyuan biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 & Influenza A/B Antigen Combo Test Kit (Colloidal Gold), influenza ab antigen combo colloidal gold,,"Shenzhen Microprofit Biotech Co., Ltd",shenzhen microprofit biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Antigen Test Kit (Fluorescence Immunoassay),  antigen fluorescence immunoassay,,"Shenzhen Microprofit Biotech Co., Ltd",shenzhen microprofit biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,GLINE-2019-nCoV Ag,gline 2019 ag,,Shenzhen Yhlo Biotech Co. Ltd,shenzhen yhlo biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,iFlash-2019-nCoV Antigen,iflash 2019 antigen,,Shenzhen Yhlo Biotech Co. Ltd,shenzhen yhlo biotech ,,,,,,,,https://v1.cecdn.yun300.cn/100084_1908195166/CLIA-2019-nCoV_Ag.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Unicell-2019-nCoV Ag,unicell 2019 ag,,Shenzhen Yhlo Biotech Co. Ltd,shenzhen yhlo biotech ,,,,,,,,https://v1.cecdn.yun300.cn/100084_1908195166/Bro-UNICELL-2019-nCoV_Ag-20201013-ok.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,DIAKEY COVID-19 Ag Rapid Test,diakey  ag rapid ,,ShinJin Medics Inc,shinjin medics ,,,,,,,,download via product webpage,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,One Step novel corona virus (COVID-19) Antigen Test Kit,one step novel corona virus  antigen  ,,Sidak Lifecare Pvt. Ltd.,sidak lifecare pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ADVIA Centaur SARS-CoV-2 Antigen (CoV2Ag),advia centaur antigen cov2ag,,Siemens Healthcare Diagnostics Inc.,siemens healthcare diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Atellica IM SARS-CoV-2 Antigen (CoV2Ag),atellica im antigen cov2ag,,Siemens Healthcare Diagnostics Inc.,siemens healthcare diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CLINITEST Rapid COVID-19 Antigen Test,clinitest rapid  antigen ,,Siemens Healthineers,siemens healthineers,,,,,,,,https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@lab/@poc/documents/download/mdew/mdaz/~edisp/ld_poc_antigen_rapid_covid-19_antigen_test_final-07519413.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Maglumi SARS-CoV-2 Ag (CLIA),maglumi ag clia,,"Snibe Co., Ltd (Shenzhen New Industries Biomedical Engineering Co., Ltd)",snibe  shenzhen new industries biomedical engineering ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sona-COVID-19 LFA,sona  lfa,,Sona Nanotech,sona nanotech,,,,,,,,https://sonanano.com/wp-content/uploads/2020/09/Sona-Nanotech-COVID-19-LFA-Instructions-for-Use-IFU-CV-2-V00-RUO-1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-Cov-2 Antigen Rapid Test Cassette (Swab),  antigen rapid  cassette swab,,Spring Healthcare Services AG,spring healthcare services ag,,,,,,,,https://springhealthcare.org/wp-content/uploads/2020/12/IFU-_-EU.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SAIC-19 Ag Kit,saic 19 ag ,,"Sri Sathya Sai Institute of Higher Learning, Anantpur (Andhra Pradesh), India",sri sathya sai institute of higher learning anantpur andhra pradesh india,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2 Tru-EIA,  tru eia,,St. Petersburg Research Institute of Vaccines and Sera (FSUE SPbSRIVS FMBA),st petersburg research institute of vaccinessera fsue spbsrivs fmba,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,iNSTAXPLOR COVID19 Ag – Rapid Antigen Test,instaxplor 19 ag  rapid antigen ,,"STRUmed Solutions Pvt. Ltd., Chennai (TamilNadu), India",strumed solutions pvt  chennai tamilnadu india,,,,,,,,https://img1.wsimg.com/blobby/go/29e70578-eade-40f6-a276-5e9500bb7c6e/downloads/STRUmed%20IFU%20.pdf?ver=1608119901873,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SGTi-flex COVID-19 & Flu A/B Ag DUO,sgti flex flu ab ag duo,,"Sugentech, Inc.",sugentech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SGTi-flex COVID-19 Ag,sgti flex  ag,,"Sugentech, Inc.",sugentech ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351046621202032/anexo/T13667156/nomeArquivo/BL0350%20-%20REV03%20-%2012-2020%20-%20SGTI-FLEX%20COVID-19%20AG.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,2019-nCoV Antigen Rapid Test (Colloidal Gold),2019 antigen rapid  colloidal gold,,"Sure Bio-Tech (USA) Co., Ltd",sure biotech usa ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Diagnostic Kit for SARS-CoV-2 Ag (Fluorescence Immunochromatographic Assay),diagnostic  ag fluorescence immunochromatographic assay,,"Sure Bio-Tech (USA) Co., Ltd",sure biotech usa ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SureScreen COVID-19 Antigen Rapid Test Cassette,surescreen  antigen rapid  cassette,,SureScreen Diagnostics Ltd,surescreen diagnostics ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,InstantSure Covid-19 Ag Card,instantsure  ag card,,"Suzhou Saier ImmunoBiotech CO., LTD, (Saier Biotech)",suzhou saier immunobiotech  saier biotech,,,,,,,,http://en.saiertech.com/upload/202104/27/202104271634007987.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,HISCL SARS-CoV-2 Ag Reagent Kit,hiscl ag reagent ,,Sysmex Corporation,sysmex corporation,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FORA COVID-19 Antigen Rapid test,fora  antigen rapid ,,TaiDoc Technology Corporation,taidoc technology corporation,,,,,,,,https://foracare-suisse-ag.app.box.com/s/a4jsuzbo8unzwf6ca7vpsbgcdkzg8mdg,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,VTRUST COVID-19 Antigen Rapid test,vtrust  antigen rapid ,,TaiDoc Technology Corporation,taidoc technology corporation,,,,,,,,https://taidoc.com/wp-content/uploads/2020/09/Covid-19-antigen-rapid-test.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ImunoAce SARS-CoV-2/ Capilia SARS-CoV-2,imunoace capilia  ,,"TAUNS LABORATORIES, INC.",tauns laboratories ,,,,,,,,https://www.tauns.co.jp/wp-content/uploads/2020/08/sars-cov-2_packageinsert_c21.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,FAST-COVID-SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold),fast  antigen rapid colloidal gold,,TECNO-BIOS SRL,tecnobios srl,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,"Coronavirus (SARS-CoV 2) & Influenza A+B, Antigen, combo - Nasopharyngeal Specimen",coronavirus  influenza ab antigen combo nasopharyngeal specimen,,Tody Laboratories Int.,tody laboratories int,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Coronavirus (SARS-CoV-2) Antigen Oral Fluid,coronavirus antigen oral fluid,,Tody Laboratories Int.,tody laboratories int,,,,,,,,https://www.todylaboratories.com/document/C61RT1040-Coronavirus-SARS-CoV-2-Antigen-Oral-Fluid-TLI-IFU-EN-2020,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Coronavirus (SARS-CoV-2) Antigen-Nasopharyngeal Specimen,coronavirus antigen nasopharyngeal specimen,,Tody Laboratories Int.,tody laboratories int,,,,,,,,https://www.todylaboratories.com/document/C61RT1037-Coronavirus-SARS-CoV-2-Antigen-16-09-2020-TLI-IFU-EN-2020,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AFIAS COVID-19 Ag Test Cartridge,afias  ag  cartridge,,Tokyo Boeki Medisys,tokyo boeki medisys,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CL AIA-PACK SARS-CoV-2 Ag,cl aia pack ag,,Tosoh Bioscience,tosoh bioscience,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ImmunoArrow SARS-CoV-2 Antigen Test Kit,immunoarrow antigen  ,,"TOYOBO CO., LTD.",toyobo ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Biocard Pro Covid-19 Antigen test,biocard pro  antigen ,,Trivitron Healthcare Pvt. Ltd,trivitron healthcare pvt ,,,,,,,,https://www.trivitron.com/uploads/brochure/16012693230Biocard_Pro_Antigen_eBrochure_28092020.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Sensit COVID-19 Rapid Antigen Test kit,sensit  rapid antigen  ,,"Ubio Biotechnology Systems Private Limited,",ubio biotechnology systems private limited,,,,,,,,https://www.ubio.in/covid/cc3.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag Fast, ag fast,,Vida Biotecnologia Ltda - ME,vida biotecnologia  me,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351910390202021/anexo/A2389951/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.PDF?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Ag SE Rapido, ag se rapido,,Vida Biotecnologia Ltda - ME,vida biotecnologia  me,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351945735202148/anexo/T13950690/nomeArquivo/COVID-19%20Ag%20SE%20R%C3%A1pido.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,VIDA FIA Teste COVID-19 Ag,vida fia  ag,,Vida Biotecnologia Ltda - ME,vida biotecnologia  me,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351717785202056/anexo/T14270815/nomeArquivo/VIDAFIAteste%20COVID-19%20Ag%20-%2005_2021%20VIDA.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Rapidfor SARS-CoV-2 Ag Test Kit,rapidfor ag  ,,Vitrosens Biyoteknoloji Ltd. Sti.,vitrosens biyoteknoloji  sti,,,,,,,,https://vitrosens.com/covid-19-sars-cov-2-antigen-rapid-test-kit-nasopharyngeal/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Immupass VivaDiag SARS-CoV-2 Ag Rapid Test,immupass vivadiag ag rapid ,,"VivaChek Biotech (Hangzhou) Co., Ltd",vivachek biotech hangzhou ,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351073671202092/anexo/A2419288/nomeArquivo/INSTRUCAO-DE-USO%20-%201%20de%201.DOC?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Smart Test COV Ag,smart ag,,VYTTRA DIAGNOSTICOS,vyttra diagnosticos,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351525270202021/anexo/T13647252/nomeArquivo/Smart%20Teste%20Cov%20Ag%20-%2081692610224.pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Imuno-RÁPIDO COVID-19 Ag,imuno rpido  ag,,Wama Diagnostica,wama diagnostica,,,,,,,,https://www.wamadiagnostica.com.br/bulas/imuno-rapido/covid-19-ag-1.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,WL Check SARS-CoV-2 Ag,wl check ag,,Weiner Lab,weiner lab,,,,,,,,https://consultas.anvisa.gov.br/api/consulta/produtos/25351073095202164/anexo/T15185663/nomeArquivo/Instru%C3%A7%C3%A3o%20de%20Uso%20Laborlab..pdf?Authorization=Guest,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,careUS COVID-19 antigen,careus  antigen,,"Wells Bio, Inc.",wells bio ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,WESAIL COVID-19 Antigen Test Kit,wesail  antigen  ,,WESAIL Biotech Inc.,wesail biotech ,,,,,,,,http://en.wesailbio.com/product/85.html,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Willi Fox COVID-19 Antigen rapid test,willi fox  antigen rapid ,,Willi Fox GmbH,willi fox gmbh,,,,,,,,https://willifox.com/PDF/Testanleitungen/Willi%20Fox%20COVID-19_Antigen_Test_d.pdf,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,WonMed COVID-19 Ag,wonmed  ag,,"Won (One) Medical Co., Ltd",won one medical ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Rapid Test Kit (Colloidal Gold), antigen rapid colloidal gold,,"Xiamen AmonMed Biotechnology Co., Ltd",xiamen amonmed biotechnology ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,SARS-CoV-2/Influenza A/Influenza B Antigen Rapid Test, influenza ainfluenza antigen rapid ,,Xiamen Wiz Biotech Co. Ltd,xiamen wiz biotech ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,YBIO Rapid Test COVID-19 Ag Test kit,ybio rapid ag  ,,YuvRaj Biobiz Incubator India Pvt. Ltd.,yuvraj biobiz ubator india pvt ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,AnyLab COVID-19 Ag Test Kit,anylab  ag  ,,Z BIOTECH INC.,z biotech ,,,,,,,,http://zetbio.com/%ec%bd%94%eb%a1%9c%eb%82%98-19-%ed%95%ad%ec%9b%90-%ec%8b%a0%ec%86%8d%ec%a7%84%eb%8b%a8%ed%82%a4%ed%8a%b82/,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ReSARS CoV-2 Antigen ELISA Kit,re  antigen elisa ,,"Zalgen Labs, LLC",zalgen labs ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ReSARS CoV-2 Antigen Rapid Test,re  antigen rapid ,,"Zalgen Labs, LLC",zalgen labs ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ReSARS Pan-Corona Antigen ELISA Kit,re pan corona antigen elisa ,,"Zalgen Labs, LLC",zalgen labs ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,CoviRAT COVID-19 Rapid Antigen test kit,covirat  rapid antigen  ,,Zephyr Biomedicals-Tulip Group,zephyr biomedicalstulip group,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Coronavirus Ag Rapid Test,coronavirus ag rapid ,,Zhejiang Orient Gene Biotech,zhejiang orient gene biotech,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,Lambra Coronavirus Rapid Antigen Test,lambra coronavirus rapid antigen ,,Zhejiang Orient Gene Biotech,zhejiang orient gene biotech,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,ENCODE SARS-COV-2 Antigen Rapid Test Device,encode antigen rapid  device,,"Zhuhai Encode Medical Engineering Co., Ltd",zhuhai encode medical engineering ,,,,,,,,,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Detection Kit (Colloidal Gold), antigen detection  colloidal gold,,"Zhuhai Lituo Biotechnology Co., Ltd",zhuhai lituo biotechnology ,,,,,,,,https://www.compamed-tradefair.com/vis/v1/en/exhibitors/medcom2020.2675854,#N/A,#N/A
+,x,SARS-CoV-2 Antigen Rapid Diagnostic Tests,,COVID-19 Antigen Detection Kit (Immunofluorescence Assay), antigen detection  immunofluorescence assay,,"Zhuhai Lituo Biotechnology Co., Ltd",zhuhai lituo biotechnology ,,,,,,,,https://www.compamed-tradefair.com/vis/v1/en/exhibitors/medcom2020.2675854,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,L031-11711,"ACON SARS-CoV-2 IgG/IgM
+ Rapid Test",acon iggigm rapid ,see IFU,"ACON Laboratories, Inc",acon laboratories ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,A-RAPCOV01,"RapCov™ Rapid COVID-19
+ Test",rap rapid  ,see IFU,Advaite,advaite,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,COV-W23M,Assure COVID-19 IgG/IgM Rapid Test Device,assure  iggigm rapid  device,see IFU,"Assure Tech. (Hangzhou Co., Ltd)",assure tech hangzhou ,Health Canada/Interim Order US FDA EUA,,TRUE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,Assure COVID-19 IgG/IgM Rapid Test Device rebranded as Ecotest COVID-19 IgG/IgM Rapid Test Device,assure  iggigm rapid  device rebranded as ecotest  iggigm rapid  device,see IFU,"Assure Tech. (Hangzhou Co., Ltd)",assure tech hangzhou ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,Assure COVID-19 IgG/IgM Rapid Test Device rebranded as Fastep COVID-19 IgG/IgM Rapid Test Device,assure  iggigm rapid  device rebranded as fastep  iggigm rapid  device,see IFU,"Assure Tech. (Hangzhou Co., Ltd)",assure tech hangzhou ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"NOVA Test® COVID-19
+ IgG/IgM Antibody Test (Colloidal Gold)",nova iggigm antibody  colloidal gold,see IFU,Atlaslink Beijing Technology Co Ltd (China),atlaslink beijing technology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"AtomoRapid™ COVID-19
+ IgM/IgG Antibody Test",atomorapid  igmigg antibody ,see IFU,Atomo Diagnostics Limited,atomo diagnostics limited,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,WJ-2710,Wantai SARS-CoV-2 Ab Rapid Test kit,wantai ab rapid  ,10,Beijing Wantai Biological Pharmacy Enterprise Co Ltd (China),beijing wantai biological pharmacy enterprise  china,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+,,,WJ-2750,Wantai SARS-CoV-2 Ab Rapid Test kit,wantai ab rapid  ,50,Beijing Wantai Biological Pharmacy Enterprise Co Ltd (China),beijing wantai biological pharmacy enterprise  china,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,B251C,"Tell Me Fast Novel Coronavirus (COVID-19) IgG/IgM Antibody
+ Test",tell me fast novel coronavirus  iggigm antibody ,,Biocan Diagnostics Inc.,biocan diagnostics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,RTA0203,"SARS-CoV-2 IgM/IgG
+ Antibody Test Kit",  igmigg antibody  ,25,"Biohit Healthcare (Hefei) Co., Ltd.",biohit healthcare hefei ,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,"90-1092
+ 90-1098",Insti COVID-19 Antibody Test,insti  antibody ,see IFU,Biolytical Laboratories Inc. (Canada),biolytical laboratories  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,COV-13C25,Rapid Response COVID-19 IgG/IgM Rapid Test Device,rapid response  iggigm rapid  device,see IFU,Btnx Inc. (Canada),btnx  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test, iggigm rapid ,see IFU,Btnx Inc. (Canada),btnx  canada,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,5515C025,qSARS-CoV-2 IgG/IgM Rapid Test,q  iggigm rapid ,25,Cellex Inc (United States of America),cellex  united states of america,"TGA
+",revoked US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,5515C050,qSARS-CoV-2 IgG/IgM Rapid Test,q  iggigm rapid ,50,Cellex Inc (United States of America),cellex  united states of america,"TGA
+", revoked US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,5515C100,qSARS-CoV-2 IgG/IgM Rapid Test,q  iggigm rapid ,100,Cellex Inc (United States of America),cellex  united states of america,"TGA
+ ",revoked US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,R0180C,OnSite COVID-19 IgG/IgM Rapid Test (Aria COVID-19 IgG/IgM Rapid Test),onsite  iggigm rapid  aria  iggigm rapid ,see IFU,CTK Biotech Inc (USA),ctk biotech  usa,"TGA
+", revoked US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,2039,CovAb SARS-CoV-2 Ab Test,covab ab ,see IFU,"Diabetomics, Inc.",diabetomics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,W195,SARS-CoV-2 Antibody Test (Lateral Flow Method),  antibody  lateral flow method,see IFU,Guangzhou Wondfo Biotech Co Ltd (China),guangzhou wondfo biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,INCP-402,2019-n-CoV IgG/IgM Rapid Test Cassette,2019  iggigm rapid  cassette,see IFU,Hangzhou Alltest Biotech Co Ltd (China),hangzhou alltest biotech  china,"TGA
+", removed from US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test Cassette, iggigm rapid  cassette,see IFU,Hangzhou Biotest Biotech Co Ltd (China),hangzhou biotest biotech  china,"TGA
+", removed from US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,RightSign™ COVID-19 IgG/IgM Rapid Test Cassette,rightsign  iggigm rapid  cassette,see IFU,Hangzhou Biotest Biotech Co Ltd (China),hangzhou biotest biotech  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"RightSign™ COVID-19 IgG/IgM Rapid Test Cassette rebranded to
+ CoronaCHEK COVID-19
+ IgG/IgM Rapid Test Cassette",rightsign  iggigm rapid  cassette rebranded coronachek  iggigm rapid  cassette,see IFU,Hangzhou Biotest Biotech Co Ltd (China) distributed by CLIAwaived Inc.,hangzhou biotest biotech  china distributed cliawaived ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"RightSign™ COVID-19 IgG/IgM Rapid Test Cassette rebranded to
+ Premier Biotech COVID-19 IgG/IgM Rapid Test Cassette",rightsign  iggigm rapid  cassette rebranded premier biotech  iggigm rapid  cassette,see IFU,Hangzhou Biotest Biotech Co Ltd (China) distributed by Premier Biotech Inc.,hangzhou biotest biotech  china distributed premier biotech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test Cassette, iggigm rapid  cassette,see IFU,Hangzhou Clongene Biotech Co Ltd (China),hangzhou clongene biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,303002,"LYHER Novel Coronavirus (2019-nCoV) IgM/IgG
+ Antibody
+ Combo Test Kit (Colloidal Gold)",lyher novel coronavirus 2019 igmigg antibody combo colloidal gold,see IFU,Hangzhou Laihe Biotech Co Ltd (China),hangzhou laihe biotech  china,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"LYHER Novel Coronavirus (2019-nCoV) IgM/IgG
+ Antibody
+ Combo Test Kit (Colloidal Gold) rebranded to QUICKKIT Novel Coronavirus (2019- nCov) IgM/IgG Antibody Combo Test Kit",lyher novel coronavirus 2019 igmigg antibody combo colloidal gold rebranded quickkit novel coronavirus 2019  igmigg antibody combo  ,see IFU,Hangzhou Laihe Biotech Co Ltd (China) distributed by Unisources Group LLC.,hangzhou laihe biotech  china distributed unisources group ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"2019-nCOV/COVID-19
+ IgG/IgM Rapid Test Device",2019  iggigm rapid  device,see IFU,Hangzhou Realy Tech Co Ltd (China),hangzhou realy tech  china,"TGA
+ ",removed from US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,GCCOV-402a,COVID-19 IgG/IgM Rapid Test Cassette, iggigm rapid  cassette,25,Healgen Scientific Limited Liability Company (United States Of America),healgen scientific limited liability company united states of america,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,InnoScreenTM COVID-19 IgG/IgM Rapid Test,innoscreentm  iggigm rapid ,see IFU,Innovation Scientific Pty Ltd (Australia),innovation scientific pty  australia,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,YF319C,2019-nCov Ab Test (Colloidal Gold),2019 ab  colloidal gold,see IFU,Innovita (Tangshan) Biological Technology Co Ltd (China),innovita tangshan biological technology  china,US FDA EUA TGA,,TRUE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,B25-CSER1001,Lumivi Diagnostics SARS-CoV- 2 IgG Rapid Test Kit,lumivi diagnostics  2 igg rapid  ,see IFU,"International Point Of Care, Inc. (Canada)",international point of care  canada,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,Orawell IgM/IgG Rapid Test,orawell igmigg rapid ,see IFU,"Jiangsu Well Biotech Co., Ltd.",jiangsu well biotech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"INDICAID COVID-19 IgM/IgG
+ Rapid Test rebranded by Phase Scientific International Limited",indicaid  igmigg rapid  rebranded by phase scientific international limited,see IFU,"Jiangsu Well Biotech Co., Ltd. distributed by Phase Scientific International Limited",jiangsu well biotech  distributed phase scientific international limited,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,Rapid COVID-19 IgM/IgG Combo Test Kit,rapid  igmigg combo  ,see IFU,"Megna Health, Inc.",megna health ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,"243001N-10
+",Nadal COVID-19 IgG/IgM Test (pack Of 10),nadal  iggigm  pack 10,10,Nal Von Minden Gmbh (Germany),nal von minden gmbh germany,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests, 243001N-20,Nadal COVID-19 IgG/IgM Test (pack Of 10),nadal  iggigm  pack 10,20,Nal Von Minden Gmbh (Germany),nal von minden gmbh germany,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,243001N-50,Nadal COVID-19 IgG/IgM Test (pack Of 10),nadal  iggigm  pack 10,50,Nal Von Minden Gmbh (Germany),nal von minden gmbh germany,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,243001N-100,Nadal COVID-19 IgG/IgM Test (pack Of 10),nadal  iggigm  pack 10,100,Nal Von Minden Gmbh (Germany),nal von minden gmbh germany,Health Canada/Interim Order,,FALSE,TRUE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test Kit, iggigm rapid  ,see IFU,Nantong Egens Biotechnology Co Ltd (China),nantong egens biotechnology  china,"TGA
+", removed from US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test Cassette, iggigm rapid  cassette,see IFU,Newscen Coast Bio- Pharmaceutical Co Ltd (China),newscen coast bio pharmaceutical  china,"TGA
+", removed from US FDA EUA,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,8075,ADEXUSDx COVID-19 Test,adexusdx  ,50,"NOWDiagnostics, Inc",nowdiagnostics ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,NBPC-0007,MidaSpotTM COVID-19 Antibody Combo Detection Kit,midaspottm  antibody combo detection ,25,"Nirmidas Biotech, Inc",nirmidas biotech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,NBPC-0001-xx,"Nirmidas COVID-19 (SARS- CoV-2) IgM/IgG Antibody Detection
+ Kit",nirmidas   igmigg antibody detection ,see IFU,"Nirmidas Biotech, Inc",nirmidas biotech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,NTBIO One Step Rapid Test - COVID-19 IgG/IgM Antibody Test,ntbio one step rapid   iggigm antibody ,see IFU,NTBIO Diagnostics Inc (Canada),ntbio diagnostics  canada,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"SARS-CoV-2 IgM/lgG
+ Antibody Rapid Test",  igmlgg antibody rapid ,see IFU,Qingdao Hightop Biotech Co Ltd (China),qingdao hightop biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,CD- COV19CW/102223/ 102224,Sienna-Clarity COVIBLOCK COVID-19 IgG/IgM Rapid Test Cassette,sienna clarity coviblock  iggigm rapid  cassette,see IFU,Salofa Oy,salofa oy,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,COGT025E,SGTi-flex COVID-19 IgG,sgti flex  igg,25T/kit ,"Sugentech, Inc",sugentech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,COGT005E,SGTi-flex COVID-19 IgG,sgti flex  igg,5T/kit,"Sugentech, Inc",sugentech ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,20010,"TBG SARS-CoV-2 IgG / IgM
+ Rapid Test Kit",tbg igg  igm rapid  ,see IFU,TBG Biotechnology Corp.,tbg biotechnology corp,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,"VID35-08-011
+ VID35-08-012 
+VID35-08-013 
+VID35-08-014","VivaDiag™ COVID-19
+ IgM/IgG Rapid Test",vivadiag  igmigg rapid ,40T/kit,VivaCheck Biotech (Hangzhou) Co Ltd (China),vivacheck biotech hangzhou  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"SARS-CoV-2 IgM/IgG
+ Antibody Test Kit",  igmigg antibody  ,see IFU,Wuhan EasyDiagnosis Biomedicine Co Ltd (China),wuhan easydiagnosis biomedicine  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"BIOTIME SARS-CoV-2
+ IgG/IgM Rapid Qualitative Test",biotime iggigm rapid qualitative ,25T/kit,"Xiamen Biotime Biotechnology Co., Ltd. (China) distributed by O’Neill Medical LLC, HORIBA instrument incorporated, Lifesaving Global LLC, THE RUHOF CORPORATION,
+ Marlan’s Group Us Inc, and JEMF Pharma",xiamen biotime biotechnology  china distributed oneill medical  horiba instrument orporated lifesaving global  the ruhof corporation marlans group us jemf pharma,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"rebranded by Telepoint Medical
+ Services, LLC",rebranded by telepoint medical services llc,25T/kit,"Xiamen Biotime Biotechnology Co., Ltd. (China)
+ distributed by Telepoint Medical
+ Services, LLC",xiamen biotime biotechnology  china distributed telepoint medical services ,US FDA EUA,,TRUE,FALSE,FALSE,FALSE,FALSE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,"BIOTIME SARS-CoV-2
+ IgG/IgM Rapid Qualitative Test",biotime iggigm rapid qualitative ,see IFU,Xiamen Biotime Biotechnology Co Ltd (China),xiamen biotime biotechnology  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,GCCOV-402a,COVID-19 IgG/IgM Rapid Test Cassette, iggigm rapid  cassette,see IFU,Zhejiang Orient Gene Biotech Co Ltd (China),zhejiang orient gene biotech  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+x,,SARS-CoV-2 Antibody Rapid Diagnostic Tests,,COVID-19 IgG/IgM Rapid Test Kit, iggigm rapid  ,see IFU,Zhongshan Chuangyi Biochemical Engineering Co Ltd (China),zhongshan chuangyi biochemical engineering  china,TGA,,FALSE,FALSE,FALSE,FALSE,TRUE,,#N/A,#N/A
+,,,,,,,,,,,,,,,,,#N/A,#N/A
