@@ -46,4 +46,4 @@
 # script repeatedly, as you will not need to re-enter the values each time
 #
 
-# exec(open("filter.py").read())
+exec(open("filter.py").read())

@@ -102,18 +102,18 @@ mrl = mrl.reset_index()
 # mrl.to_csv('mrl-po.csv')
 
 
-ta['top_ratio_p'] = 0
-ta['top_match_p'] = ''
-ta['tags_p'] = ''
-ta['top_ratio_m'] = 0
-ta['top_match_m'] = ''
-ta['tags_m'] = ''
-top_ratio_p_idx = ta.columns.get_loc('top_ratio_p')
-top_match_p_idx = ta.columns.get_loc('top_match_p')
-tags_p_idx = ta.columns.get_loc('tags_p')
-top_ratio_m_idx = ta.columns.get_loc('top_ratio_m')
-top_match_m_idx = ta.columns.get_loc('top_match_m')
-tags_m_idx = ta.columns.get_loc('tags_m')
+ta['Top P Match Ratio'] = 0
+ta['Top P Match UIDs'] = ''
+ta['Matching P Tags'] = ''
+ta['Top M Match Ratio'] = 0
+ta['Top M Match UIDs'] = ''
+ta['Matching M Tags'] = ''
+top_ratio_p_idx = ta.columns.get_loc('Top P Match Ratio')
+top_match_p_idx = ta.columns.get_loc('Top P Match UIDs')
+tags_p_idx = ta.columns.get_loc('Matching P Tags')
+top_ratio_m_idx = ta.columns.get_loc('Top M Match Ratio')
+top_match_m_idx = ta.columns.get_loc('Top M Match UIDs')
+tags_m_idx = ta.columns.get_loc('Matching M Tags')
 
 start_time = datetime.now()
 print(start_time, 'beginning long tag comparison process...')
@@ -122,6 +122,8 @@ for i, ta_row in ta.iterrows():
 	
 	if i % one_percent_done == 0:
 		print(i/one_percent_done, '% done')
+	if i > 100:
+		break
 	top_match_p = ''
 	top_ratio_p = 0
 	tags_p = ''
@@ -145,10 +147,12 @@ for i, ta_row in ta.iterrows():
 		if p_ratio > top_ratio_p:
 			top_ratio_p = p_ratio
 			top_match_p = mrl_row['Unique Identifier ']
-			tags_p = mrl_row['product_keywords']
+			# add matching tags
+			tags_p = ",".join(list(p_tags_set&p_val_set))
 		elif (p_ratio > 0) & (p_ratio == top_ratio_p):
 			top_match_p += " | " + mrl_row['Unique Identifier ']
-			tags_p += " | " + mrl_row['product_keywords']
+			# add matching tags
+			tags_p += " | " + ",".join(list(p_tags_set&p_val_set))
 		
 		m_tags = mrl_row['manufacturer_keywords']
 		m_tags_set = string_to_set(m_tags)
@@ -156,10 +160,12 @@ for i, ta_row in ta.iterrows():
 		if m_ratio > top_ratio_m:
 			top_ratio_m = m_ratio
 			top_match_m = mrl_row['Unique Identifier ']
-			tags_m = mrl_row['manufacturer_keywords']
+			# add matching tags
+			tags_m = ",".join(list(m_tags_set&m_val_set))
 		elif (m_ratio > 0) & (m_ratio == top_ratio_m):
 			top_match_m += " | " + mrl_row['Unique Identifier ']
-			tags_m += " | " + mrl_row['manufacturer_keywords']
+			# add matching tags
+			tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
 
 	ta.iloc[i, top_match_m_idx] = top_match_m
 	ta.iloc[i, top_ratio_m_idx] = top_ratio_m
