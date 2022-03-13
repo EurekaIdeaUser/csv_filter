@@ -12,17 +12,18 @@ OUTPUT_DIR = 'outputs'
 # _______________MANUAL SETTINGS SECTION_______________
 SET_STATIC_PARAMS = True  # set to True if you prefer setting param values here
 PROC_MRL = True
+convert_case = True
 if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
-    convert_case = True
+    # convert_case = True
     country = "pakistan 2021"
-    name = "version5"
+    name = "version6"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
         {
             'col': 'product details',
-            'contents': ['SAR', 'COV']
+            'contents': ['SAR', 'COV', 'corona']
             # }, {
             #     'col': 'product details',
             #     'contents': ['test']
@@ -74,9 +75,9 @@ else:
     OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
     OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
 
-    convert_case = input(
-        'convert column names to lowercase (any response but "n" will be taken to mean "yes"): \n'
-    ) != "n"
+    # convert_case = input(
+    #     'convert column names to lowercase (any response but "n" will be taken to mean "yes"): \n'
+    # ) != "n"
 
     print('_____________________________________________\n')
     print(
@@ -160,10 +161,10 @@ def process_filter(filter, df):
 		df[filter['col']] = df[filter['col']].astype(str)
 		wilded = ['.*' + c for c in filter['contents']]
 		r = re.compile("|".join(wilded), re.IGNORECASE)
-		df = df[df[filter['col']].str.contains(pat=r, regex=True, na=False)]
+		return df[df[filter['col']].str.contains(pat=r, regex=True, na=False)]
 
 	else:  # erase df if it doesn't contain filtered column
-		df = pd.DataFrame()
+		return pd.DataFrame()
 
 def process_classifier(classifier, df):
 	if classifier['matchingCol'] in df.columns:
@@ -193,15 +194,24 @@ def process_mrl(mrl, ta):
 	ta['Top P Match Ratio'] = 0
 	ta['Top P Match UIDs'] = ''
 	ta['Matching P Tags'] = ''
+
 	ta['Top M Match Ratio'] = 0
 	ta['Top M Match UIDs'] = ''
 	ta['Matching M Tags'] = ''
+
+	ta['Top Agg Match (P*M)'] = 0
+	ta['Top Agg Match UIDs'] = ''
+
 	top_ratio_p_idx = ta.columns.get_loc('Top P Match Ratio')
 	top_match_p_idx = ta.columns.get_loc('Top P Match UIDs')
 	tags_p_idx = ta.columns.get_loc('Matching P Tags')
+
 	top_ratio_m_idx = ta.columns.get_loc('Top M Match Ratio')
 	top_match_m_idx = ta.columns.get_loc('Top M Match UIDs')
 	tags_m_idx = ta.columns.get_loc('Matching M Tags')
+
+	top_ratio_agg_idx = ta.columns.get_loc('Top Agg Match (P*M)')
+	top_match_agg_idx = ta.columns.get_loc('Top Agg Match UIDs')
 	
 	start_time = datetime.now()
 	print(start_time, 'beginning long tag comparison process...')
@@ -218,6 +228,8 @@ def process_mrl(mrl, ta):
 		top_match_m = ''
 		top_ratio_m = 0
 		tags_m = ''
+		top_match_agg = ''
+		top_ratio_agg = 0
 		# print(i, " of ", len(ta))
 	
 		p_val = ta_row['product details']
@@ -254,6 +266,18 @@ def process_mrl(mrl, ta):
 				top_match_m += " | " + mrl_row['Unique Identifier ']
 				# add matching tags
 				tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
+			m_ratio = get_tag_match_ratio(m_tags_set, m_val_set)
+
+			agg_ratio = m_ratio * p_ratio
+			if agg_ratio > top_ratio_agg:
+				top_ratio_agg = agg_ratio
+				top_match_agg = mrl_row['Unique Identifier ']
+				# add matching tags
+				# tags_m = ",".join(list(m_tags_set&m_val_set))
+			elif (agg_ratio > 0) & (agg_ratio == top_ratio_agg):
+				top_match_agg += " | " + mrl_row['Unique Identifier ']
+				# add matching tags
+				# tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
 	
 		ta.iloc[i, top_match_m_idx] = top_match_m
 		ta.iloc[i, top_ratio_m_idx] = top_ratio_m
@@ -261,7 +285,10 @@ def process_mrl(mrl, ta):
 		
 		ta.iloc[i, top_match_p_idx] = top_match_p
 		ta.iloc[i, top_ratio_p_idx] = top_ratio_p
-		ta.iloc[i, tags_m_idx] = tags_m
+		ta.iloc[i, tags_m_idx] = tags_m		
+				
+		ta.iloc[i, top_match_agg_idx] = top_match_agg
+		ta.iloc[i, top_ratio_agg_idx] = top_ratio_agg
 		
 	
 	end_time = datetime.now()
@@ -289,7 +316,9 @@ for path in os.listdir(COUNTRY_PATH):
         df.columns = df.columns.str.lower()
 
     for filter in filters:
-       process_filter(filter, df)
+        print('pre filter: ', len(df))
+        df = process_filter(filter, df)
+        print('post filter: ', len(df))
 
 # https://www.dataquest.io/blog/tutorial-add-column-pandas-dataframe-based-on-if-else-condition/
     for classifier in classifiers:
