@@ -8,6 +8,15 @@ from datetime import datetime
 INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
 
+# FIELDS
+# MRL FIELDS
+F_MRL_P_KEY = 'product_keywords'
+F_MRL_M_KEY = 'manufacturer_keywords'
+F_MRL_UID = 'Unique Identifier'
+# TA FIELDS
+F_TA_P_DETAILS = 'product details'
+F_TA_EXP_NAME = 'exporter name'
+
 # PARAMETERS
 # _______________MANUAL SETTINGS SECTION_______________
 
@@ -26,34 +35,34 @@ if SET_STATIC_PARAMS:
     PROC_MRL = True # set to True to process the MRL found at mrl.csv
     # CONVERT_CASE = True
     country = "pakistan 2021"
-    name = "version6"
+    name = "version7"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
         {
-            'col': 'product details',
+            'col': F_TA_P_DETAILS,
             'contents': ['SAR', 'COV', 'corona']
             # }, {
-            #     'col': 'product details',
+            #     'col': F_TA_P_DETAILS,
             #     'contents': ['test']
         }
     ]
 
     classifiers = [
         # {
-        #     'matchingCol': 'product details',
+        #     'matchingCol': F_TA_P_DETAILS,
         #     'matchingValue': 'pcr',
         #     'labelCol': 'Test Type',
         #     'labelValue': 'Manual PCR',
         # },
         # {
-        #     'matchingCol': 'product details',
+        #     'matchingCol': F_TA_P_DETAILS,
         #     'matchingValue': 'Panbio',
         #     'labelCol': 'Test Type',
         #     'labelValue': 'Ag RDT',
         # },
         # {
-        #     'matchingCol': 'importer name',
+        #     'matchingCol': F_TA_EXP_NAME,
         #     'matchingValue': 'Abbot',
         #     'labelCol': 'Test Type',
         #     'labelValue': 'Ag RDT',
@@ -189,8 +198,13 @@ def process_classifier(classifier, df):
 				# give it new label, otherwise preserve value (in case already labeled)
                 classifier['labelValue'], df[classifier['labelCol']])
 
-def string_to_set(str): 
-	s = set(str.lower().split(" "))
+def string_to_set(input, col, row):
+	# exporter name is sometimes blank (converted to NaN“)
+	if type(input) != str:
+		# print("bad string: ", input, col, row)
+		return set()
+		
+	s = set(input.lower().split(" "))
 	if '' in s:
 		s.remove('')
 	# print(s, str)
@@ -228,6 +242,8 @@ def process_mrl(mrl, ta):
 	
 	start_time = datetime.now()
 	print(start_time, 'beginning long tag comparison process...')
+	print("Preview of first 50 rows' results: ")
+
 	one_percent_done = round(len(ta)/100)
 	for i, ta_row in ta.iterrows():
 		
@@ -244,39 +260,38 @@ def process_mrl(mrl, ta):
 		top_match_agg = ''
 		top_ratio_agg = 0
 		# print(i, " of ", len(ta))
-		# TODO: extract col names
-		p_val = ta_row['product details']
-		p_val_set = string_to_set(p_val)
-		m_val = ta_row['importer name']
-		m_val_set = string_to_set(m_val)
+		p_val = ta_row[F_TA_P_DETAILS]
+		p_val_set = string_to_set(p_val, F_TA_P_DETAILS, ta_row)
+		m_val = ta_row[F_TA_EXP_NAME]
+		m_val_set = string_to_set(m_val, F_TA_EXP_NAME, ta_row)
 		
 		for j, mrl_row in mrl.iterrows():
 			# if j % 50 > 0:
 			# 	break
 			# print(i, j, p_val)
-			p_tags = mrl_row['product_keywords']
-			p_tags_set = string_to_set(p_tags)
+			p_tags = mrl_row[F_MRL_P_KEY]
+			p_tags_set = string_to_set(p_tags, F_MRL_P_KEY, mrl_row)
 			p_ratio = get_tag_match_ratio(p_tags_set, p_val_set)
 			if p_ratio > top_ratio_p:
 				top_ratio_p = p_ratio
-				top_match_p = mrl_row['Unique Identifier ']
+				top_match_p = mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_p = ",".join(list(p_tags_set&p_val_set))
 			elif (p_ratio > 0) & (p_ratio == top_ratio_p):
-				top_match_p += " | " + mrl_row['Unique Identifier ']
+				top_match_p += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_p += " | " + ",".join(list(p_tags_set&p_val_set))
 			
-			m_tags = mrl_row['manufacturer_keywords']
-			m_tags_set = string_to_set(m_tags)
+			m_tags = mrl_row[F_MRL_M_KEY]
+			m_tags_set = string_to_set(m_tags, F_MRL_M_KEY, mrl_row)
 			m_ratio = get_tag_match_ratio(m_tags_set, m_val_set)
 			if m_ratio > top_ratio_m:
 				top_ratio_m = m_ratio
-				top_match_m = mrl_row['Unique Identifier ']
+				top_match_m = mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_m = ",".join(list(m_tags_set&m_val_set))
 			elif (m_ratio > 0) & (m_ratio == top_ratio_m):
-				top_match_m += " | " + mrl_row['Unique Identifier ']
+				top_match_m += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
 			m_ratio = get_tag_match_ratio(m_tags_set, m_val_set)
@@ -284,11 +299,11 @@ def process_mrl(mrl, ta):
 			agg_ratio = m_ratio * p_ratio
 			if agg_ratio > top_ratio_agg:
 				top_ratio_agg = agg_ratio
-				top_match_agg = mrl_row['Unique Identifier ']
+				top_match_agg = mrl_row[F_MRL_UID]
 				# add matching tags
 				# tags_m = ",".join(list(m_tags_set&m_val_set))
 			elif (agg_ratio > 0) & (agg_ratio == top_ratio_agg):
-				top_match_agg += " | " + mrl_row['Unique Identifier ']
+				top_match_agg += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				# tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
 	
@@ -302,9 +317,18 @@ def process_mrl(mrl, ta):
 				
 		ta.iloc[i, top_match_agg_idx] = top_match_agg
 		ta.iloc[i, top_ratio_agg_idx] = top_ratio_agg
+			
+		if (i < 50):
+			# TODO extract in function
+			print("row ", i)
+			print ("{:<6} {:<12} {:<30} {:<50}".format('','Match Score','Match UIDs','Match Tags'))
+			print ("{:<6} {:<12} {:<30} {:<50}".format('P:',round(top_ratio_p, 4),top_match_p[0:25]+("..." if len(top_match_p)>25 else ""),tags_p[0:45]+("..." if len(tags_p)>45 else "")))
+			print ("{:<6} {:<12} {:<30} {:<50}".format('M:',round(top_ratio_m, 4),top_match_m[0:25]+("..." if len(top_match_m)>25 else ""),tags_m[0:45]+("..." if len(tags_m)>45 else "")))
+			print ("{:<6} {:<12} {:<30} {:<50}".format('agg:',round(top_ratio_agg, 4),top_match_agg[0:25]+("..." if len(top_match_agg)>25 else ""), ''))
+			print("_\n")
+		if (i == 50):
+			print('~ previews complete ~')
 
-		if (i < 10):
-			print()
 	
 	end_time = datetime.now()
 	print(ta.head(100))
@@ -319,7 +343,8 @@ for path in os.listdir(COUNTRY_PATH):
     # source = pd.read_excel('inputs/' + path) eg inputs/pakistan/p.csv
     abs_path = COUNTRY_PATH + '/' + path
     print(abs_path)
-    df = read_spreadsheet(abs_path)
+    # df = read_spreadsheet(abs_path)
+    df = read_spreadsheet('outputs/pakistan 2021-version7.csv')
     print(abs_path)
     print(df.head)
     size_init = len(df)
@@ -370,10 +395,10 @@ print(f'wrote {OUTPUT_STATS_PATH}')
 if PROC_MRL:
 	# get aggregated mrl
 	# drop 1st row, keep 3 cols (as strings)
-	mrl = pd.read_csv('mrl.csv', skiprows=1)[['manufacturer_keywords', 'product_keywords', 'Unique Identifier ']].astype(str)
+	mrl = pd.read_csv('mrl.csv', skiprows=1)[[F_MRL_M_KEY, F_MRL_P_KEY, F_MRL_UID]].astype(str)
 	# merge rows if both types of keywords are equivalent
 	# merge by joining UIDs with a ","
-	mrl = mrl.groupby(['manufacturer_keywords','product_keywords'])['Unique Identifier '].agg(lambda x: ','.join(x)).drop_duplicates()
+	mrl = mrl.groupby([F_MRL_M_KEY,F_MRL_P_KEY])[F_MRL_UID].agg(lambda x: ','.join(x)).drop_duplicates()
 	mrl = mrl.reset_index()
 	ta = result.reset_index()
 	process_mrl(mrl, ta)
