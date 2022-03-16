@@ -1,4 +1,4 @@
-
+# 1^x = 4/
 import pandas as pd
 import numpy as np
 import os
@@ -10,12 +10,21 @@ OUTPUT_DIR = 'outputs'
 
 # PARAMETERS
 # _______________MANUAL SETTINGS SECTION_______________
-SET_STATIC_PARAMS = True  # set to True if you prefer setting param values here
-PROC_MRL = True
-convert_case = True
+
+# set to True if you prefer setting param values here
+SET_STATIC_PARAMS = True 
+
+# converts columns to lower case - leave as True
+CONVERT_CASE = True
+
+# how heavily to prefer *more* keyword matches when ratio of matches is equal
+# MATCH_RANKING = (MATCHES ^ MATCH_POWER) / NUMBER_OF_KEYWORDS
+# setting MATCH_POWER = 1 makes the MATCH_RANKING a simple ratio
+MATCH_POWER = 2
 if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
-    # convert_case = True
+    PROC_MRL = True # set to True to process the MRL found at mrl.csv
+    # CONVERT_CASE = True
     country = "pakistan 2021"
     name = "version6"
     sheet_name = 'Trade Atlas Records'
@@ -75,7 +84,10 @@ else:
     OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
     OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
 
-    # convert_case = input(
+    PROC_MRL = input(
+        'run MRL process to label top matches (any response but "n" will be taken to mean "yes"): \n'
+    ) != "n"
+	# CONVERT_CASE = input(
     #     'convert column names to lowercase (any response but "n" will be taken to mean "yes"): \n'
     # ) != "n"
 
@@ -134,7 +146,7 @@ else:
     print('data tab to be used: ' + sheet_name)
     print('data will be output to: ' + OUTPUT_PATH)
     print('with a stats file at: ' + OUTPUT_STATS_PATH)
-    print('will columns be made lower case: ', convert_case)
+    # print('will columns be made lower case: ', CONVERT_CASE)
     print('filters: ', filters)
     print('classifiers: ', classifiers)
     input("Hit enter to begin.")
@@ -188,7 +200,8 @@ def get_tag_match_ratio(tag_set, value_set):
   if len(tag_set) == 0:
 	  # print(tag_set, "!")
 	  return 0
-  return len(list(tag_set&value_set)) / len(tag_set)
+  matches = len(list(tag_set&value_set))
+  return (matches ** MATCH_POWER) / len(tag_set)
 
 def process_mrl(mrl, ta):
 	ta['Top P Match Ratio'] = 0
@@ -231,7 +244,7 @@ def process_mrl(mrl, ta):
 		top_match_agg = ''
 		top_ratio_agg = 0
 		# print(i, " of ", len(ta))
-	
+		# TODO: extract col names
 		p_val = ta_row['product details']
 		p_val_set = string_to_set(p_val)
 		m_val = ta_row['importer name']
@@ -289,7 +302,9 @@ def process_mrl(mrl, ta):
 				
 		ta.iloc[i, top_match_agg_idx] = top_match_agg
 		ta.iloc[i, top_ratio_agg_idx] = top_ratio_agg
-		
+
+		if (i < 10):
+			print()
 	
 	end_time = datetime.now()
 	print(ta.head(100))
@@ -312,7 +327,7 @@ for path in os.listdir(COUNTRY_PATH):
     df['source_data_row'] = np.arange(len(df)) + 1
     df['source_file_name'] = path
 
-    if convert_case:
+    if CONVERT_CASE:
         df.columns = df.columns.str.lower()
 
     for filter in filters:
@@ -354,7 +369,10 @@ print(f'wrote {OUTPUT_STATS_PATH}')
 
 if PROC_MRL:
 	# get aggregated mrl
+	# drop 1st row, keep 3 cols (as strings)
 	mrl = pd.read_csv('mrl.csv', skiprows=1)[['manufacturer_keywords', 'product_keywords', 'Unique Identifier ']].astype(str)
+	# merge rows if both types of keywords are equivalent
+	# merge by joining UIDs with a ","
 	mrl = mrl.groupby(['manufacturer_keywords','product_keywords'])['Unique Identifier '].agg(lambda x: ','.join(x)).drop_duplicates()
 	mrl = mrl.reset_index()
 	ta = result.reset_index()

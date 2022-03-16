@@ -174,9 +174,19 @@ for i, ta_row in ta.iterrows():
 	ta.iloc[i, top_match_p_idx] = top_match_p
 	ta.iloc[i, top_ratio_p_idx] = top_ratio_p
 	ta.iloc[i, tags_m_idx] = tags_m
-	
 
 end_time = datetime.now()
 print(ta.head(100))
 print(end_time - start_time)
 ta.to_csv('ptest.csv')
+
+# d = {1: ["Python", 33.2, 'UP'],
+# 2: ["Java", 23.54, 'DOWN'],
+# 3: ["Ruby", 17.22, 'UP'],
+# 10: ["Lua", 10.55, 'DOWN'],
+# 5: ["Groovy", 9.22, 'DOWN'],
+# 6: ["C", 1.55, 'UP'] }
+# print ("{:<8} {:<15} {:<10} {:<10}".format('Pos','Lang','Percent','Change'))
+# for k, v in d.items():
+# 	lang, perc, change = v
+# print ("{:<8} {:<15} {:<10} {:<10}".format(k, lang, perc, change))
