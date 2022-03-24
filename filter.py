@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 import re
+from keywords import get_kw_match_score
 from datetime import datetime
 
 INPUT_DIR = 'inputs'
@@ -35,7 +36,7 @@ if SET_STATIC_PARAMS:
     PROC_MRL = True # set to True to process the MRL found at mrl.csv
     # CONVERT_CASE = True
     country = "pakistan 2021"
-    name = "version7"
+    name = "version9-tiers"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
@@ -210,34 +211,61 @@ def string_to_set(input, col, row):
 	# print(s, str)
 	return s
 	
-def get_tag_match_ratio(tag_set, value_set):
+def get_match_score(tag_set, value_set, type):
   if len(tag_set) == 0:
 	  # print(tag_set, "!")
 	  return 0
-  matches = len(list(tag_set&value_set))
-  return (matches ** MATCH_POWER) / len(tag_set)
+  match_set = tag_set&value_set
+  if type == 'm':
+    # TODO: implement kws for M, for now return tuple with empty scoreport
+    return (len(match_set) ** MATCH_POWER) / len(tag_set), ''
+
+  else:
+    s, sr = get_kw_match_score(match_set)
+    return (s / len(tag_set), sr)
+
+
+def trunc(stri, length_str):
+	max_length = int(length_str) - 3
+	# print(stri, max_length)
+	if len(stri) > max_length:
+		return stri[0:max_length] + '...'
+	else:
+		return stri
+
+format_string = "{:<6} {:<12} {:<30} {:<50}"
+def print_preview_row(f_string, items):
+	lengths = str.strip(re.sub('\D+', ' ', f_string)).split(' ')
+	# print(items)
+	tup_items = (trunc(item, lengths[items.index(item)]) for item in items)
+	print(f_string.format(*tup_items))
+
 
 def process_mrl(mrl, ta):
-	ta['Top P Match Ratio'] = 0
+	ta['Top P Match Score'] = 0
 	ta['Top P Match UIDs'] = ''
 	ta['Matching P Tags'] = ''
+	ta['Top P Score Reports'] = ''
 
-	ta['Top M Match Ratio'] = 0
+	ta['Top M Match Score'] = 0
 	ta['Top M Match UIDs'] = ''
 	ta['Matching M Tags'] = ''
+	ta['Top M Score Reports'] = ''
 
 	ta['Top Agg Match (P*M)'] = 0
 	ta['Top Agg Match UIDs'] = ''
 
-	top_ratio_p_idx = ta.columns.get_loc('Top P Match Ratio')
+	top_score_p_idx = ta.columns.get_loc('Top P Match Score')
 	top_match_p_idx = ta.columns.get_loc('Top P Match UIDs')
 	tags_p_idx = ta.columns.get_loc('Matching P Tags')
+	top_scoreport_p_idx = ta.columns.get_loc('Top P Score Reports')
 
-	top_ratio_m_idx = ta.columns.get_loc('Top M Match Ratio')
+	top_score_m_idx = ta.columns.get_loc('Top M Match Score')
 	top_match_m_idx = ta.columns.get_loc('Top M Match UIDs')
 	tags_m_idx = ta.columns.get_loc('Matching M Tags')
+	top_scoreport_m_idx = ta.columns.get_loc('Top M Score Reports')
 
-	top_ratio_agg_idx = ta.columns.get_loc('Top Agg Match (P*M)')
+	top_score_agg_idx = ta.columns.get_loc('Top Agg Match (P*M)')
 	top_match_agg_idx = ta.columns.get_loc('Top Agg Match UIDs')
 	
 	start_time = datetime.now()
@@ -252,16 +280,22 @@ def process_mrl(mrl, ta):
 		# if i > 100:
 		# 	break
 		top_match_p = ''
-		top_ratio_p = 0
+		top_score_p = 0
 		tags_p = ''
+		top_scoreport_p = ''
+		
 		top_match_m = ''
-		top_ratio_m = 0
+		top_score_m = 0
 		tags_m = ''
+		top_scoreport_m = ''
+		
 		top_match_agg = ''
-		top_ratio_agg = 0
+		top_score_agg = 0
+		
 		# print(i, " of ", len(ta))
 		p_val = ta_row[F_TA_P_DETAILS]
 		p_val_set = string_to_set(p_val, F_TA_P_DETAILS, ta_row)
+		
 		m_val = ta_row[F_TA_EXP_NAME]
 		m_val_set = string_to_set(m_val, F_TA_EXP_NAME, ta_row)
 		
@@ -269,65 +303,74 @@ def process_mrl(mrl, ta):
 			# if j % 50 > 0:
 			# 	break
 			# print(i, j, p_val)
+
+			# PRODUCT
 			p_tags = mrl_row[F_MRL_P_KEY]
 			p_tags_set = string_to_set(p_tags, F_MRL_P_KEY, mrl_row)
-			p_ratio = get_tag_match_ratio(p_tags_set, p_val_set)
-			if p_ratio > top_ratio_p:
-				top_ratio_p = p_ratio
+			p_score, p_scoreport = get_match_score(p_tags_set, p_val_set, 'p')
+			
+			if p_score > top_score_p:
+				top_score_p = p_score
 				top_match_p = mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_p = ",".join(list(p_tags_set&p_val_set))
-			elif (p_ratio > 0) & (p_ratio == top_ratio_p):
+				top_scoreport_p = p_scoreport
+			elif (p_score > 0) & (p_score == top_score_p):
 				top_match_p += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_p += " | " + ",".join(list(p_tags_set&p_val_set))
-			
+				top_scoreport_p += " | " + p_scoreport
+
+			# MANUFACTURER
 			m_tags = mrl_row[F_MRL_M_KEY]
 			m_tags_set = string_to_set(m_tags, F_MRL_M_KEY, mrl_row)
-			m_ratio = get_tag_match_ratio(m_tags_set, m_val_set)
-			if m_ratio > top_ratio_m:
-				top_ratio_m = m_ratio
+			m_score, m_scoreport = get_match_score(m_tags_set, m_val_set, 'm')
+			
+			if m_score > top_score_m:
+				top_score_m = m_score
 				top_match_m = mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_m = ",".join(list(m_tags_set&m_val_set))
-			elif (m_ratio > 0) & (m_ratio == top_ratio_m):
+				top_scoreport_m = m_scoreport
+			elif (m_score > 0) & (m_score == top_score_m):
 				top_match_m += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
-			m_ratio = get_tag_match_ratio(m_tags_set, m_val_set)
+				top_scoreport_m += " | " + m_scoreport
 
-			agg_ratio = m_ratio * p_ratio
-			if agg_ratio > top_ratio_agg:
-				top_ratio_agg = agg_ratio
+			# AGG
+			agg_score = m_score * p_score
+			if agg_score > top_score_agg:
+				top_score_agg = agg_score
 				top_match_agg = mrl_row[F_MRL_UID]
 				# add matching tags
 				# tags_m = ",".join(list(m_tags_set&m_val_set))
-			elif (agg_ratio > 0) & (agg_ratio == top_ratio_agg):
+			elif (agg_score > 0) & (agg_score == top_score_agg):
 				top_match_agg += " | " + mrl_row[F_MRL_UID]
 				# add matching tags
 				# tags_m += " | " + ",".join(list(m_tags_set&m_val_set))
 	
 		ta.iloc[i, top_match_m_idx] = top_match_m
-		ta.iloc[i, top_ratio_m_idx] = top_ratio_m
+		ta.iloc[i, top_score_m_idx] = top_score_m
 		ta.iloc[i, tags_p_idx] = tags_p
+		ta.iloc[i, top_scoreport_p_idx] = top_scoreport_p
 		
 		ta.iloc[i, top_match_p_idx] = top_match_p
-		ta.iloc[i, top_ratio_p_idx] = top_ratio_p
-		ta.iloc[i, tags_m_idx] = tags_m		
+		ta.iloc[i, top_score_p_idx] = top_score_p
+		ta.iloc[i, tags_m_idx] = tags_m
+		ta.iloc[i, top_scoreport_m_idx] = top_scoreport_m
 				
 		ta.iloc[i, top_match_agg_idx] = top_match_agg
-		ta.iloc[i, top_ratio_agg_idx] = top_ratio_agg
+		ta.iloc[i, top_score_agg_idx] = top_score_agg
 			
 		if (i < 50):
-			# TODO extract in function
-			print("row ", i)
-			print ("{:<6} {:<12} {:<30} {:<50}".format('','Match Score','Match UIDs','Match Tags'))
-			print ("{:<6} {:<12} {:<30} {:<50}".format('P:',round(top_ratio_p, 4),top_match_p[0:25]+("..." if len(top_match_p)>25 else ""),tags_p[0:45]+("..." if len(tags_p)>45 else "")))
-			print ("{:<6} {:<12} {:<30} {:<50}".format('M:',round(top_ratio_m, 4),top_match_m[0:25]+("..." if len(top_match_m)>25 else ""),tags_m[0:45]+("..." if len(tags_m)>45 else "")))
-			print ("{:<6} {:<12} {:<30} {:<50}".format('agg:',round(top_ratio_agg, 4),top_match_agg[0:25]+("..." if len(top_match_agg)>25 else ""), ''))
-			print("_\n")
+			print('\n row: ', i)
+			print_preview_row(format_string, ('','Match Score','Match UIDs','Match Tags'))
+			print_preview_row(format_string, ('P: ', (str(round(top_score_p, 4))), top_match_p, top_scoreport_p))
+			print_preview_row(format_string, ('M: ', (str(round(top_score_m, 4))), top_match_m, tags_m))
+			print_preview_row(format_string, ('Agg: ', (str(round(top_score_agg, 4))), top_match_agg, ''))
 		if (i == 50):
-			print('~ previews complete ~')
+			print('\n___PREVIEW COMPLETE___\n')
 
 	
 	end_time = datetime.now()
