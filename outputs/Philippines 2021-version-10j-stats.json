@@ -1,0 +1,1 @@
+[{"output_rows":748,"rows_dropped":0,"input_files":"Philippines 2021-version9-tiers.csv","sheet_name":"Trade Atlas Records","filters":"{'col': 'product details', 'contents': ['SAR', 'COV', 'corona']}","classifiers":""}]

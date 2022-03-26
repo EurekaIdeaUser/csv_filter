@@ -18,6 +18,9 @@ F_MRL_UID = 'Unique Identifier'
 F_TA_P_DETAILS = 'product details'
 F_TA_EXP_NAME = 'exporter name'
 
+
+
+
 # PARAMETERS
 # _______________MANUAL SETTINGS SECTION_______________
 
@@ -35,14 +38,14 @@ if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
     PROC_MRL = True # set to True to process the MRL found at mrl.csv
     # CONVERT_CASE = True
-    country = "pakistan 2021"
-    name = "version9-tiers"
+    country = "India 2021"
+    name = "version-11"
     sheet_name = 'Trade Atlas Records'
 
     filters = [  # if multiple contents, column value can match any
         {
-            'col': F_TA_P_DETAILS,
-            'contents': ['SAR', 'COV', 'corona']
+            'col': F_TA_P_DETAILS,               # <-- "product details" column
+            'contents': ['SAR', 'COV', 'corona'] # <-- filter out rows w/o one of these terms in the above col
             # }, {
             #     'col': F_TA_P_DETAILS,
             #     'contents': ['test']
@@ -199,30 +202,39 @@ def process_classifier(classifier, df):
 				# give it new label, otherwise preserve value (in case already labeled)
                 classifier['labelValue'], df[classifier['labelCol']])
 
-def string_to_set(input, col, row):
+def string_to_set(input, col, row, filter_chars):
 	# exporter name is sometimes blank (converted to NaN“)
 	if type(input) != str:
 		# print("bad string: ", input, col, row)
 		return set()
-		
-	s = set(input.lower().split(" "))
+
+	if filter_chars:
+		# NOTE: keep in sync with how p/m_keywords are created in MRL
+		# currently: drop non-alphanumeric chars, replacing "-" with " "
+		f_input = re.sub("[^a-zA-Z\s0-9\-]", '', input)
+		s = set(f_input.lower().replace('-', ' ').split(" "))
+	else:
+		s = set(input.lower().split(" "))
 	if '' in s:
 		s.remove('')
 	# print(s, str)
 	return s
 	
 def get_match_score(tag_set, value_set, type):
-  if len(tag_set) == 0:
-	  # print(tag_set, "!")
-	  return 0
   match_set = tag_set&value_set
+  if len(match_set) == 0:
+	  # print(tag_set, "!")
+	  return 0, ''
   if type == 'm':
     # TODO: implement kws for M, for now return tuple with empty scoreport
     return (len(match_set) ** MATCH_POWER) / len(tag_set), ''
 
   else:
+    unmatched_set = tag_set - match_set
     s, sr = get_kw_match_score(match_set)
-    return (s / len(tag_set), sr)
+    # print(match_set, tag_set, unmatched_set)
+    # print((s / (len(unmatched_set) + 1), sr), 'score\n')
+    return (s / (len(unmatched_set) + 1), sr)
 
 
 def trunc(stri, length_str):
@@ -294,10 +306,10 @@ def process_mrl(mrl, ta):
 		
 		# print(i, " of ", len(ta))
 		p_val = ta_row[F_TA_P_DETAILS]
-		p_val_set = string_to_set(p_val, F_TA_P_DETAILS, ta_row)
+		p_val_set = string_to_set(p_val, F_TA_P_DETAILS, ta_row, True)
 		
 		m_val = ta_row[F_TA_EXP_NAME]
-		m_val_set = string_to_set(m_val, F_TA_EXP_NAME, ta_row)
+		m_val_set = string_to_set(m_val, F_TA_EXP_NAME, ta_row, True)
 		
 		for j, mrl_row in mrl.iterrows():
 			# if j % 50 > 0:
@@ -306,7 +318,7 @@ def process_mrl(mrl, ta):
 
 			# PRODUCT
 			p_tags = mrl_row[F_MRL_P_KEY]
-			p_tags_set = string_to_set(p_tags, F_MRL_P_KEY, mrl_row)
+			p_tags_set = string_to_set(p_tags, F_MRL_P_KEY, mrl_row, False)
 			p_score, p_scoreport = get_match_score(p_tags_set, p_val_set, 'p')
 			
 			if p_score > top_score_p:
@@ -323,7 +335,7 @@ def process_mrl(mrl, ta):
 
 			# MANUFACTURER
 			m_tags = mrl_row[F_MRL_M_KEY]
-			m_tags_set = string_to_set(m_tags, F_MRL_M_KEY, mrl_row)
+			m_tags_set = string_to_set(m_tags, F_MRL_M_KEY, mrl_row, False)
 			m_score, m_scoreport = get_match_score(m_tags_set, m_val_set, 'm')
 			
 			if m_score > top_score_m:
@@ -365,7 +377,7 @@ def process_mrl(mrl, ta):
 			
 		if (i < 50):
 			print('\n row: ', i)
-			print_preview_row(format_string, ('','Match Score','Match UIDs','Match Tags'))
+			print_preview_row(format_string, ('','Match Score','Match UIDs','Score Report / Tags'))
 			print_preview_row(format_string, ('P: ', (str(round(top_score_p, 4))), top_match_p, top_scoreport_p))
 			print_preview_row(format_string, ('M: ', (str(round(top_score_m, 4))), top_match_m, tags_m))
 			print_preview_row(format_string, ('Agg: ', (str(round(top_score_agg, 4))), top_match_agg, ''))
@@ -386,8 +398,8 @@ for path in os.listdir(COUNTRY_PATH):
     # source = pd.read_excel('inputs/' + path) eg inputs/pakistan/p.csv
     abs_path = COUNTRY_PATH + '/' + path
     print(abs_path)
-    # df = read_spreadsheet(abs_path)
-    df = read_spreadsheet('outputs/pakistan 2021-version7.csv')
+    df = read_spreadsheet(abs_path)
+    # df = read_spreadsheet('outputs/pakistan 2021-version7.csv') # UNDO just for testing
     print(abs_path)
     print(df.head)
     size_init = len(df)

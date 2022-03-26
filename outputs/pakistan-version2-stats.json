@@ -1,1 +1,0 @@
-[{"output_rows":1239,"rows_dropped":32254,"input_files":"Pakistan Trade Atlas All 2021 HS 382200.csv","sheet_name":"Trade Atlas Records","filters":"{'col': 'product details', 'contents': ['SAR', 'COV']}"}]

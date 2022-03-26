@@ -1,4 +1,7 @@
-cold_kws = [
+def remove_punct (l):
+	return list(map(lambda s: s.replace('-', ' '), l))
+
+cold_kws = remove_punct([
 'card',
 'cartridge',
 'hepatitis', 
@@ -6,16 +9,16 @@ cold_kws = [
 'home',
 'kit',
 'test',
-]
+])
 
-avg_kws = [
+avg_kws = remove_punct([
 'cassette',
 'detection',
 'device',
 'viral',
-]
+])
 
-warm_kws = [
+warm_kws = remove_punct([
 'ag',
 'antibody',
 'antigen',
@@ -48,15 +51,14 @@ warm_kws = [
 'strip',
 'swab',
 'whole blood',
-]
+])
 
-hot_kws = [
-'$vitros',
+hot_kws = remove_punct([
 'abcheck',
 'access',
 'accu-tell',
 'accucare',
-'accurate',
+'accurate', # overmatcher?
 'acon',
 'acro',
 'actim',
@@ -70,7 +72,7 @@ hot_kws = [
 'aeskulisasars',
 'affidx',
 'afias',
-'ag-q',
+'ag-q', # not in MRL
 'alinityi',
 'allcheck',
 'alpine',
@@ -80,7 +82,7 @@ hot_kws = [
 'andlucky',
 'angcard',
 'answer',
-'anti',
+'anti', # overmatcher?
 'anylab',
 'architect',
 'aria',
@@ -133,11 +135,11 @@ hot_kws = [
 'clarity',
 'clearepi',
 'clinitest',
-'clip',
+'clip', # not in MRL
 'clungene',
 'covab',
 'covclear',
-'covida-19',
+'covida-19', # not in MRL
 'covidfast',
 'covidx',
 'covifind',
@@ -243,7 +245,7 @@ hot_kws = [
 'lyher',
 'maglumi',
 'maripoc',
-'mark-b',
+'mark-b', # 'mark' in MRL w/o 'b'
 'mdx',
 'medicheck',
 'medsan',
@@ -261,7 +263,7 @@ hot_kws = [
 'navica',
 'nd',
 'neocheck',
-# 'new',
+'new', # overmatcher?
 'newlungene',
 'newsha',
 'ng',
@@ -301,7 +303,7 @@ hot_kws = [
 'qiareach',
 'qualisa',
 'quampas',
-'quick chaser ',
+'quick chaser',
 'quickkit',
 'quicknavi',
 'quickprofile',
@@ -310,12 +312,12 @@ hot_kws = [
 'radi',
 'rapcov',
 'rapicov',
-# 'rapid covid',
-'rapid response',
-'rapid sars-cov-2',
+'rapid covid', # overmatcher?
+'rapid response', # overmatcher?
+'rapid sars-cov-2', # overmatcher?
 'reopentest',
 'resars',
-'resilient & rápido',
+'resilient & rápido', # in MRL as "resilient rpido"
 'reszon',
 'rida',
 'rightsign',
@@ -335,15 +337,15 @@ hot_kws = [
 'sienna-clarity',
 'simoa',
 'simtomax',
-# 'smart',
+'smart', # overmatcher?
 'sofia',
 'spera',
 'spring health',
-# 'standard',
-# 'star',
+'standard', # overmatcher?
+'star', # overmatcher?
 'strongstep',
 'sure status',
-# 'sure', 
+'sure',  # overmatcher?
 'surescreen',
 'taishan',
 'tbg',
@@ -380,7 +382,7 @@ hot_kws = [
 'wonmed',
 'xamin',
 'ybio',
-]
+])
 
 
 def create_mw_kw_map(kw_list):
