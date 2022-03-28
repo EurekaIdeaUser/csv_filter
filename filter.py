@@ -8,6 +8,7 @@ from datetime import datetime
 
 INPUT_DIR = 'inputs'
 OUTPUT_DIR = 'outputs'
+start_time = datetime.now()
 
 # FIELDS
 # MRL FIELDS
@@ -252,7 +253,6 @@ def print_preview_row(f_string, items):
 	tup_items = (trunc(item, lengths[items.index(item)]) for item in items)
 	print(f_string.format(*tup_items))
 
-
 def process_mrl(mrl, ta):
 	ta['Top P Match Score'] = 0
 	ta['Top P Match UIDs'] = ''
@@ -280,8 +280,8 @@ def process_mrl(mrl, ta):
 	top_score_agg_idx = ta.columns.get_loc('Top Agg Match (P*M)')
 	top_match_agg_idx = ta.columns.get_loc('Top Agg Match UIDs')
 	
-	start_time = datetime.now()
-	print(start_time, 'beginning long tag comparison process...')
+	start_mrl_time = datetime.now()
+	print(start_mrl_time, 'beginning long tag comparison process...')
 	print("Preview of first 50 rows' results: ")
 
 	one_percent_done = round(len(ta)/100)
@@ -387,7 +387,8 @@ def process_mrl(mrl, ta):
 	
 	end_time = datetime.now()
 	print(ta.head(100))
-	print(end_time - start_time)
+	print(end_time - start_mrl_time, 'time elapsed for mrl\n')
+	print(end_time - start_time, 'total time elapsed\n\n')
 	ta.to_csv(f'{OUTPUT_PATH_FRAG}-mrl-matched.csv')
 
 	
@@ -446,6 +447,8 @@ stats = {
 stats_df = pd.DataFrame(data=stats, index=[0])
 stats_df.to_json(OUTPUT_STATS_PATH, 'records')
 print(f'wrote {OUTPUT_STATS_PATH}')
+end_main_time = datetime.now()
+print(end_main_time - start_time, 'time elapsed\n\n')
 
 if PROC_MRL:
 	# get aggregated mrl
