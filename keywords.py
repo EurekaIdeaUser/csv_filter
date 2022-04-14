@@ -3,25 +3,34 @@ def remove_punct (l):
 
 cold_kws = remove_punct([
 'card',
+'cards',
 'cartridge',
+'cartridges',
 'hepatitis', 
 'hiv',
 'home',
 'kit',
+'kits',
 'test',
+'tests',
 ])
 
 avg_kws = remove_punct([
 'cassette',
+'cassettes',
 'detection',
+'detections',
 'device',
+'devices',
 'viral',
 ])
 
 warm_kws = remove_punct([
 'ag',
 'antibody',
+'antibodies',
 'antigen',
+'antigens',
 'assay',
 'clia',
 'collodial gold',
@@ -31,6 +40,7 @@ warm_kws = remove_punct([
 'igg',
 'igm',
 'immunoassay',
+'immunoassays',
 'immunochromatographic',
 'immunochromatography',
 'immunofluorescence',
@@ -44,12 +54,16 @@ warm_kws = remove_punct([
 'qag',
 'rapid',
 'reagent',
+'reagents',
 'saliva',
 'self test',
+'self tests',
 'serum',
 'sputum',
 'strip',
+'strips',
 'swab',
+'swabs',
 'whole blood',
 ])
 
@@ -317,7 +331,9 @@ hot_kws = remove_punct([
 'rapid sars-cov-2', # overmatcher?
 'reopentest',
 'resars',
-'resilient & rápido', # in MRL as "resilient rpido"
+'resilient rpido',
+'resilient rapido',
+# 'resilient & rápido',
 'reszon',
 'rida',
 'rightsign',

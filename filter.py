@@ -268,16 +268,17 @@ def process_mrl(mrl, ta):
 	ta['Top Agg Match UIDs'] = ''
 
 	top_score_p_idx = ta.columns.get_loc('Top P Match Score')
-	top_match_p_idx = ta.columns.get_loc('Top P Match UIDs')
 	tags_p_idx = ta.columns.get_loc('Matching P Tags')
 	top_scoreport_p_idx = ta.columns.get_loc('Top P Score Reports')
 
 	top_score_m_idx = ta.columns.get_loc('Top M Match Score')
-	top_match_m_idx = ta.columns.get_loc('Top M Match UIDs')
 	tags_m_idx = ta.columns.get_loc('Matching M Tags')
 	top_scoreport_m_idx = ta.columns.get_loc('Top M Score Reports')
 
-	top_score_agg_idx = ta.columns.get_loc('Top Agg Match (P*M)')
+	top_score_agg_idx = ta.columns.get_loc('Top Agg Match (P&M)')
+	
+	top_match_p_idx = ta.columns.get_loc('Top P Match UIDs')
+	top_match_m_idx = ta.columns.get_loc('Top M Match UIDs')
 	top_match_agg_idx = ta.columns.get_loc('Top Agg Match UIDs')
 	
 	start_mrl_time = datetime.now()
@@ -351,7 +352,12 @@ def process_mrl(mrl, ta):
 				top_scoreport_m += " | " + m_scoreport
 
 			# AGG
-			agg_score = m_score * p_score
+			agg_score = m_score + p_score
+			if (m_score > 0) & (p_score > 0):
+				# give matchers of both an added boost
+				# TODO: extract multiplier as var?
+				agg_score *= 2
+			
 			if agg_score > top_score_agg:
 				top_score_agg = agg_score
 				top_match_agg = mrl_row[F_MRL_UID]
