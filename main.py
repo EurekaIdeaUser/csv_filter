@@ -46,5 +46,8 @@
 # script repeatedly, as you will not need to re-enter the values each time
 #
 
+
+# antigen = ["ANTIGEN", " AG ", "AG ", " AG"]
+# antibody = ['ANTIBOD', 'IGG', 'IGM']
 exec(open("filter.py").read())
 # exec(open("scratch_kw.py").read())
