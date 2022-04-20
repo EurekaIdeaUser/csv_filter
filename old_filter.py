@@ -20,7 +20,6 @@ F_TA_EXP_NAME = 'exporter name'
 
 
 
-
 # PARAMETERS
 # _______________MANUAL SETTINGS SECTION_______________
 
@@ -34,27 +33,6 @@ CONVERT_CASE = True
 # MATCH_RANKING = (MATCHES ^ MATCH_POWER) / NUMBER_OF_KEYWORDS
 # setting MATCH_POWER = 1 makes the MATCH_RANKING a simple ratio
 MATCH_POWER = 2
-
-#UMAIR'S PARAMS:
-##################SET FILE NAMES#################################
-Trade_Atlas='Indonesia 2021-Including Exchange Rates WA V2_Updated with Verification.xlsx'
-#Trade Atlas File Requires extension xlsx
-
-Trade_Atlas_Sheet='Indonesia 2021-Indonesia 2021V1'
-#Sheet doesn't require an extension
-
-MRL_FILE='Master reference list V2 CD.xlsx'
-#MRL requires the extension
-
-MRL_Sheet='Master Sheet 3.0-Deduped'
-#Sheet doesn't require an extension
-
-Exchange_Rate='Indonesia 2021-Including Exchange Rates WA V2_Updated with Verification.xlsx'
-#Requires Extension xlsx
-
-Exhchange_Rate_Sheet='Exchange rates'
-#Sheet doesn't require an extension 
-##################################################################
 if SET_STATIC_PARAMS:
     # if SET_STATIC_PARAMS = True the script will use the values set here.
     PROC_MRL = True # set to True to process the MRL found at mrl.csv

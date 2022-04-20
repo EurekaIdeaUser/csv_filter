@@ -10,8 +10,15 @@ pd.options.display.float_format = '{:,.2f}'.format
 from datetime import datetime
 
 
-def process(Data_Frame, Trade_Atlas, Trade_Atlas_Sheet, MRL_FILE, MRL_Sheet,
-            Exchange_Rate, Exchange_Rate_Sheet, ):
+def UMAIR_MAIN(
+    df1,
+    Trade_Atlas,
+    MRL_FILE,
+    MRL_Sheet,
+    Exchange_Rate_Sheet,
+    # Exchange_Rate,
+    # Trade_Atlas_Sheet,
+):
 
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
@@ -31,7 +38,7 @@ def process(Data_Frame, Trade_Atlas, Trade_Atlas_Sheet, MRL_FILE, MRL_Sheet,
 
     # In[210]:
 
-    df1 = Data_Frame
+    # df1 = Data_Frame
     print(
         'Preparing Product Details Column for the extraction of number of tests'
     )
@@ -424,7 +431,7 @@ def process(Data_Frame, Trade_Atlas, Trade_Atlas_Sheet, MRL_FILE, MRL_Sheet,
     # In[245]:
 
     print('Filtering RDT tests')
-	
+
     df1 = df1[
         (df1['Test_Type'] == 'SARS-CoV-2 Antigen Rapid Diagnostic Tests') |
         (df1['Test_Type'] == 'SARS-CoV-2 Antibody Rapid Diagnostic Tests')]
