@@ -5,25 +5,31 @@ import numpy as np
 import warnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
-pd.options.mode.chained_assignment = None
-pd.options.display.float_format = '{:,.2f}'.format
 from datetime import datetime
+# pd.options.mode.chained_assignment = None
+# pd.options.display.float_format = '{:,.2f}'.format
 
 
 def UMAIR_MAIN(
     df1,
-    Trade_Atlas,
-    MRL_FILE,
-    MRL_Sheet,
-    Exchange_Rate_Sheet,
+	run_rdt_filter,
+    mrl_csv,
+	exchange_rates_csv,
+	output_name,
+    # Exchange_Rate_Sheet,
+    # Trade_Atlas,
+    # MRL_Sheet,
     # Exchange_Rate,
     # Trade_Atlas_Sheet,
 ):
 
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    print("Start Time Cleaning =", current_time)
+    # now = datetime.now()
+    # current_time = now.strftime("%H:%M:%S")
+    # print("Start Time Cleaning =", current_time)
 
+	# TODO: standardize (ie use upper or lower) throughout BP
+    df1.columns = df1.columns.str.upper()
+	
     #Reading the file
     # pd.set_option('display.max_colwidth', None)
     # print('Reading the Trade Atlas Indonesia File')
@@ -51,7 +57,7 @@ def UMAIR_MAIN(
                       Keyword_list)  #Adding empty columns to the python list
 
     #PDC CLEANING
-    df1['PDC'] = df[
+    df1['PDC'] = df1[
         'PRODUCT DETAILS']  #NEW COLUMN PDC (Product Details Cleaning) has the the product detail data in it now.
 
     #Removing starting and trailing spaces
@@ -100,6 +106,7 @@ def UMAIR_MAIN(
     # In[211]:
 
     #Checking presence of keywords in every row of product details
+    df1 = df1.reset_index()
     for x in range(0, len(df1['PDC'])):
         for y in range(0, len(Keyword_list)):
             if (Keyword_list[y] != 'T'):
@@ -341,6 +348,7 @@ def UMAIR_MAIN(
     print(df1['Auto_Data_Quality_index'].value_counts())
     print('Auto Data Quality index created')
 
+	# TODO: only do the following if run_rdt_filter?
     df1['Test_Type'] = np.empty((len(df1), 0)).tolist()
 
     # In[225]:
@@ -432,9 +440,12 @@ def UMAIR_MAIN(
 
     print('Filtering RDT tests')
 
-    df1 = df1[
-        (df1['Test_Type'] == 'SARS-CoV-2 Antigen Rapid Diagnostic Tests') |
-        (df1['Test_Type'] == 'SARS-CoV-2 Antibody Rapid Diagnostic Tests')]
+    if run_rdt_filter:
+        init_size = len(df1)
+        df1 = df1[
+	        (df1['Test_Type'] == 'SARS-CoV-2 Antigen Rapid Diagnostic Tests') |
+	        (df1['Test_Type'] == 'SARS-CoV-2 Antibody Rapid Diagnostic Tests')]
+        print('\nDropped ', init_size - len(df1), ' rows from RDT filter.\n')
 
     # In[262]:
 
@@ -442,7 +453,8 @@ def UMAIR_MAIN(
 
     #Reading the exchange rate sheet
     print('Reading the Exchange Rate file')
-    er = pd.read_excel(Trade_Atlas, sheet_name=Exchange_Rate_Sheet)
+    # er = pd.read_excel(Trade_Atlas, sheet_name=Exchange_Rate_Sheet)
+    er = pd.read_csv(exchange_rates_csv)
     er = er.iloc[:, 0:10]
 
     # In[246]:
@@ -453,10 +465,11 @@ def UMAIR_MAIN(
 
     #Converting datetime to date
     df1['Date'] = pd.to_datetime(df1['ARRIVAL DATE']).dt.date
-
+    df1['Date'] = df1['Date'].astype('datetime64[ns]')
+    # er['Date'] = pd.to_datetime(er['DATE'], format="%d/%m/%y").dt.date
+    er['Date'] = er['Date'].astype('datetime64[ns]')
     # In[248]:
 
-    df1['Date'] = df1['Date'].astype('datetime64[ns]')
 
     # In[249]:
 
@@ -747,7 +760,8 @@ def UMAIR_MAIN(
 
     #READ THE MRL FILE
     print('Reading MRL File')
-    mrl = pd.read_excel(MRL_FILE, sheet_name=MRL_Sheet, header=1)
+    mrl = pd.read_csv(mrl_csv, skiprows=1)
+    # mrl = pd.read_excel(MRL_FILE, sheet_name=MRL_Sheet, header=1)
     #mrl.head(5)
     #list(mrl)
 
@@ -1014,10 +1028,10 @@ def UMAIR_MAIN(
     grouped_df = grouped_df.drop_duplicates(subset='MERGE_KEY').reset_index(
         drop=True)  #removing the duplicated IDS.
 
-    print('Exporting file')
-    grouped_df.to_csv('OUTPUT.csv', index=False)
+    print('Exporting file', output_name)
+    grouped_df.to_csv(output_name, index=False)
 
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    print('completed')
-    print("Completed Time =", current_time)
+    # now = datetime.now()
+    # current_time = now.strftime("%H:%M:%S")
+    # print('completed')
+    # print("Completed Time =", current_time)

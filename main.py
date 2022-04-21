@@ -1,8 +1,5 @@
-import pandas as pd
-import numpy as np
 from datetime import datetime
-import os
-from helpers import read_spreadsheet, do_stats, print_update
+from helpers import do_stats, print_update, merge_inputs
 from custom_filters import CUSTOM_FILTERS_MAIN
 from classifiers import CLASSIFIERS_MAIN
 from mrl_matching import MRL_MATCHING_MAIN
@@ -26,8 +23,9 @@ from umair import UMAIR_MAIN
 
 ################### PARAMETERS:
 
-# country name: must match the name of the folder you created (eg "india")
-COUNTRY = "Indonesia 2021"
+# country name: must exactly match the name of the folder you created (eg "India 2021")
+COUNTRY = "India 2021"
+# COUNTRY = "t" # used for testing, use a real country like in the line above
 
 # sheet name: must match the name of the tab containing the relevant data
 # in any xslx files provided (eg "Trade Atlas Records")
@@ -35,12 +33,19 @@ SHEET_NAME = 'Trade Atlas Records'
 
 # file identifier: arbitrary, it will be tacked on to the output file name
 # (distinguishing it from others generated for the same country)
-NAME = "version-13"
+NAME = "v-15all"
 
-# MRL file
+# MRL file: must match the file name of a csv in the files to the left
+# <------------- (one already exists as mrl.csv)
 MRL_CSV = 'mrl.csv'
 
-# RUN FLAGS - determine which code will execute. set each to True or False
+# exchange rates file: must match the file name of a csv in the files to the left
+# <------------- (one already exists as exchange_rates.csv)
+# for use in [Umair process] price calculation/validation
+# should inculde the relevant dates and currencies of the Trade Atlas data transactions
+EXCHANGE_RATES_CSV = 'exchange_rates.csv'
+
+# RUN_ FLAGS - determine which code will execute, set each to True or False
 
 # filter rows to only those which pass the custom FILTERS defined below
 RUN_CUSTOM_FILTERS = True
@@ -54,12 +59,14 @@ RUN_CLASSIFIERS = True
 RUN_MRL_MATCHING = True
 
 # filter rows to only those determined to be RDT tests
-# Keeps rows with any of the following in their PRODUCT DETAILS value:
+# Keeps only rows with any of the following in their PRODUCT DETAILS value:
 # ANTIGEN, AG, ANTIBOD, IGG, IGM
 RUN_RDT_FILTER = True
 
 #
-RUN_UMAIR = False
+RUN_UMAIR = True
+
+
 
 # FILTERS:
 #   this is how you filter rows from the output. A row will be kept
@@ -121,26 +128,6 @@ CLASSIFIERS = [
     # },
 ]
 
-#UMAIR'S PARAMS:
-##################SET FILE NAMES#################################
-#Trade Atlas File Requires extension xlsx
-Trade_Atlas = 'Indonesia 2021-Including Exchange Rates WA V2_Updated with Verification.xlsx'
-
-#Sheet doesn't require an extension
-Trade_Atlas_Sheet = 'Indonesia 2021-Indonesia 2021V1'
-
-#MRL requires the extension
-# MRL_FILE = 'Master reference list V2 CD.xlsx'
-
-#Sheet doesn't require an extension
-# MRL_Sheet = 'Master Sheet 3.0-Deduped'
-
-# Exchange_Rate = 'Indonesia 2021-Including Exchange Rates WA V2_Updated with Verification.xlsx'
-# #Requires Extension xlsx
-
-#Sheet doesn't require an extension
-Exhchange_Rate_Sheet = 'Exchange rates'
-
 ###################
 ###################
 ###################
@@ -154,63 +141,48 @@ OUTPUT_DIR = 'outputs'
 COUNTRY_PATH = INPUT_DIR + '/' + COUNTRY
 OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{COUNTRY}-{NAME}'
 OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
+OUTPUT_UMAIR_PATH = f'{OUTPUT_PATH_FRAG} umair.csv'
 OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
 
-# converts columns to lower case - leave as True
+# converts column names to lower case
+# expected by BP code, leave as True
 CONVERT_CASE = True
 
 start_time = datetime.now()
-results = []
-rows_dropped = 0
-for path in os.listdir(COUNTRY_PATH):
-    # source = pd.read_excel('inputs/' + path) eg inputs/pakistan/p.csv
-    abs_path = COUNTRY_PATH + '/' + path
-    print(abs_path)
-    df = read_spreadsheet(abs_path, SHEET_NAME)
-    # df = read_spreadsheet('outputs/pakistan 2021-version7.csv') # UNDO just for testing
-    print(abs_path)
-    print(df.head)
-    size_init = len(df)
+input_df = merge_inputs(COUNTRY_PATH, SHEET_NAME)
 
-    df['source_data_row'] = np.arange(len(df)) + 1
-    df['source_file_name'] = path
+if CONVERT_CASE:
+	input_df.columns = input_df.columns.str.lower()
 
-    if CONVERT_CASE:
-        df.columns = df.columns.str.lower()
+init_size = len(input_df)
+if RUN_CUSTOM_FILTERS:
+	print_update(start_time, 'Begin Custom Filters')
+	input_df = CUSTOM_FILTERS_MAIN(input_df, FILTERS)
+rows_dropped = init_size - len(input_df)
 
-    if RUN_CUSTOM_FILTERS:
-        df = CUSTOM_FILTERS_MAIN(df, FILTERS)
+if RUN_CLASSIFIERS:
+	print_update(start_time, 'Begin Classifiers')
+	input_df = CLASSIFIERS_MAIN(input_df, CLASSIFIERS)
 
-    if RUN_CLASSIFIERS:
-        df = CLASSIFIERS_MAIN(df, CLASSIFIERS)
-
-    size_end = len(df)
-    size_lost = size_init - size_end
-    rows_dropped = rows_dropped + size_lost
-    print("___________ADDING DATA__________")
-    print(df.head)
-    results.append(df)
-
-result_df = pd.concat(results)
 print("___________ALL RESULTS__________")
 # print(results)
-print(result_df.head(25))
-result_df.to_csv(OUTPUT_PATH, index=False)
+print(input_df.head(25))
+input_df.to_csv(OUTPUT_PATH, index=False)
 print(f'wrote {OUTPUT_PATH}')
 
-do_stats(SHEET_NAME, COUNTRY_PATH, OUTPUT_STATS_PATH, len(result_df),
+do_stats(SHEET_NAME, COUNTRY_PATH, OUTPUT_STATS_PATH, len(input_df),
          rows_dropped, RUN_CUSTOM_FILTERS, FILTERS, RUN_CLASSIFIERS,
          CLASSIFIERS)
 
-
 if RUN_MRL_MATCHING:
 	print_update(start_time, 'Begin MRL Matching')
-	result_df = MRL_MATCHING_MAIN(result_df, MRL_CSV)
-	result_df.to_csv(f'{OUTPUT_PATH_FRAG}-mrl-matched.csv')
+	input_df = MRL_MATCHING_MAIN(input_df, MRL_CSV)
+	input_df.to_csv(f'{OUTPUT_PATH_FRAG}-mrl-matched.csv')
 
 if RUN_UMAIR:
 	print_update(start_time, 'Begin Umair')
-	UMAIR_MAIN
+	UMAIR_MAIN(input_df, RUN_RDT_FILTER, MRL_CSV, EXCHANGE_RATES_CSV, OUTPUT_UMAIR_PATH)
 
+print_update(start_time, ' DONE. ')
 # exec(open("filter.py").read())
 # exec(open("scratch_kw.py").read())

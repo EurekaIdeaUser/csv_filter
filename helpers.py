@@ -1,21 +1,46 @@
 import pandas as pd
+import numpy as np
 from datetime import datetime
 import re
 import os
 
+pd.options.mode.chained_assignment = None
+pd.options.display.float_format = '{:,.2f}'.format
 
 def read_spreadsheet(path, sheet_name):
+    pd.set_option('display.max_colwidth', None)
     if path.endswith('xlsx'):
         df = pd.read_excel(path, sheet_name, engine='openpyxl')
 
-
-# reinstall xlrd if we want to try to
-# elif path.endswith('xls'):
-# df = pd.read_excel(path, engine='xlrd')
+	# reinstall xlrd if we want to try to
+	# elif path.endswith('xls'):
+	# df = pd.read_excel(path, engine='xlrd')
     elif path.endswith('csv'):
         df = pd.read_csv(path)
     return df
 
+def merge_inputs(country_path, sheet_name):
+	results = []
+	for path in os.listdir(country_path):
+	    # source = pd.read_excel('inputs/' + path) eg inputs/pakistan/p.csv
+	    abs_path = country_path + '/' + path
+	    print(abs_path)
+	    df = read_spreadsheet(abs_path, sheet_name)
+	    # df = read_spreadsheet('outputs/pakistan 2021-version7.csv') # UNDO just for testing
+	    print(abs_path)
+	    print(df.head)
+	    # size_init = len(df)
+	
+	    df['source_data_row'] = np.arange(len(df)) + 1
+	    df['source_file_name'] = path
+
+	    # size_end = len(df)
+	    # size_lost = size_init - size_end
+	    # rows_dropped = rows_dropped + size_lost
+	    print("___________ADDING DATA__________")
+	    print(df.head)
+	    results.append(df)
+	return pd.concat(results)
 
 def trunc(stri, length_str):
     max_length = int(length_str) - 3

@@ -30,20 +30,20 @@ def string_to_set(input, col, row, filter_chars):
 
 
 def get_match_score(tag_set, value_set, type):
-    match_set = tag_set & value_set
-    if len(match_set) == 0:
-        # print(tag_set, "!")
-        return 0, ''
-    if type == 'm':
-        # TODO: implement kws for M, for now return tuple with empty scoreport
-        return (len(match_set)**MATCH_POWER) / len(tag_set), ''
-
-    else:
-        unmatched_set = tag_set - match_set
-        s, sr = get_kw_match_score(match_set)
-        # print(match_set, tag_set, unmatched_set)
-        # print((s / (len(unmatched_set) + 1), sr), 'score\n')
-        return (s / (len(unmatched_set) + 1), sr)
+	match_set = tag_set & value_set
+	if len(match_set) == 0:
+		# print(tag_set, "!")
+		return 0, ''
+	# if type == 'm':
+	#     # TODO: implement kws for M, for now return tuple with empty scoreport
+	#     return (len(match_set)**MATCH_POWER) / len(tag_set), ''
+	
+	# else:
+	unmatched_set = tag_set - match_set
+	s, sr = get_kw_match_score(match_set, type)
+	# print(match_set, tag_set, unmatched_set)
+	# print((s / (len(unmatched_set) + 1), sr), 'score\n')
+	return (s / (len(unmatched_set) + 1), sr)
 
 
 def process_mrl(mrl, ta):
@@ -179,15 +179,15 @@ def process_mrl(mrl, ta):
             print('\n row: ', i)
             print_preview_row(
                 ROW_PREV_FORMAT_STRING,
-                ('', 'Match Score', 'Match UIDs', 'Score Report / Tags'))
+                ('', 'Match Scr', 'Match UIDs', 'Score Report'))
             print_preview_row(ROW_PREV_FORMAT_STRING, ('P: ', (str(
                 round(top_score_p, 4))), top_match_p, top_scoreport_p))
             print_preview_row(
                 ROW_PREV_FORMAT_STRING,
-                ('M: ', (str(round(top_score_m, 4))), top_match_m, tags_m))
+                ('M: ', (str(round(top_score_m, 4))), top_match_m, top_scoreport_m))
             print_preview_row(
                 ROW_PREV_FORMAT_STRING,
-                ('Agg: ', (str(round(top_score_agg, 4))), top_match_agg, ''))
+                ('Agg:', (str(round(top_score_agg, 4))), top_match_agg, ''))
         if (i == 50):
             print('\n___PREVIEW COMPLETE___\n')
 
