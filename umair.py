@@ -455,7 +455,7 @@ def UMAIR_MAIN(
     print('Reading the Exchange Rate file')
     # er = pd.read_excel(Trade_Atlas, sheet_name=Exchange_Rate_Sheet)
     er = pd.read_csv(exchange_rates_csv)
-    er = er.iloc[:, 0:10]
+    #er = er.iloc[:, 0:10]
 
     # In[246]:
 
@@ -519,7 +519,24 @@ def UMAIR_MAIN(
         elif (df1['CURRENCY'][x] == 'VND'):
             df1['IMPORT_VALUE_CIF_USD'][
                 x] = df1['IMPORT VALUE CIF'][x] * df1['VND'][x]
-
+		
+	elif (df1['CURRENCY'][x] == 'ZAR'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['ZAR'][x]
+	
+	elif (df1['CURRENCY'][x] == 'UGX'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['UGX'][x]
+		
+	elif (df1['CURRENCY'][x] == 'INR'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['INR'][x]
+		
+	elif (df1['CURRENCY'][x] == 'DKK'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['DKK'][x]
+		
+		
         else:
             df1['IMPORT_VALUE_CIF_USD'][x] = 'unidentified currency'
 
