@@ -542,6 +542,11 @@ def UMAIR_MAIN(
 
     print('Processing Volume Calculations: ')
 
+    for x in range(0,len(df1)):
+	if (df1['QUANTITY'][x]==0):
+		df1['QUANTITY'][x]=1
+
+
     df1['test_quantity_final'] = df1['test_quantity_final'].astype(float)
     df1['VOLUME1_PCE'] = df1['QUANTITY']
     df1['VOLUME2_BOX'] = df1['QUANTITY'] * df1['test_quantity_final']
