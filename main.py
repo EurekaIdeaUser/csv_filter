@@ -43,7 +43,7 @@ MRL_CSV = 'mrl.csv'
 # <------------- (one already exists as exchange_rates.csv)
 # for use in [Umair process] price calculation/validation
 # should inculde the relevant dates and currencies of the Trade Atlas data transactions
-EXCHANGE_RATES_CSV = 'exchange_rates.csv'
+EXCHANGE_RATES_CSV = 'Exchange_Rate_New.csv'
 
 # RUN_ FLAGS - determine which code will execute, set each to True or False
 
