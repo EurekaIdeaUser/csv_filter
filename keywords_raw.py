@@ -611,7 +611,6 @@ warm_kws_m = remove_punct([
 	'shambhav',
 	'shinjin',
 	'sidak',
-	'siemens',
 	'signatures',
 	'sligo',
 	'spring',
