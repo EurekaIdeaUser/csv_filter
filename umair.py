@@ -520,23 +520,23 @@ def UMAIR_MAIN(
             df1['IMPORT_VALUE_CIF_USD'][
                 x] = df1['IMPORT VALUE CIF'][x] * df1['VND'][x]
 		
-      	elif (df1['CURRENCY'][x] == 'ZAR'):
-                  df1['IMPORT_VALUE_CIF_USD'][
-                      x] = df1['IMPORT VALUE CIF'][x] * df1['ZAR'][x]
-      	
-      	elif (df1['CURRENCY'][x] == 'UGX'):
-                  df1['IMPORT_VALUE_CIF_USD'][
-                      x] = df1['IMPORT VALUE CIF'][x] * df1['UGX'][x]
-      		
-      	elif (df1['CURRENCY'][x] == 'INR'):
-                  df1['IMPORT_VALUE_CIF_USD'][
-                      x] = df1['IMPORT VALUE CIF'][x] * df1['INR'][x]
-      		
-      	elif (df1['CURRENCY'][x] == 'DKK'):
-                  df1['IMPORT_VALUE_CIF_USD'][
-                      x] = df1['IMPORT VALUE CIF'][x] * df1['DKK'][x]
-		
-		
+        elif (df1['CURRENCY'][x] == 'ZAR'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['ZAR'][x]
+        
+        elif (df1['CURRENCY'][x] == 'UGX'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['UGX'][x]
+  
+        elif (df1['CURRENCY'][x] == 'INR'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['INR'][x]
+
+        elif (df1['CURRENCY'][x] == 'DKK'):
+            df1['IMPORT_VALUE_CIF_USD'][
+                x] = df1['IMPORT VALUE CIF'][x] * df1['DKK'][x]
+
+      
         else:
             df1['IMPORT_VALUE_CIF_USD'][x] = 'unidentified currency'
 
