@@ -63,9 +63,16 @@ RUN_MRL_MATCHING = True
 # ANTIGEN, AG, ANTIBOD, IGG, IGM
 RUN_RDT_FILTER = True
 
-#
-RUN_UMAIR = True
 
+
+# Product Filtration (Antigen Rapid Diagnostic Tests,Antibody Rapid Diagnostic Tests)
+# Number of test extraction from Product Details
+# Import value conversion to USD
+# Volume Calculations (Unit Net Weight, Unit Gross Weight, Unit Price)
+# MRL Match (Including Match Percentage. Currently set to 70%)
+# DQI (Unit Net Weight, Unit Gross Weight, Unit Price, MRL match found)
+# Requires Manual Verification Column (Description Available in PPT)
+RUN_UMAIR = True
 
 
 # FILTERS:
