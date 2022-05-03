@@ -464,7 +464,7 @@ def UMAIR_MAIN(
     # In[247]:
 
     #Converting datetime to date
-    df1['Date'] = pd.to_datetime(df1['ARRIVAL DATE'],format="%y/%m/%d").dt.date
+    df1['Date'] = pd.to_datetime(df1['ARRIVAL DATE'],infer_datetime_format=True).dt.date
     df1['Date'] = df1['Date'].astype('datetime64[ns]')
     # er['Date'] = pd.to_datetime(er['DATE'], format="%d/%m/%y").dt.date
     er['Date'] = er['Date'].astype('datetime64[ns]')
