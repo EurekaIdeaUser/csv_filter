@@ -480,8 +480,15 @@ def UMAIR_MAIN(
     #CURRENCY CONVERSION
 
     print('Converting Import Value CIF to USD')
-    df1["IMPORT_VALUE_CIF_USD"] = np.NaN
-    df1['IMPORT VALUE CIF'] = df1['IMPORT VALUE CIF'].astype(float)
+    print('Converting Import Value FOB to USD')
+    df1['IMPORT_VALUE_CIF_USD'] = np.NaN
+    df1['IMPORT_VALUE_FOB_USD'] = np.NaN
+    
+    df1['IMPORT VALUE CIF']=df1['IMPORT VALUE CIF'].astype(float)
+    df1['IMPORT VALUE FOB']=df1['IMPORT VALUE FOB'].astype(float)
+
+
+
 
     for x in range(0, len(df1['IMPORT VALUE CIF'])):
         if (df1['CURRENCY'][x] == 'USD'):
@@ -540,6 +547,116 @@ def UMAIR_MAIN(
         else:
             df1['IMPORT_VALUE_CIF_USD'][x] = 'unidentified currency'
 
+
+
+
+    for x in range(0,len(df1['IMPORT VALUE FOB'])):
+        if(df1['CURRENCY'][x]=='USD'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['USD'][x]
+            
+        elif(df1['CURRENCY'][x]=='IDR'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['IDR'][x]
+            
+        elif(df1['CURRENCY'][x]=='JPY'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['JPY'][x]
+            
+        elif(df1['CURRENCY'][x]=='CNY'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['CNY'][x]
+           
+        elif(df1['CURRENCY'][x]=='AUD'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['AUD'][x]
+           
+        elif(df1['CURRENCY'][x]=='GBP'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['GBP'][x]
+           
+        elif(df1['CURRENCY'][x]=='EUR'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['EUR'][x]
+           
+        elif(df1['CURRENCY'][x]=='SGD'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['SGD'][x]
+            
+        elif(df1['CURRENCY'][x]=='VND'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['VND'][x]
+        
+        elif(df1['CURRENCY'][x]=='ZAR'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['ZAR'][x]
+        
+        elif(df1['CURRENCY'][x]=='UGX'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['UGX'][x]
+        
+        elif(df1['CURRENCY'][x]=='INR'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['INR'][x]
+        
+        elif(df1['CURRENCY'][x]=='DKK'):
+            df1['IMPORT_VALUE_FOB_USD'][x]=df1['IMPORT VALUE FOB'][x]*df1['DKK'][x]
+     
+        
+        else:
+            df1['IMPORT_VALUE_FOB_USD'][x]='unidentified currency'
+           
+    
+    
+    #SELECTION OF FOB OR CIF?
+    TOTAL_ROWS=len(df1['IMPORT_VALUE_CIF_USD'])
+    #print(TOTAL_ROWS)
+    
+    MISSING_CIF=np.count_nonzero(df1['IMPORT_VALUE_CIF_USD']) 
+    MISSING_FOB=np.count_nonzero(df1['IMPORT_VALUE_FOB_USD']) 
+    
+    MISSING_CIF_PERCENTAGE=MISSING_CIF/TOTAL_ROWS
+    MISSING_FOB_PERCENTAGE=MISSING_FOB/TOTAL_ROWS
+    
+    
+    #print(MISSING_CIF_PERCENTAGE)
+    #print(MISSING_FOB_PERCENTAGE)
+    
+    
+    
+    df1['TOTAL AMOUNT'] = np.NaN
+    df1['TOTAL AMOUNT']=df1['TOTAL AMOUNT'].astype(float)
+    
+    
+    
+    if(MISSING_FOB_PERCENTAGE>=0.8 or MISSING_FOB_PERCENTAGE>=MISSING_CIF_PERCENTAGE):
+        df1['TOTAL AMOUNT']=df1['IMPORT_VALUE_FOB_USD']
+        
+    else:
+        df1['TOTAL AMOUNT']=df1['IMPORT_VALUE_CIF_USD']
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     print('Processing Volume Calculations: ')
 
     for x in range(0,len(df1)):
@@ -583,10 +700,10 @@ def UMAIR_MAIN(
     print('PER UNIT PRICE - Volume2')
 
     #DIVIDE THE IMPORT VALUE CIF (CONVERTED TO USD) / VOLUME1
-    df1['PER_PCE_UNIT_PRICE'] = df1['IMPORT_VALUE_CIF_USD'] / df1['VOLUME1_PCE']
+    df1['PER_PCE_UNIT_PRICE'] = df1['TOTAL AMOUNT'] / df1['VOLUME1_PCE']
 
     #DIVIDE THE IMPORT VALUE CIF (CONVERTED TO USD) / VOLUME2
-    df1['PER_BOX_UNIT_PRICE'] = df1['IMPORT_VALUE_CIF_USD'] / df1['VOLUME2_BOX']
+    df1['PER_BOX_UNIT_PRICE'] = df1['TOTAL AMOUNT'] / df1['VOLUME2_BOX']
 
     # In[258]:
 
@@ -1100,6 +1217,8 @@ def UMAIR_MAIN(
                        'Auto_Data_Quality_index',
                        'Test_Type',
                        'IMPORT_VALUE_CIF_USD',
+                       'IMPORT_VALUE_FOB_USD',
+                       'TOTAL AMOUNT',
                        'VOLUME1_PCE',
                        'VOLUME2_BOX',
                        'PER_PCE_GROSS_WEIGHT',

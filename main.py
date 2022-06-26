@@ -93,7 +93,13 @@ RUN_UMAIR = True
 # 	}
 #
 # Define as many filters as you like.
-# Will only run if RUN_CUSTOM_FILTERS above is set to True
+# Will only run if RUN_CUSTOM_FILTERS above is set to True.
+# 
+# Note: Lines beginning with a # (such as this line itself) are "comments", and are
+# *informational* (they are for the user, and will not be "executed" by the code).
+# Some of the below lines are "commented out", meaning they won't be executed in their
+# current state, but if you remove the #s from the begining of the line they can be
+# "activated" (you'll know code is "active" because it will no longer appear green).
 FILTERS = [{
     'col': 'product details',
     'contents': ['SAR', 'COV', 'corona']
@@ -126,6 +132,12 @@ FILTERS = [{
 #
 # Define as many classifiers as you like.
 # Will only run if RUN_CLASSIFIERS above is set to True
+# 
+# Note: Lines beginning with a # (such as this line itself) are "comments", and are
+# *informational* (they are for the user, and will not be "executed" by the code).
+# Some of the below lines are "commented out", meaning they won't be executed in their
+# current state, but if you remove the #s from the begining of the line they can be
+# "activated" (you'll know code is "active" because it will no longer appear green).
 CLASSIFIERS = [
     # {
     #     'matchingCol': F_TA_EXP_NAME,
@@ -148,7 +160,7 @@ OUTPUT_DIR = 'outputs'
 COUNTRY_PATH = INPUT_DIR + '/' + COUNTRY
 OUTPUT_PATH_FRAG = f'{OUTPUT_DIR}/{COUNTRY}-{NAME}'
 OUTPUT_PATH = f'{OUTPUT_PATH_FRAG}.csv'
-OUTPUT_UMAIR_PATH = f'{OUTPUT_PATH_FRAG} umair.csv'
+OUTPUT_UMAIR_PATH = f'{OUTPUT_PATH_FRAG}-umair.csv'
 OUTPUT_STATS_PATH = f'{OUTPUT_PATH_FRAG}-stats.json'
 
 # converts column names to lower case
