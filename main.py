@@ -24,7 +24,7 @@ from umair import UMAIR_MAIN
 ################### PARAMETERS:
 
 # country name: must exactly match the name of the folder you created (eg "India 2021")
-COUNTRY = "Pakistan 2021"
+COUNTRY = "Indonesia 2021"
 # COUNTRY = "t" # used for testing, use a real country like in the line above
 
 # sheet name: must match the name of the tab containing the relevant data
