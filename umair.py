@@ -595,40 +595,23 @@ def UMAIR_MAIN(
             df1['IMPORT_VALUE_FOB_USD'][x]='unidentified currency'
            
     
-    
-    #SELECTION OF FOB OR CIF?
-    TOTAL_ROWS=len(df1['IMPORT_VALUE_CIF_USD'])
-    #print(TOTAL_ROWS)
-    
-    MISSING_CIF=np.count_nonzero(df1['IMPORT_VALUE_CIF_USD']) 
-    MISSING_FOB=np.count_nonzero(df1['IMPORT_VALUE_FOB_USD']) 
-    
-    MISSING_CIF_PERCENTAGE=MISSING_CIF/TOTAL_ROWS
-    MISSING_FOB_PERCENTAGE=MISSING_FOB/TOTAL_ROWS
-    
-    
-    #print(MISSING_CIF_PERCENTAGE)
-    #print(MISSING_FOB_PERCENTAGE)
-    
-    
-    
+
+    #SELECTION OF FOB OR CIF (ROW BY ROW)    
+
     df1['TOTAL AMOUNT'] = np.NaN
     df1['TOTAL AMOUNT']=df1['TOTAL AMOUNT'].astype(float)
     
     
+    for x in range(0,len(df1['IMPORT_VALUE_CIF_USD'])):
+        if(df1['IMPORT_VALUE_FOB_USD'][x]>=1):
+            df1['TOTAL AMOUNT'][x]=df1['IMPORT_VALUE_FOB_USD'][x]
+            
+        else:
+            df1['TOTAL AMOUNT'][x]=df1['IMPORT_VALUE_CIF_USD'][x]
     
-    if(MISSING_FOB_PERCENTAGE>=0.7 or MISSING_FOB_PERCENTAGE>=MISSING_CIF_PERCENTAGE):
-        df1['TOTAL AMOUNT']=df1['IMPORT_VALUE_FOB_USD']
-        
-    else:
-        df1['TOTAL AMOUNT']=df1['IMPORT_VALUE_CIF_USD']
     
-
-
-
-
-
-
+    
+    
 
 
 
