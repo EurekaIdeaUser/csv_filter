@@ -48,22 +48,20 @@ EXCHANGE_RATES_CSV = 'Exchange_Rate_New.csv'
 # RUN_ FLAGS - determine which code will execute, set each to True or False
 
 # filter rows to only those which pass the custom FILTERS defined below
-RUN_CUSTOM_FILTERS = True
+RUN_CUSTOM_FILTERS = False
 
 # add output columns to label rows that match certain criteria
 # define your CLASSIFIERS below
-RUN_CLASSIFIERS = True
+RUN_CLASSIFIERS = False
 
 # adds an output ending in 'mrl-matched.csv' with IDs of the best
 # matching MRL items based on product & manufacturer keywords
-RUN_MRL_MATCHING = True
+RUN_MRL_MATCHING = False
 
 # filter rows to only those determined to be RDT tests
 # Keeps only rows with any of the following in their PRODUCT DETAILS value:
 # ANTIGEN, AG, ANTIBOD, IGG, IGM
 RUN_RDT_FILTER = True
-
-
 
 # Product Filtration (Antigen Rapid Diagnostic Tests,Antibody Rapid Diagnostic Tests)
 # Number of test extraction from Product Details
@@ -73,7 +71,6 @@ RUN_RDT_FILTER = True
 # DQI (Unit Net Weight, Unit Gross Weight, Unit Price, MRL match found)
 # Requires Manual Verification Column (Description Available in PPT)
 RUN_UMAIR = True
-
 
 # FILTERS:
 #   this is how you filter rows from the output. A row will be kept
@@ -94,7 +91,7 @@ RUN_UMAIR = True
 #
 # Define as many filters as you like.
 # Will only run if RUN_CUSTOM_FILTERS above is set to True.
-# 
+#
 # Note: Lines beginning with a # (such as this line itself) are "comments", and are
 # *informational* (they are for the user, and will not be "executed" by the code).
 # Some of the below lines are "commented out", meaning they won't be executed in their
@@ -132,7 +129,7 @@ FILTERS = [{
 #
 # Define as many classifiers as you like.
 # Will only run if RUN_CLASSIFIERS above is set to True
-# 
+#
 # Note: Lines beginning with a # (such as this line itself) are "comments", and are
 # *informational* (they are for the user, and will not be "executed" by the code).
 # Some of the below lines are "commented out", meaning they won't be executed in their
@@ -171,17 +168,17 @@ start_time = datetime.now()
 input_df = merge_inputs(COUNTRY_PATH, SHEET_NAME)
 
 if CONVERT_CASE:
-	input_df.columns = input_df.columns.str.lower()
+    input_df.columns = input_df.columns.str.lower()
 
 init_size = len(input_df)
 if RUN_CUSTOM_FILTERS:
-	print_update(start_time, 'Begin Custom Filters')
-	input_df = CUSTOM_FILTERS_MAIN(input_df, FILTERS)
+    print_update(start_time, 'Begin Custom Filters')
+    input_df = CUSTOM_FILTERS_MAIN(input_df, FILTERS)
 rows_dropped = init_size - len(input_df)
 
 if RUN_CLASSIFIERS:
-	print_update(start_time, 'Begin Classifiers')
-	input_df = CLASSIFIERS_MAIN(input_df, CLASSIFIERS)
+    print_update(start_time, 'Begin Classifiers')
+    input_df = CLASSIFIERS_MAIN(input_df, CLASSIFIERS)
 
 print("___________ALL RESULTS__________")
 # print(results)
@@ -194,13 +191,14 @@ do_stats(SHEET_NAME, COUNTRY_PATH, OUTPUT_STATS_PATH, len(input_df),
          CLASSIFIERS)
 
 if RUN_MRL_MATCHING:
-	print_update(start_time, 'Begin MRL Matching')
-	input_df = MRL_MATCHING_MAIN(input_df, MRL_CSV)
-	input_df.to_csv(f'{OUTPUT_PATH_FRAG}-mrl-matched.csv')
+    print_update(start_time, 'Begin MRL Matching')
+    input_df = MRL_MATCHING_MAIN(input_df, MRL_CSV)
+    input_df.to_csv(f'{OUTPUT_PATH_FRAG}-mrl-matched.csv')
 
 if RUN_UMAIR:
-	print_update(start_time, 'Begin Umair')
-	UMAIR_MAIN(input_df, RUN_RDT_FILTER, MRL_CSV, EXCHANGE_RATES_CSV, OUTPUT_UMAIR_PATH)
+    print_update(start_time, 'Begin Umair')
+    UMAIR_MAIN(input_df, RUN_RDT_FILTER, MRL_CSV, EXCHANGE_RATES_CSV,
+               OUTPUT_UMAIR_PATH)
 
 print_update(start_time, ' DONE. ')
 # exec(open("filter.py").read())

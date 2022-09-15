@@ -545,7 +545,7 @@ def UMAIR_MAIN(
 
       
         else:
-            df1['IMPORT_VALUE_CIF_USD'][x] = 'unidentified currency'
+            df1['IMPORT_VALUE_CIF_USD'][x] = np.NaN
 
 
 
@@ -592,10 +592,11 @@ def UMAIR_MAIN(
      
         
         else:
-            df1['IMPORT_VALUE_FOB_USD'][x]='unidentified currency'
+            df1['IMPORT_VALUE_FOB_USD'][x]=np.NaN
            
+    df1['IMPORT_VALUE_FOB_USD']=df1['IMPORT_VALUE_FOB_USD'].astype(float)
+    df1['IMPORT_VALUE_CIF_USD']=df1['IMPORT_VALUE_CIF_USD'].astype(float)
     
-
     #SELECTION OF FOB OR CIF (ROW BY ROW)    
 
     df1['TOTAL AMOUNT'] = np.NaN
